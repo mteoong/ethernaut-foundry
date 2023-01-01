@@ -1,0 +1,1005 @@
+{
+  "abi": [
+    {
+      "inputs": [
+        {
+          "internalType": "address",
+          "name": "challengeAddress",
+          "type": "address"
+        }
+      ],
+      "stateMutability": "nonpayable",
+      "type": "constructor"
+    },
+    {
+      "stateMutability": "payable",
+      "type": "fallback"
+    },
+    {
+      "inputs": [],
+      "name": "attack",
+      "outputs": [],
+      "stateMutability": "payable",
+      "type": "function"
+    },
+    {
+      "inputs": [],
+      "name": "challenge",
+      "outputs": [
+        {
+          "internalType": "contract ICoinFlipChallenge",
+          "name": "",
+          "type": "address"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    }
+  ],
+  "bytecode": {
+    "object": "0x608060405234801561001057600080fd5b5060405161025738038061025783398101604081905261002f91610054565b600080546001600160a01b0319166001600160a01b0392909216919091179055610084565b60006020828403121561006657600080fd5b81516001600160a01b038116811461007d57600080fd5b9392505050565b6101c4806100936000396000f3fe6080604052600436106100295760003560e01c80639e5faafc1461002b578063d2ef739814610033575b005b61002961006f565b34801561003f57600080fd5b50600054610053906001600160a01b031681565b6040516001600160a01b03909116815260200160405180910390f35b600061007c60014361011c565b409050600061008f600160ff1b83610143565b90506000816001146100a25760006100a5565b60015b600054604051631d263f6760e01b815282151560048201529192506001600160a01b031690631d263f67906024016020604051808303816000875af11580156100f2573d6000803e3d6000fd5b505050506040513d601f19601f820116820180604052508101906101169190610165565b50505050565b8181038181111561013d57634e487b7160e01b600052601160045260246000fd5b92915050565b60008261016057634e487b7160e01b600052601260045260246000fd5b500490565b60006020828403121561017757600080fd5b8151801515811461018757600080fd5b939250505056fea264697066735822122022ee2ba316425696156c32e2a2abfb72a339e2d105a5e6d0af7ea7e0b76c3bdc64736f6c63430008110033",
+    "sourceMap": "148:639:7:-:0;;;218:103;;;;;;;;;;;;;;;;;;;;;;;;;;;;:::i;:::-;266:9;:48;;-1:-1:-1;;;;;;266:48:7;-1:-1:-1;;;;;266:48:7;;;;;;;;;;148:639;;14:290:11;84:6;137:2;125:9;116:7;112:23;108:32;105:52;;;153:1;150;143:12;105:52;179:16;;-1:-1:-1;;;;;224:31:11;;214:42;;204:70;;270:1;267;260:12;204:70;293:5;14:290;-1:-1:-1;;;14:290:11:o;:::-;148:639:7;;;;;;",
+    "linkReferences": {}
+  },
+  "deployedBytecode": {
+    "object": "0x6080604052600436106100295760003560e01c80639e5faafc1461002b578063d2ef739814610033575b005b61002961006f565b34801561003f57600080fd5b50600054610053906001600160a01b031681565b6040516001600160a01b03909116815260200160405180910390f35b600061007c60014361011c565b409050600061008f600160ff1b83610143565b90506000816001146100a25760006100a5565b60015b600054604051631d263f6760e01b815282151560048201529192506001600160a01b031690631d263f67906024016020604051808303816000875af11580156100f2573d6000803e3d6000fd5b505050506040513d601f19601f820116820180604052508101906101169190610165565b50505050565b8181038181111561013d57634e487b7160e01b600052601160045260246000fd5b92915050565b60008261016057634e487b7160e01b600052601260045260246000fd5b500490565b60006020828403121561017757600080fd5b8151801515811461018757600080fd5b939250505056fea264697066735822122022ee2ba316425696156c32e2a2abfb72a339e2d105a5e6d0af7ea7e0b76c3bdc64736f6c63430008110033",
+    "sourceMap": "148:639:7:-:0;;;;;;;;;;;;;;;;;;;;;;;;327:422;;;:::i;176:35::-;;;;;;;;;;-1:-1:-1;176:35:7;;;;-1:-1:-1;;;;;176:35:7;;;;;;-1:-1:-1;;;;;205:32:11;;;187:51;;175:2;160:18;176:35:7;;;;;;;327:422;434:18;473:16;488:1;473:12;:16;:::i;:::-;463:27;;-1:-1:-1;455:36:7;520:90;-1:-1:-1;;;463:27:7;520:90;:::i;:::-;501:109;;620:9;632:8;644:1;632:13;:28;;655:5;632:28;;;648:4;632:28;722:9;;:20;;-1:-1:-1;;;722:20:7;;866:14:11;;859:22;722:20:7;;;841:41:11;620:40:7;;-1:-1:-1;;;;;;722:9:7;;:14;;814:18:11;;722:20:7;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;:::i;:::-;;362:387;;;327:422::o;249:225:11:-;316:9;;;337:11;;;334:134;;;390:10;385:3;381:20;378:1;371:31;425:4;422:1;415:15;453:4;450:1;443:15;334:134;249:225;;;;:::o;479:217::-;519:1;545;535:132;;589:10;584:3;580:20;577:1;570:31;624:4;621:1;614:15;652:4;649:1;642:15;535:132;-1:-1:-1;681:9:11;;479:217::o;893:277::-;960:6;1013:2;1001:9;992:7;988:23;984:32;981:52;;;1029:1;1026;1019:12;981:52;1061:9;1055:16;1114:5;1107:13;1100:21;1093:5;1090:32;1080:60;;1136:1;1133;1126:12;1080:60;1159:5;893:277;-1:-1:-1;;;893:277:11:o",
+    "linkReferences": {}
+  },
+  "methodIdentifiers": {
+    "attack()": "9e5faafc",
+    "challenge()": "d2ef7398"
+  },
+  "rawMetadata": "{\"compiler\":{\"version\":\"0.8.17+commit.8df45f5f\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"inputs\":[{\"internalType\":\"address\",\"name\":\"challengeAddress\",\"type\":\"address\"}],\"stateMutability\":\"nonpayable\",\"type\":\"constructor\"},{\"stateMutability\":\"payable\",\"type\":\"fallback\"},{\"inputs\":[],\"name\":\"attack\",\"outputs\":[],\"stateMutability\":\"payable\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"challenge\",\"outputs\":[{\"internalType\":\"contract ICoinFlipChallenge\",\"name\":\"\",\"type\":\"address\"}],\"stateMutability\":\"view\",\"type\":\"function\"}],\"devdoc\":{\"kind\":\"dev\",\"methods\":{},\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"version\":1}},\"settings\":{\"compilationTarget\":{\"src/CoinFlip/CoinFlipHack.sol\":\"CoinFlipHack\"},\"evmVersion\":\"london\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":true,\"runs\":200},\"remappings\":[\":ds-test/=lib/ds-test/src/\",\":openzeppelin-contracts/=lib/openzeppelin-contracts/\"]},\"sources\":{\"src/CoinFlip/CoinFlipHack.sol\":{\"keccak256\":\"0x42fd028ce09d5e4f57b0cec3442aac202887e3e2b9196f4c20c411ca6bf45aba\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://63e1cf0861ff24b4ff6199389d73757d732a6419bc51163e732eb26ebe22b011\",\"dweb:/ipfs/QmXu9kNrj2J6pXv7G26RHVAarppQu2jmfirBX1anQBQCwj\"]}},\"version\":1}",
+  "metadata": {
+    "compiler": {
+      "version": "0.8.17+commit.8df45f5f"
+    },
+    "language": "Solidity",
+    "output": {
+      "abi": [
+        {
+          "inputs": [
+            {
+              "internalType": "address",
+              "name": "challengeAddress",
+              "type": "address"
+            }
+          ],
+          "stateMutability": "nonpayable",
+          "type": "constructor"
+        },
+        {
+          "inputs": [],
+          "stateMutability": "payable",
+          "type": "fallback"
+        },
+        {
+          "inputs": [],
+          "stateMutability": "payable",
+          "type": "function",
+          "name": "attack"
+        },
+        {
+          "inputs": [],
+          "stateMutability": "view",
+          "type": "function",
+          "name": "challenge",
+          "outputs": [
+            {
+              "internalType": "contract ICoinFlipChallenge",
+              "name": "",
+              "type": "address"
+            }
+          ]
+        }
+      ],
+      "devdoc": {
+        "kind": "dev",
+        "methods": {},
+        "version": 1
+      },
+      "userdoc": {
+        "kind": "user",
+        "methods": {},
+        "version": 1
+      }
+    },
+    "settings": {
+      "remappings": [
+        ":ds-test/=lib/ds-test/src/",
+        ":openzeppelin-contracts/=lib/openzeppelin-contracts/"
+      ],
+      "optimizer": {
+        "enabled": true,
+        "runs": 200
+      },
+      "metadata": {
+        "bytecodeHash": "ipfs"
+      },
+      "compilationTarget": {
+        "src/CoinFlip/CoinFlipHack.sol": "CoinFlipHack"
+      },
+      "libraries": {}
+    },
+    "sources": {
+      "src/CoinFlip/CoinFlipHack.sol": {
+        "keccak256": "0x42fd028ce09d5e4f57b0cec3442aac202887e3e2b9196f4c20c411ca6bf45aba",
+        "urls": [
+          "bzz-raw://63e1cf0861ff24b4ff6199389d73757d732a6419bc51163e732eb26ebe22b011",
+          "dweb:/ipfs/QmXu9kNrj2J6pXv7G26RHVAarppQu2jmfirBX1anQBQCwj"
+        ],
+        "license": "MIT"
+      }
+    },
+    "version": 1
+  },
+  "ast": {
+    "absolutePath": "src/CoinFlip/CoinFlipHack.sol",
+    "id": 2355,
+    "exportedSymbols": {
+      "CoinFlipHack": [
+        2354
+      ],
+      "ICoinFlipChallenge": [
+        2297
+      ]
+    },
+    "nodeType": "SourceUnit",
+    "src": "32:755:7",
+    "nodes": [
+      {
+        "id": 2289,
+        "nodeType": "PragmaDirective",
+        "src": "32:24:7",
+        "nodes": [],
+        "literals": [
+          "solidity",
+          "^",
+          "0.8",
+          ".10"
+        ]
+      },
+      {
+        "id": 2297,
+        "nodeType": "ContractDefinition",
+        "src": "58:88:7",
+        "nodes": [
+          {
+            "id": 2296,
+            "nodeType": "FunctionDefinition",
+            "src": "93:51:7",
+            "nodes": [],
+            "functionSelector": "1d263f67",
+            "implemented": false,
+            "kind": "function",
+            "modifiers": [],
+            "name": "flip",
+            "nameLocation": "102:4:7",
+            "parameters": {
+              "id": 2292,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 2291,
+                  "mutability": "mutable",
+                  "name": "_guess",
+                  "nameLocation": "112:6:7",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 2296,
+                  "src": "107:11:7",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_bool",
+                    "typeString": "bool"
+                  },
+                  "typeName": {
+                    "id": 2290,
+                    "name": "bool",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "107:4:7",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_bool",
+                      "typeString": "bool"
+                    }
+                  },
+                  "visibility": "internal"
+                }
+              ],
+              "src": "106:13:7"
+            },
+            "returnParameters": {
+              "id": 2295,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 2294,
+                  "mutability": "mutable",
+                  "name": "",
+                  "nameLocation": "-1:-1:-1",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 2296,
+                  "src": "138:4:7",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_bool",
+                    "typeString": "bool"
+                  },
+                  "typeName": {
+                    "id": 2293,
+                    "name": "bool",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "138:4:7",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_bool",
+                      "typeString": "bool"
+                    }
+                  },
+                  "visibility": "internal"
+                }
+              ],
+              "src": "137:6:7"
+            },
+            "scope": 2297,
+            "stateMutability": "nonpayable",
+            "virtual": false,
+            "visibility": "external"
+          }
+        ],
+        "abstract": false,
+        "baseContracts": [],
+        "canonicalName": "ICoinFlipChallenge",
+        "contractDependencies": [],
+        "contractKind": "interface",
+        "fullyImplemented": false,
+        "linearizedBaseContracts": [
+          2297
+        ],
+        "name": "ICoinFlipChallenge",
+        "nameLocation": "68:18:7",
+        "scope": 2355,
+        "usedErrors": []
+      },
+      {
+        "id": 2354,
+        "nodeType": "ContractDefinition",
+        "src": "148:639:7",
+        "nodes": [
+          {
+            "id": 2300,
+            "nodeType": "VariableDeclaration",
+            "src": "176:35:7",
+            "nodes": [],
+            "constant": false,
+            "functionSelector": "d2ef7398",
+            "mutability": "mutable",
+            "name": "challenge",
+            "nameLocation": "202:9:7",
+            "scope": 2354,
+            "stateVariable": true,
+            "storageLocation": "default",
+            "typeDescriptions": {
+              "typeIdentifier": "t_contract$_ICoinFlipChallenge_$2297",
+              "typeString": "contract ICoinFlipChallenge"
+            },
+            "typeName": {
+              "id": 2299,
+              "nodeType": "UserDefinedTypeName",
+              "pathNode": {
+                "id": 2298,
+                "name": "ICoinFlipChallenge",
+                "nameLocations": [
+                  "176:18:7"
+                ],
+                "nodeType": "IdentifierPath",
+                "referencedDeclaration": 2297,
+                "src": "176:18:7"
+              },
+              "referencedDeclaration": 2297,
+              "src": "176:18:7",
+              "typeDescriptions": {
+                "typeIdentifier": "t_contract$_ICoinFlipChallenge_$2297",
+                "typeString": "contract ICoinFlipChallenge"
+              }
+            },
+            "visibility": "public"
+          },
+          {
+            "id": 2312,
+            "nodeType": "FunctionDefinition",
+            "src": "218:103:7",
+            "nodes": [],
+            "body": {
+              "id": 2311,
+              "nodeType": "Block",
+              "src": "256:65:7",
+              "nodes": [],
+              "statements": [
+                {
+                  "expression": {
+                    "id": 2309,
+                    "isConstant": false,
+                    "isLValue": false,
+                    "isPure": false,
+                    "lValueRequested": false,
+                    "leftHandSide": {
+                      "id": 2305,
+                      "name": "challenge",
+                      "nodeType": "Identifier",
+                      "overloadedDeclarations": [],
+                      "referencedDeclaration": 2300,
+                      "src": "266:9:7",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_contract$_ICoinFlipChallenge_$2297",
+                        "typeString": "contract ICoinFlipChallenge"
+                      }
+                    },
+                    "nodeType": "Assignment",
+                    "operator": "=",
+                    "rightHandSide": {
+                      "arguments": [
+                        {
+                          "id": 2307,
+                          "name": "challengeAddress",
+                          "nodeType": "Identifier",
+                          "overloadedDeclarations": [],
+                          "referencedDeclaration": 2302,
+                          "src": "297:16:7",
+                          "typeDescriptions": {
+                            "typeIdentifier": "t_address",
+                            "typeString": "address"
+                          }
+                        }
+                      ],
+                      "expression": {
+                        "argumentTypes": [
+                          {
+                            "typeIdentifier": "t_address",
+                            "typeString": "address"
+                          }
+                        ],
+                        "id": 2306,
+                        "name": "ICoinFlipChallenge",
+                        "nodeType": "Identifier",
+                        "overloadedDeclarations": [],
+                        "referencedDeclaration": 2297,
+                        "src": "278:18:7",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_type$_t_contract$_ICoinFlipChallenge_$2297_$",
+                          "typeString": "type(contract ICoinFlipChallenge)"
+                        }
+                      },
+                      "id": 2308,
+                      "isConstant": false,
+                      "isLValue": false,
+                      "isPure": false,
+                      "kind": "typeConversion",
+                      "lValueRequested": false,
+                      "nameLocations": [],
+                      "names": [],
+                      "nodeType": "FunctionCall",
+                      "src": "278:36:7",
+                      "tryCall": false,
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_contract$_ICoinFlipChallenge_$2297",
+                        "typeString": "contract ICoinFlipChallenge"
+                      }
+                    },
+                    "src": "266:48:7",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_contract$_ICoinFlipChallenge_$2297",
+                      "typeString": "contract ICoinFlipChallenge"
+                    }
+                  },
+                  "id": 2310,
+                  "nodeType": "ExpressionStatement",
+                  "src": "266:48:7"
+                }
+              ]
+            },
+            "implemented": true,
+            "kind": "constructor",
+            "modifiers": [],
+            "name": "",
+            "nameLocation": "-1:-1:-1",
+            "parameters": {
+              "id": 2303,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 2302,
+                  "mutability": "mutable",
+                  "name": "challengeAddress",
+                  "nameLocation": "238:16:7",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 2312,
+                  "src": "230:24:7",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_address",
+                    "typeString": "address"
+                  },
+                  "typeName": {
+                    "id": 2301,
+                    "name": "address",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "230:7:7",
+                    "stateMutability": "nonpayable",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_address",
+                      "typeString": "address"
+                    }
+                  },
+                  "visibility": "internal"
+                }
+              ],
+              "src": "229:26:7"
+            },
+            "returnParameters": {
+              "id": 2304,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "256:0:7"
+            },
+            "scope": 2354,
+            "stateMutability": "nonpayable",
+            "virtual": false,
+            "visibility": "public"
+          },
+          {
+            "id": 2349,
+            "nodeType": "FunctionDefinition",
+            "src": "327:422:7",
+            "nodes": [],
+            "body": {
+              "id": 2348,
+              "nodeType": "Block",
+              "src": "362:387:7",
+              "nodes": [],
+              "statements": [
+                {
+                  "assignments": [
+                    2316
+                  ],
+                  "declarations": [
+                    {
+                      "constant": false,
+                      "id": 2316,
+                      "mutability": "mutable",
+                      "name": "blockValue",
+                      "nameLocation": "442:10:7",
+                      "nodeType": "VariableDeclaration",
+                      "scope": 2348,
+                      "src": "434:18:7",
+                      "stateVariable": false,
+                      "storageLocation": "default",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_uint256",
+                        "typeString": "uint256"
+                      },
+                      "typeName": {
+                        "id": 2315,
+                        "name": "uint256",
+                        "nodeType": "ElementaryTypeName",
+                        "src": "434:7:7",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_uint256",
+                          "typeString": "uint256"
+                        }
+                      },
+                      "visibility": "internal"
+                    }
+                  ],
+                  "id": 2326,
+                  "initialValue": {
+                    "arguments": [
+                      {
+                        "arguments": [
+                          {
+                            "commonType": {
+                              "typeIdentifier": "t_uint256",
+                              "typeString": "uint256"
+                            },
+                            "id": 2323,
+                            "isConstant": false,
+                            "isLValue": false,
+                            "isPure": false,
+                            "lValueRequested": false,
+                            "leftExpression": {
+                              "expression": {
+                                "id": 2320,
+                                "name": "block",
+                                "nodeType": "Identifier",
+                                "overloadedDeclarations": [],
+                                "referencedDeclaration": -4,
+                                "src": "473:5:7",
+                                "typeDescriptions": {
+                                  "typeIdentifier": "t_magic_block",
+                                  "typeString": "block"
+                                }
+                              },
+                              "id": 2321,
+                              "isConstant": false,
+                              "isLValue": false,
+                              "isPure": false,
+                              "lValueRequested": false,
+                              "memberLocation": "479:6:7",
+                              "memberName": "number",
+                              "nodeType": "MemberAccess",
+                              "src": "473:12:7",
+                              "typeDescriptions": {
+                                "typeIdentifier": "t_uint256",
+                                "typeString": "uint256"
+                              }
+                            },
+                            "nodeType": "BinaryOperation",
+                            "operator": "-",
+                            "rightExpression": {
+                              "hexValue": "31",
+                              "id": 2322,
+                              "isConstant": false,
+                              "isLValue": false,
+                              "isPure": true,
+                              "kind": "number",
+                              "lValueRequested": false,
+                              "nodeType": "Literal",
+                              "src": "488:1:7",
+                              "typeDescriptions": {
+                                "typeIdentifier": "t_rational_1_by_1",
+                                "typeString": "int_const 1"
+                              },
+                              "value": "1"
+                            },
+                            "src": "473:16:7",
+                            "typeDescriptions": {
+                              "typeIdentifier": "t_uint256",
+                              "typeString": "uint256"
+                            }
+                          }
+                        ],
+                        "expression": {
+                          "argumentTypes": [
+                            {
+                              "typeIdentifier": "t_uint256",
+                              "typeString": "uint256"
+                            }
+                          ],
+                          "id": 2319,
+                          "name": "blockhash",
+                          "nodeType": "Identifier",
+                          "overloadedDeclarations": [],
+                          "referencedDeclaration": -5,
+                          "src": "463:9:7",
+                          "typeDescriptions": {
+                            "typeIdentifier": "t_function_blockhash_view$_t_uint256_$returns$_t_bytes32_$",
+                            "typeString": "function (uint256) view returns (bytes32)"
+                          }
+                        },
+                        "id": 2324,
+                        "isConstant": false,
+                        "isLValue": false,
+                        "isPure": false,
+                        "kind": "functionCall",
+                        "lValueRequested": false,
+                        "nameLocations": [],
+                        "names": [],
+                        "nodeType": "FunctionCall",
+                        "src": "463:27:7",
+                        "tryCall": false,
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_bytes32",
+                          "typeString": "bytes32"
+                        }
+                      }
+                    ],
+                    "expression": {
+                      "argumentTypes": [
+                        {
+                          "typeIdentifier": "t_bytes32",
+                          "typeString": "bytes32"
+                        }
+                      ],
+                      "id": 2318,
+                      "isConstant": false,
+                      "isLValue": false,
+                      "isPure": true,
+                      "lValueRequested": false,
+                      "nodeType": "ElementaryTypeNameExpression",
+                      "src": "455:7:7",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_type$_t_uint256_$",
+                        "typeString": "type(uint256)"
+                      },
+                      "typeName": {
+                        "id": 2317,
+                        "name": "uint256",
+                        "nodeType": "ElementaryTypeName",
+                        "src": "455:7:7",
+                        "typeDescriptions": {}
+                      }
+                    },
+                    "id": 2325,
+                    "isConstant": false,
+                    "isLValue": false,
+                    "isPure": false,
+                    "kind": "typeConversion",
+                    "lValueRequested": false,
+                    "nameLocations": [],
+                    "names": [],
+                    "nodeType": "FunctionCall",
+                    "src": "455:36:7",
+                    "tryCall": false,
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_uint256",
+                      "typeString": "uint256"
+                    }
+                  },
+                  "nodeType": "VariableDeclarationStatement",
+                  "src": "434:57:7"
+                },
+                {
+                  "assignments": [
+                    2328
+                  ],
+                  "declarations": [
+                    {
+                      "constant": false,
+                      "id": 2328,
+                      "mutability": "mutable",
+                      "name": "coinFlip",
+                      "nameLocation": "509:8:7",
+                      "nodeType": "VariableDeclaration",
+                      "scope": 2348,
+                      "src": "501:16:7",
+                      "stateVariable": false,
+                      "storageLocation": "default",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_uint256",
+                        "typeString": "uint256"
+                      },
+                      "typeName": {
+                        "id": 2327,
+                        "name": "uint256",
+                        "nodeType": "ElementaryTypeName",
+                        "src": "501:7:7",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_uint256",
+                          "typeString": "uint256"
+                        }
+                      },
+                      "visibility": "internal"
+                    }
+                  ],
+                  "id": 2332,
+                  "initialValue": {
+                    "commonType": {
+                      "typeIdentifier": "t_uint256",
+                      "typeString": "uint256"
+                    },
+                    "id": 2331,
+                    "isConstant": false,
+                    "isLValue": false,
+                    "isPure": false,
+                    "lValueRequested": false,
+                    "leftExpression": {
+                      "id": 2329,
+                      "name": "blockValue",
+                      "nodeType": "Identifier",
+                      "overloadedDeclarations": [],
+                      "referencedDeclaration": 2316,
+                      "src": "520:10:7",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_uint256",
+                        "typeString": "uint256"
+                      }
+                    },
+                    "nodeType": "BinaryOperation",
+                    "operator": "/",
+                    "rightExpression": {
+                      "hexValue": "3537383936303434363138363538303937373131373835343932353034333433393533393236363334393932333332383230323832303139373238373932303033393536353634383139393638",
+                      "id": 2330,
+                      "isConstant": false,
+                      "isLValue": false,
+                      "isPure": true,
+                      "kind": "number",
+                      "lValueRequested": false,
+                      "nodeType": "Literal",
+                      "src": "533:77:7",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_rational_57896044618658097711785492504343953926634992332820282019728792003956564819968_by_1",
+                        "typeString": "int_const 5789...(69 digits omitted)...9968"
+                      },
+                      "value": "57896044618658097711785492504343953926634992332820282019728792003956564819968"
+                    },
+                    "src": "520:90:7",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_uint256",
+                      "typeString": "uint256"
+                    }
+                  },
+                  "nodeType": "VariableDeclarationStatement",
+                  "src": "501:109:7"
+                },
+                {
+                  "assignments": [
+                    2334
+                  ],
+                  "declarations": [
+                    {
+                      "constant": false,
+                      "id": 2334,
+                      "mutability": "mutable",
+                      "name": "side",
+                      "nameLocation": "625:4:7",
+                      "nodeType": "VariableDeclaration",
+                      "scope": 2348,
+                      "src": "620:9:7",
+                      "stateVariable": false,
+                      "storageLocation": "default",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_bool",
+                        "typeString": "bool"
+                      },
+                      "typeName": {
+                        "id": 2333,
+                        "name": "bool",
+                        "nodeType": "ElementaryTypeName",
+                        "src": "620:4:7",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_bool",
+                          "typeString": "bool"
+                        }
+                      },
+                      "visibility": "internal"
+                    }
+                  ],
+                  "id": 2341,
+                  "initialValue": {
+                    "condition": {
+                      "commonType": {
+                        "typeIdentifier": "t_uint256",
+                        "typeString": "uint256"
+                      },
+                      "id": 2337,
+                      "isConstant": false,
+                      "isLValue": false,
+                      "isPure": false,
+                      "lValueRequested": false,
+                      "leftExpression": {
+                        "id": 2335,
+                        "name": "coinFlip",
+                        "nodeType": "Identifier",
+                        "overloadedDeclarations": [],
+                        "referencedDeclaration": 2328,
+                        "src": "632:8:7",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_uint256",
+                          "typeString": "uint256"
+                        }
+                      },
+                      "nodeType": "BinaryOperation",
+                      "operator": "==",
+                      "rightExpression": {
+                        "hexValue": "31",
+                        "id": 2336,
+                        "isConstant": false,
+                        "isLValue": false,
+                        "isPure": true,
+                        "kind": "number",
+                        "lValueRequested": false,
+                        "nodeType": "Literal",
+                        "src": "644:1:7",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_rational_1_by_1",
+                          "typeString": "int_const 1"
+                        },
+                        "value": "1"
+                      },
+                      "src": "632:13:7",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_bool",
+                        "typeString": "bool"
+                      }
+                    },
+                    "falseExpression": {
+                      "hexValue": "66616c7365",
+                      "id": 2339,
+                      "isConstant": false,
+                      "isLValue": false,
+                      "isPure": true,
+                      "kind": "bool",
+                      "lValueRequested": false,
+                      "nodeType": "Literal",
+                      "src": "655:5:7",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_bool",
+                        "typeString": "bool"
+                      },
+                      "value": "false"
+                    },
+                    "id": 2340,
+                    "isConstant": false,
+                    "isLValue": false,
+                    "isPure": false,
+                    "lValueRequested": false,
+                    "nodeType": "Conditional",
+                    "src": "632:28:7",
+                    "trueExpression": {
+                      "hexValue": "74727565",
+                      "id": 2338,
+                      "isConstant": false,
+                      "isLValue": false,
+                      "isPure": true,
+                      "kind": "bool",
+                      "lValueRequested": false,
+                      "nodeType": "Literal",
+                      "src": "648:4:7",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_bool",
+                        "typeString": "bool"
+                      },
+                      "value": "true"
+                    },
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_bool",
+                      "typeString": "bool"
+                    }
+                  },
+                  "nodeType": "VariableDeclarationStatement",
+                  "src": "620:40:7"
+                },
+                {
+                  "expression": {
+                    "arguments": [
+                      {
+                        "id": 2345,
+                        "name": "side",
+                        "nodeType": "Identifier",
+                        "overloadedDeclarations": [],
+                        "referencedDeclaration": 2334,
+                        "src": "737:4:7",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_bool",
+                          "typeString": "bool"
+                        }
+                      }
+                    ],
+                    "expression": {
+                      "argumentTypes": [
+                        {
+                          "typeIdentifier": "t_bool",
+                          "typeString": "bool"
+                        }
+                      ],
+                      "expression": {
+                        "id": 2342,
+                        "name": "challenge",
+                        "nodeType": "Identifier",
+                        "overloadedDeclarations": [],
+                        "referencedDeclaration": 2300,
+                        "src": "722:9:7",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_contract$_ICoinFlipChallenge_$2297",
+                          "typeString": "contract ICoinFlipChallenge"
+                        }
+                      },
+                      "id": 2344,
+                      "isConstant": false,
+                      "isLValue": false,
+                      "isPure": false,
+                      "lValueRequested": false,
+                      "memberLocation": "732:4:7",
+                      "memberName": "flip",
+                      "nodeType": "MemberAccess",
+                      "referencedDeclaration": 2296,
+                      "src": "722:14:7",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_function_external_nonpayable$_t_bool_$returns$_t_bool_$",
+                        "typeString": "function (bool) external returns (bool)"
+                      }
+                    },
+                    "id": 2346,
+                    "isConstant": false,
+                    "isLValue": false,
+                    "isPure": false,
+                    "kind": "functionCall",
+                    "lValueRequested": false,
+                    "nameLocations": [],
+                    "names": [],
+                    "nodeType": "FunctionCall",
+                    "src": "722:20:7",
+                    "tryCall": false,
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_bool",
+                      "typeString": "bool"
+                    }
+                  },
+                  "id": 2347,
+                  "nodeType": "ExpressionStatement",
+                  "src": "722:20:7"
+                }
+              ]
+            },
+            "functionSelector": "9e5faafc",
+            "implemented": true,
+            "kind": "function",
+            "modifiers": [],
+            "name": "attack",
+            "nameLocation": "336:6:7",
+            "parameters": {
+              "id": 2313,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "342:2:7"
+            },
+            "returnParameters": {
+              "id": 2314,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "362:0:7"
+            },
+            "scope": 2354,
+            "stateMutability": "payable",
+            "virtual": false,
+            "visibility": "external"
+          },
+          {
+            "id": 2353,
+            "nodeType": "FunctionDefinition",
+            "src": "755:30:7",
+            "nodes": [],
+            "body": {
+              "id": 2352,
+              "nodeType": "Block",
+              "src": "783:2:7",
+              "nodes": [],
+              "statements": []
+            },
+            "implemented": true,
+            "kind": "fallback",
+            "modifiers": [],
+            "name": "",
+            "nameLocation": "-1:-1:-1",
+            "parameters": {
+              "id": 2350,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "763:2:7"
+            },
+            "returnParameters": {
+              "id": 2351,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "783:0:7"
+            },
+            "scope": 2354,
+            "stateMutability": "payable",
+            "virtual": false,
+            "visibility": "external"
+          }
+        ],
+        "abstract": false,
+        "baseContracts": [],
+        "canonicalName": "CoinFlipHack",
+        "contractDependencies": [],
+        "contractKind": "contract",
+        "fullyImplemented": true,
+        "linearizedBaseContracts": [
+          2354
+        ],
+        "name": "CoinFlipHack",
+        "nameLocation": "157:12:7",
+        "scope": 2355,
+        "usedErrors": []
+      }
+    ],
+    "license": "MIT"
+  },
+  "id": 7
+}

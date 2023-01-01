@@ -1,0 +1,1178 @@
+{
+  "abi": [
+    {
+      "inputs": [
+        {
+          "internalType": "uint256",
+          "name": "_time",
+          "type": "uint256"
+        }
+      ],
+      "name": "setTime",
+      "outputs": [],
+      "stateMutability": "nonpayable",
+      "type": "function"
+    }
+  ],
+  "bytecode": {
+    "object": "0x6080604052348015600f57600080fd5b50608d8061001e6000396000f3fe6080604052348015600f57600080fd5b506004361060285760003560e01c80633beb26c414602d575b600080fd5b603d6038366004603f565b600055565b005b600060208284031215605057600080fd5b503591905056fea2646970667358221220f175f6d1bca01751e518c2c276f05e7b53f04814ede53dbd7fe9aca8f94168ee64736f6c63430008110033",
+    "sourceMap": "964:144:49:-:0;;;;;;;;;;;;;;;;;;;",
+    "linkReferences": {}
+  },
+  "deployedBytecode": {
+    "object": "0x6080604052348015600f57600080fd5b506004361060285760003560e01c80633beb26c414602d575b600080fd5b603d6038366004603f565b600055565b005b600060208284031215605057600080fd5b503591905056fea2646970667358221220f175f6d1bca01751e518c2c276f05e7b53f04814ede53dbd7fe9aca8f94168ee64736f6c63430008110033",
+    "sourceMap": "964:144:49:-:0;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;1041:65;;;;;;:::i;:::-;1083:10;:18;1041:65;;;14:180:100;73:6;126:2;114:9;105:7;101:23;97:32;94:52;;;142:1;139;132:12;94:52;-1:-1:-1;165:23:100;;14:180;-1:-1:-1;14:180:100:o",
+    "linkReferences": {}
+  },
+  "methodIdentifiers": {
+    "setTime(uint256)": "3beb26c4"
+  },
+  "rawMetadata": "{\"compiler\":{\"version\":\"0.8.17+commit.8df45f5f\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"inputs\":[{\"internalType\":\"uint256\",\"name\":\"_time\",\"type\":\"uint256\"}],\"name\":\"setTime\",\"outputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"function\"}],\"devdoc\":{\"kind\":\"dev\",\"methods\":{},\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"version\":1}},\"settings\":{\"compilationTarget\":{\"src/Preservation/Preservation.sol\":\"LibraryContract\"},\"evmVersion\":\"london\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":true,\"runs\":200},\"remappings\":[\":ds-test/=lib/ds-test/src/\",\":openzeppelin-contracts/=lib/openzeppelin-contracts/\"]},\"sources\":{\"src/Preservation/Preservation.sol\":{\"keccak256\":\"0x4dca3eaea34a157837924dbef59225b9a8c40384caf2a189ef4b6d3b56b125d8\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://865542d2bbde9c0da4c193811e09e456bcbc9af5017fc75e87f0b937d87bc374\",\"dweb:/ipfs/QmW5tZR9hxwvZpGQQ5da19jCyKPTiQ1BqmBBNNZT6JPHuo\"]}},\"version\":1}",
+  "metadata": {
+    "compiler": {
+      "version": "0.8.17+commit.8df45f5f"
+    },
+    "language": "Solidity",
+    "output": {
+      "abi": [
+        {
+          "inputs": [
+            {
+              "internalType": "uint256",
+              "name": "_time",
+              "type": "uint256"
+            }
+          ],
+          "stateMutability": "nonpayable",
+          "type": "function",
+          "name": "setTime"
+        }
+      ],
+      "devdoc": {
+        "kind": "dev",
+        "methods": {},
+        "version": 1
+      },
+      "userdoc": {
+        "kind": "user",
+        "methods": {},
+        "version": 1
+      }
+    },
+    "settings": {
+      "remappings": [
+        ":ds-test/=lib/ds-test/src/",
+        ":openzeppelin-contracts/=lib/openzeppelin-contracts/"
+      ],
+      "optimizer": {
+        "enabled": true,
+        "runs": 200
+      },
+      "metadata": {
+        "bytecodeHash": "ipfs"
+      },
+      "compilationTarget": {
+        "src/Preservation/Preservation.sol": "LibraryContract"
+      },
+      "libraries": {}
+    },
+    "sources": {
+      "src/Preservation/Preservation.sol": {
+        "keccak256": "0x4dca3eaea34a157837924dbef59225b9a8c40384caf2a189ef4b6d3b56b125d8",
+        "urls": [
+          "bzz-raw://865542d2bbde9c0da4c193811e09e456bcbc9af5017fc75e87f0b937d87bc374",
+          "dweb:/ipfs/QmW5tZR9hxwvZpGQQ5da19jCyKPTiQ1BqmBBNNZT6JPHuo"
+        ],
+        "license": "MIT"
+      }
+    },
+    "version": 1
+  },
+  "ast": {
+    "absolutePath": "src/Preservation/Preservation.sol",
+    "id": 7048,
+    "exportedSymbols": {
+      "LibraryContract": [
+        7047
+      ],
+      "Preservation": [
+        7034
+      ]
+    },
+    "nodeType": "SourceUnit",
+    "src": "32:1077:49",
+    "nodes": [
+      {
+        "id": 6964,
+        "nodeType": "PragmaDirective",
+        "src": "32:24:49",
+        "nodes": [],
+        "literals": [
+          "solidity",
+          "^",
+          "0.8",
+          ".10"
+        ]
+      },
+      {
+        "id": 7034,
+        "nodeType": "ContractDefinition",
+        "src": "58:861:49",
+        "nodes": [
+          {
+            "id": 6966,
+            "nodeType": "VariableDeclaration",
+            "src": "116:31:49",
+            "nodes": [],
+            "constant": false,
+            "functionSelector": "3dc79422",
+            "mutability": "mutable",
+            "name": "timeZone1Library",
+            "nameLocation": "131:16:49",
+            "scope": 7034,
+            "stateVariable": true,
+            "storageLocation": "default",
+            "typeDescriptions": {
+              "typeIdentifier": "t_address",
+              "typeString": "address"
+            },
+            "typeName": {
+              "id": 6965,
+              "name": "address",
+              "nodeType": "ElementaryTypeName",
+              "src": "116:7:49",
+              "stateMutability": "nonpayable",
+              "typeDescriptions": {
+                "typeIdentifier": "t_address",
+                "typeString": "address"
+              }
+            },
+            "visibility": "public"
+          },
+          {
+            "id": 6968,
+            "nodeType": "VariableDeclaration",
+            "src": "151:31:49",
+            "nodes": [],
+            "constant": false,
+            "functionSelector": "27d6974f",
+            "mutability": "mutable",
+            "name": "timeZone2Library",
+            "nameLocation": "166:16:49",
+            "scope": 7034,
+            "stateVariable": true,
+            "storageLocation": "default",
+            "typeDescriptions": {
+              "typeIdentifier": "t_address",
+              "typeString": "address"
+            },
+            "typeName": {
+              "id": 6967,
+              "name": "address",
+              "nodeType": "ElementaryTypeName",
+              "src": "151:7:49",
+              "stateMutability": "nonpayable",
+              "typeDescriptions": {
+                "typeIdentifier": "t_address",
+                "typeString": "address"
+              }
+            },
+            "visibility": "public"
+          },
+          {
+            "id": 6970,
+            "nodeType": "VariableDeclaration",
+            "src": "186:20:49",
+            "nodes": [],
+            "constant": false,
+            "functionSelector": "8da5cb5b",
+            "mutability": "mutable",
+            "name": "owner",
+            "nameLocation": "201:5:49",
+            "scope": 7034,
+            "stateVariable": true,
+            "storageLocation": "default",
+            "typeDescriptions": {
+              "typeIdentifier": "t_address",
+              "typeString": "address"
+            },
+            "typeName": {
+              "id": 6969,
+              "name": "address",
+              "nodeType": "ElementaryTypeName",
+              "src": "186:7:49",
+              "stateMutability": "nonpayable",
+              "typeDescriptions": {
+                "typeIdentifier": "t_address",
+                "typeString": "address"
+              }
+            },
+            "visibility": "public"
+          },
+          {
+            "id": 6972,
+            "nodeType": "VariableDeclaration",
+            "src": "211:15:49",
+            "nodes": [],
+            "constant": false,
+            "mutability": "mutable",
+            "name": "storedTime",
+            "nameLocation": "216:10:49",
+            "scope": 7034,
+            "stateVariable": true,
+            "storageLocation": "default",
+            "typeDescriptions": {
+              "typeIdentifier": "t_uint256",
+              "typeString": "uint256"
+            },
+            "typeName": {
+              "id": 6971,
+              "name": "uint",
+              "nodeType": "ElementaryTypeName",
+              "src": "211:4:49",
+              "typeDescriptions": {
+                "typeIdentifier": "t_uint256",
+                "typeString": "uint256"
+              }
+            },
+            "visibility": "internal"
+          },
+          {
+            "id": 6980,
+            "nodeType": "VariableDeclaration",
+            "src": "280:72:49",
+            "nodes": [],
+            "constant": true,
+            "mutability": "constant",
+            "name": "setTimeSignature",
+            "nameLocation": "296:16:49",
+            "scope": 7034,
+            "stateVariable": true,
+            "storageLocation": "default",
+            "typeDescriptions": {
+              "typeIdentifier": "t_bytes4",
+              "typeString": "bytes4"
+            },
+            "typeName": {
+              "id": 6973,
+              "name": "bytes4",
+              "nodeType": "ElementaryTypeName",
+              "src": "280:6:49",
+              "typeDescriptions": {
+                "typeIdentifier": "t_bytes4",
+                "typeString": "bytes4"
+              }
+            },
+            "value": {
+              "arguments": [
+                {
+                  "arguments": [
+                    {
+                      "hexValue": "73657454696d652875696e7432353629",
+                      "id": 6977,
+                      "isConstant": false,
+                      "isLValue": false,
+                      "isPure": true,
+                      "kind": "string",
+                      "lValueRequested": false,
+                      "nodeType": "Literal",
+                      "src": "332:18:49",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_stringliteral_3beb26c427d03ceadbdaedc2f7aac4d9fc345b4fcbfc4b80654fee46dd7c349a",
+                        "typeString": "literal_string \"setTime(uint256)\""
+                      },
+                      "value": "setTime(uint256)"
+                    }
+                  ],
+                  "expression": {
+                    "argumentTypes": [
+                      {
+                        "typeIdentifier": "t_stringliteral_3beb26c427d03ceadbdaedc2f7aac4d9fc345b4fcbfc4b80654fee46dd7c349a",
+                        "typeString": "literal_string \"setTime(uint256)\""
+                      }
+                    ],
+                    "id": 6976,
+                    "name": "keccak256",
+                    "nodeType": "Identifier",
+                    "overloadedDeclarations": [],
+                    "referencedDeclaration": -8,
+                    "src": "322:9:49",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_function_keccak256_pure$_t_bytes_memory_ptr_$returns$_t_bytes32_$",
+                      "typeString": "function (bytes memory) pure returns (bytes32)"
+                    }
+                  },
+                  "id": 6978,
+                  "isConstant": false,
+                  "isLValue": false,
+                  "isPure": true,
+                  "kind": "functionCall",
+                  "lValueRequested": false,
+                  "nameLocations": [],
+                  "names": [],
+                  "nodeType": "FunctionCall",
+                  "src": "322:29:49",
+                  "tryCall": false,
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_bytes32",
+                    "typeString": "bytes32"
+                  }
+                }
+              ],
+              "expression": {
+                "argumentTypes": [
+                  {
+                    "typeIdentifier": "t_bytes32",
+                    "typeString": "bytes32"
+                  }
+                ],
+                "id": 6975,
+                "isConstant": false,
+                "isLValue": false,
+                "isPure": true,
+                "lValueRequested": false,
+                "nodeType": "ElementaryTypeNameExpression",
+                "src": "315:6:49",
+                "typeDescriptions": {
+                  "typeIdentifier": "t_type$_t_bytes4_$",
+                  "typeString": "type(bytes4)"
+                },
+                "typeName": {
+                  "id": 6974,
+                  "name": "bytes4",
+                  "nodeType": "ElementaryTypeName",
+                  "src": "315:6:49",
+                  "typeDescriptions": {}
+                }
+              },
+              "id": 6979,
+              "isConstant": false,
+              "isLValue": false,
+              "isPure": true,
+              "kind": "typeConversion",
+              "lValueRequested": false,
+              "nameLocations": [],
+              "names": [],
+              "nodeType": "FunctionCall",
+              "src": "315:37:49",
+              "tryCall": false,
+              "typeDescriptions": {
+                "typeIdentifier": "t_bytes4",
+                "typeString": "bytes4"
+              }
+            },
+            "visibility": "internal"
+          },
+          {
+            "id": 7001,
+            "nodeType": "FunctionDefinition",
+            "src": "357:216:49",
+            "nodes": [],
+            "body": {
+              "id": 7000,
+              "nodeType": "Block",
+              "src": "444:129:49",
+              "nodes": [],
+              "statements": [
+                {
+                  "expression": {
+                    "id": 6989,
+                    "isConstant": false,
+                    "isLValue": false,
+                    "isPure": false,
+                    "lValueRequested": false,
+                    "leftHandSide": {
+                      "id": 6987,
+                      "name": "timeZone1Library",
+                      "nodeType": "Identifier",
+                      "overloadedDeclarations": [],
+                      "referencedDeclaration": 6966,
+                      "src": "450:16:49",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_address",
+                        "typeString": "address"
+                      }
+                    },
+                    "nodeType": "Assignment",
+                    "operator": "=",
+                    "rightHandSide": {
+                      "id": 6988,
+                      "name": "_timeZone1LibraryAddress",
+                      "nodeType": "Identifier",
+                      "overloadedDeclarations": [],
+                      "referencedDeclaration": 6982,
+                      "src": "469:24:49",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_address",
+                        "typeString": "address"
+                      }
+                    },
+                    "src": "450:43:49",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_address",
+                      "typeString": "address"
+                    }
+                  },
+                  "id": 6990,
+                  "nodeType": "ExpressionStatement",
+                  "src": "450:43:49"
+                },
+                {
+                  "expression": {
+                    "id": 6993,
+                    "isConstant": false,
+                    "isLValue": false,
+                    "isPure": false,
+                    "lValueRequested": false,
+                    "leftHandSide": {
+                      "id": 6991,
+                      "name": "timeZone2Library",
+                      "nodeType": "Identifier",
+                      "overloadedDeclarations": [],
+                      "referencedDeclaration": 6968,
+                      "src": "500:16:49",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_address",
+                        "typeString": "address"
+                      }
+                    },
+                    "nodeType": "Assignment",
+                    "operator": "=",
+                    "rightHandSide": {
+                      "id": 6992,
+                      "name": "_timeZone2LibraryAddress",
+                      "nodeType": "Identifier",
+                      "overloadedDeclarations": [],
+                      "referencedDeclaration": 6984,
+                      "src": "519:24:49",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_address",
+                        "typeString": "address"
+                      }
+                    },
+                    "src": "500:43:49",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_address",
+                      "typeString": "address"
+                    }
+                  },
+                  "id": 6994,
+                  "nodeType": "ExpressionStatement",
+                  "src": "500:43:49"
+                },
+                {
+                  "expression": {
+                    "id": 6998,
+                    "isConstant": false,
+                    "isLValue": false,
+                    "isPure": false,
+                    "lValueRequested": false,
+                    "leftHandSide": {
+                      "id": 6995,
+                      "name": "owner",
+                      "nodeType": "Identifier",
+                      "overloadedDeclarations": [],
+                      "referencedDeclaration": 6970,
+                      "src": "550:5:49",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_address",
+                        "typeString": "address"
+                      }
+                    },
+                    "nodeType": "Assignment",
+                    "operator": "=",
+                    "rightHandSide": {
+                      "expression": {
+                        "id": 6996,
+                        "name": "msg",
+                        "nodeType": "Identifier",
+                        "overloadedDeclarations": [],
+                        "referencedDeclaration": -15,
+                        "src": "558:3:49",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_magic_message",
+                          "typeString": "msg"
+                        }
+                      },
+                      "id": 6997,
+                      "isConstant": false,
+                      "isLValue": false,
+                      "isPure": false,
+                      "lValueRequested": false,
+                      "memberLocation": "562:6:49",
+                      "memberName": "sender",
+                      "nodeType": "MemberAccess",
+                      "src": "558:10:49",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_address",
+                        "typeString": "address"
+                      }
+                    },
+                    "src": "550:18:49",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_address",
+                      "typeString": "address"
+                    }
+                  },
+                  "id": 6999,
+                  "nodeType": "ExpressionStatement",
+                  "src": "550:18:49"
+                }
+              ]
+            },
+            "implemented": true,
+            "kind": "constructor",
+            "modifiers": [],
+            "name": "",
+            "nameLocation": "-1:-1:-1",
+            "parameters": {
+              "id": 6985,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 6982,
+                  "mutability": "mutable",
+                  "name": "_timeZone1LibraryAddress",
+                  "nameLocation": "377:24:49",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 7001,
+                  "src": "369:32:49",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_address",
+                    "typeString": "address"
+                  },
+                  "typeName": {
+                    "id": 6981,
+                    "name": "address",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "369:7:49",
+                    "stateMutability": "nonpayable",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_address",
+                      "typeString": "address"
+                    }
+                  },
+                  "visibility": "internal"
+                },
+                {
+                  "constant": false,
+                  "id": 6984,
+                  "mutability": "mutable",
+                  "name": "_timeZone2LibraryAddress",
+                  "nameLocation": "411:24:49",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 7001,
+                  "src": "403:32:49",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_address",
+                    "typeString": "address"
+                  },
+                  "typeName": {
+                    "id": 6983,
+                    "name": "address",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "403:7:49",
+                    "stateMutability": "nonpayable",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_address",
+                      "typeString": "address"
+                    }
+                  },
+                  "visibility": "internal"
+                }
+              ],
+              "src": "368:68:49"
+            },
+            "returnParameters": {
+              "id": 6986,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "444:0:49"
+            },
+            "scope": 7034,
+            "stateMutability": "nonpayable",
+            "virtual": false,
+            "visibility": "public"
+          },
+          {
+            "id": 7017,
+            "nodeType": "FunctionDefinition",
+            "src": "611:134:49",
+            "nodes": [],
+            "body": {
+              "id": 7016,
+              "nodeType": "Block",
+              "src": "657:88:49",
+              "nodes": [],
+              "statements": [
+                {
+                  "expression": {
+                    "arguments": [
+                      {
+                        "arguments": [
+                          {
+                            "id": 7011,
+                            "name": "setTimeSignature",
+                            "nodeType": "Identifier",
+                            "overloadedDeclarations": [],
+                            "referencedDeclaration": 6980,
+                            "src": "710:16:49",
+                            "typeDescriptions": {
+                              "typeIdentifier": "t_bytes4",
+                              "typeString": "bytes4"
+                            }
+                          },
+                          {
+                            "id": 7012,
+                            "name": "_timeStamp",
+                            "nodeType": "Identifier",
+                            "overloadedDeclarations": [],
+                            "referencedDeclaration": 7003,
+                            "src": "728:10:49",
+                            "typeDescriptions": {
+                              "typeIdentifier": "t_uint256",
+                              "typeString": "uint256"
+                            }
+                          }
+                        ],
+                        "expression": {
+                          "argumentTypes": [
+                            {
+                              "typeIdentifier": "t_bytes4",
+                              "typeString": "bytes4"
+                            },
+                            {
+                              "typeIdentifier": "t_uint256",
+                              "typeString": "uint256"
+                            }
+                          ],
+                          "expression": {
+                            "id": 7009,
+                            "name": "abi",
+                            "nodeType": "Identifier",
+                            "overloadedDeclarations": [],
+                            "referencedDeclaration": -1,
+                            "src": "693:3:49",
+                            "typeDescriptions": {
+                              "typeIdentifier": "t_magic_abi",
+                              "typeString": "abi"
+                            }
+                          },
+                          "id": 7010,
+                          "isConstant": false,
+                          "isLValue": false,
+                          "isPure": true,
+                          "lValueRequested": false,
+                          "memberLocation": "697:12:49",
+                          "memberName": "encodePacked",
+                          "nodeType": "MemberAccess",
+                          "src": "693:16:49",
+                          "typeDescriptions": {
+                            "typeIdentifier": "t_function_abiencodepacked_pure$__$returns$_t_bytes_memory_ptr_$",
+                            "typeString": "function () pure returns (bytes memory)"
+                          }
+                        },
+                        "id": 7013,
+                        "isConstant": false,
+                        "isLValue": false,
+                        "isPure": false,
+                        "kind": "functionCall",
+                        "lValueRequested": false,
+                        "nameLocations": [],
+                        "names": [],
+                        "nodeType": "FunctionCall",
+                        "src": "693:46:49",
+                        "tryCall": false,
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_bytes_memory_ptr",
+                          "typeString": "bytes memory"
+                        }
+                      }
+                    ],
+                    "expression": {
+                      "argumentTypes": [
+                        {
+                          "typeIdentifier": "t_bytes_memory_ptr",
+                          "typeString": "bytes memory"
+                        }
+                      ],
+                      "expression": {
+                        "id": 7006,
+                        "name": "timeZone1Library",
+                        "nodeType": "Identifier",
+                        "overloadedDeclarations": [],
+                        "referencedDeclaration": 6966,
+                        "src": "663:16:49",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_address",
+                          "typeString": "address"
+                        }
+                      },
+                      "id": 7008,
+                      "isConstant": false,
+                      "isLValue": false,
+                      "isPure": false,
+                      "lValueRequested": false,
+                      "memberLocation": "680:12:49",
+                      "memberName": "delegatecall",
+                      "nodeType": "MemberAccess",
+                      "src": "663:29:49",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_function_baredelegatecall_nonpayable$_t_bytes_memory_ptr_$returns$_t_bool_$_t_bytes_memory_ptr_$",
+                        "typeString": "function (bytes memory) returns (bool,bytes memory)"
+                      }
+                    },
+                    "id": 7014,
+                    "isConstant": false,
+                    "isLValue": false,
+                    "isPure": false,
+                    "kind": "functionCall",
+                    "lValueRequested": false,
+                    "nameLocations": [],
+                    "names": [],
+                    "nodeType": "FunctionCall",
+                    "src": "663:77:49",
+                    "tryCall": false,
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_tuple$_t_bool_$_t_bytes_memory_ptr_$",
+                      "typeString": "tuple(bool,bytes memory)"
+                    }
+                  },
+                  "id": 7015,
+                  "nodeType": "ExpressionStatement",
+                  "src": "663:77:49"
+                }
+              ]
+            },
+            "functionSelector": "f1e02620",
+            "implemented": true,
+            "kind": "function",
+            "modifiers": [],
+            "name": "setFirstTime",
+            "nameLocation": "620:12:49",
+            "parameters": {
+              "id": 7004,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 7003,
+                  "mutability": "mutable",
+                  "name": "_timeStamp",
+                  "nameLocation": "638:10:49",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 7017,
+                  "src": "633:15:49",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_uint256",
+                    "typeString": "uint256"
+                  },
+                  "typeName": {
+                    "id": 7002,
+                    "name": "uint",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "633:4:49",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_uint256",
+                      "typeString": "uint256"
+                    }
+                  },
+                  "visibility": "internal"
+                }
+              ],
+              "src": "632:17:49"
+            },
+            "returnParameters": {
+              "id": 7005,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "657:0:49"
+            },
+            "scope": 7034,
+            "stateMutability": "nonpayable",
+            "virtual": false,
+            "visibility": "public"
+          },
+          {
+            "id": 7033,
+            "nodeType": "FunctionDefinition",
+            "src": "782:135:49",
+            "nodes": [],
+            "body": {
+              "id": 7032,
+              "nodeType": "Block",
+              "src": "829:88:49",
+              "nodes": [],
+              "statements": [
+                {
+                  "expression": {
+                    "arguments": [
+                      {
+                        "arguments": [
+                          {
+                            "id": 7027,
+                            "name": "setTimeSignature",
+                            "nodeType": "Identifier",
+                            "overloadedDeclarations": [],
+                            "referencedDeclaration": 6980,
+                            "src": "882:16:49",
+                            "typeDescriptions": {
+                              "typeIdentifier": "t_bytes4",
+                              "typeString": "bytes4"
+                            }
+                          },
+                          {
+                            "id": 7028,
+                            "name": "_timeStamp",
+                            "nodeType": "Identifier",
+                            "overloadedDeclarations": [],
+                            "referencedDeclaration": 7019,
+                            "src": "900:10:49",
+                            "typeDescriptions": {
+                              "typeIdentifier": "t_uint256",
+                              "typeString": "uint256"
+                            }
+                          }
+                        ],
+                        "expression": {
+                          "argumentTypes": [
+                            {
+                              "typeIdentifier": "t_bytes4",
+                              "typeString": "bytes4"
+                            },
+                            {
+                              "typeIdentifier": "t_uint256",
+                              "typeString": "uint256"
+                            }
+                          ],
+                          "expression": {
+                            "id": 7025,
+                            "name": "abi",
+                            "nodeType": "Identifier",
+                            "overloadedDeclarations": [],
+                            "referencedDeclaration": -1,
+                            "src": "865:3:49",
+                            "typeDescriptions": {
+                              "typeIdentifier": "t_magic_abi",
+                              "typeString": "abi"
+                            }
+                          },
+                          "id": 7026,
+                          "isConstant": false,
+                          "isLValue": false,
+                          "isPure": true,
+                          "lValueRequested": false,
+                          "memberLocation": "869:12:49",
+                          "memberName": "encodePacked",
+                          "nodeType": "MemberAccess",
+                          "src": "865:16:49",
+                          "typeDescriptions": {
+                            "typeIdentifier": "t_function_abiencodepacked_pure$__$returns$_t_bytes_memory_ptr_$",
+                            "typeString": "function () pure returns (bytes memory)"
+                          }
+                        },
+                        "id": 7029,
+                        "isConstant": false,
+                        "isLValue": false,
+                        "isPure": false,
+                        "kind": "functionCall",
+                        "lValueRequested": false,
+                        "nameLocations": [],
+                        "names": [],
+                        "nodeType": "FunctionCall",
+                        "src": "865:46:49",
+                        "tryCall": false,
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_bytes_memory_ptr",
+                          "typeString": "bytes memory"
+                        }
+                      }
+                    ],
+                    "expression": {
+                      "argumentTypes": [
+                        {
+                          "typeIdentifier": "t_bytes_memory_ptr",
+                          "typeString": "bytes memory"
+                        }
+                      ],
+                      "expression": {
+                        "id": 7022,
+                        "name": "timeZone2Library",
+                        "nodeType": "Identifier",
+                        "overloadedDeclarations": [],
+                        "referencedDeclaration": 6968,
+                        "src": "835:16:49",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_address",
+                          "typeString": "address"
+                        }
+                      },
+                      "id": 7024,
+                      "isConstant": false,
+                      "isLValue": false,
+                      "isPure": false,
+                      "lValueRequested": false,
+                      "memberLocation": "852:12:49",
+                      "memberName": "delegatecall",
+                      "nodeType": "MemberAccess",
+                      "src": "835:29:49",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_function_baredelegatecall_nonpayable$_t_bytes_memory_ptr_$returns$_t_bool_$_t_bytes_memory_ptr_$",
+                        "typeString": "function (bytes memory) returns (bool,bytes memory)"
+                      }
+                    },
+                    "id": 7030,
+                    "isConstant": false,
+                    "isLValue": false,
+                    "isPure": false,
+                    "kind": "functionCall",
+                    "lValueRequested": false,
+                    "nameLocations": [],
+                    "names": [],
+                    "nodeType": "FunctionCall",
+                    "src": "835:77:49",
+                    "tryCall": false,
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_tuple$_t_bool_$_t_bytes_memory_ptr_$",
+                      "typeString": "tuple(bool,bytes memory)"
+                    }
+                  },
+                  "id": 7031,
+                  "nodeType": "ExpressionStatement",
+                  "src": "835:77:49"
+                }
+              ]
+            },
+            "functionSelector": "5bda8fa4",
+            "implemented": true,
+            "kind": "function",
+            "modifiers": [],
+            "name": "setSecondTime",
+            "nameLocation": "791:13:49",
+            "parameters": {
+              "id": 7020,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 7019,
+                  "mutability": "mutable",
+                  "name": "_timeStamp",
+                  "nameLocation": "810:10:49",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 7033,
+                  "src": "805:15:49",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_uint256",
+                    "typeString": "uint256"
+                  },
+                  "typeName": {
+                    "id": 7018,
+                    "name": "uint",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "805:4:49",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_uint256",
+                      "typeString": "uint256"
+                    }
+                  },
+                  "visibility": "internal"
+                }
+              ],
+              "src": "804:17:49"
+            },
+            "returnParameters": {
+              "id": 7021,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "829:0:49"
+            },
+            "scope": 7034,
+            "stateMutability": "nonpayable",
+            "virtual": false,
+            "visibility": "public"
+          }
+        ],
+        "abstract": false,
+        "baseContracts": [],
+        "canonicalName": "Preservation",
+        "contractDependencies": [],
+        "contractKind": "contract",
+        "fullyImplemented": true,
+        "linearizedBaseContracts": [
+          7034
+        ],
+        "name": "Preservation",
+        "nameLocation": "67:12:49",
+        "scope": 7048,
+        "usedErrors": []
+      },
+      {
+        "id": 7047,
+        "nodeType": "ContractDefinition",
+        "src": "964:144:49",
+        "nodes": [
+          {
+            "id": 7036,
+            "nodeType": "VariableDeclaration",
+            "src": "1019:15:49",
+            "nodes": [],
+            "constant": false,
+            "mutability": "mutable",
+            "name": "storedTime",
+            "nameLocation": "1024:10:49",
+            "scope": 7047,
+            "stateVariable": true,
+            "storageLocation": "default",
+            "typeDescriptions": {
+              "typeIdentifier": "t_uint256",
+              "typeString": "uint256"
+            },
+            "typeName": {
+              "id": 7035,
+              "name": "uint",
+              "nodeType": "ElementaryTypeName",
+              "src": "1019:4:49",
+              "typeDescriptions": {
+                "typeIdentifier": "t_uint256",
+                "typeString": "uint256"
+              }
+            },
+            "visibility": "internal"
+          },
+          {
+            "id": 7046,
+            "nodeType": "FunctionDefinition",
+            "src": "1041:65:49",
+            "nodes": [],
+            "body": {
+              "id": 7045,
+              "nodeType": "Block",
+              "src": "1077:29:49",
+              "nodes": [],
+              "statements": [
+                {
+                  "expression": {
+                    "id": 7043,
+                    "isConstant": false,
+                    "isLValue": false,
+                    "isPure": false,
+                    "lValueRequested": false,
+                    "leftHandSide": {
+                      "id": 7041,
+                      "name": "storedTime",
+                      "nodeType": "Identifier",
+                      "overloadedDeclarations": [],
+                      "referencedDeclaration": 7036,
+                      "src": "1083:10:49",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_uint256",
+                        "typeString": "uint256"
+                      }
+                    },
+                    "nodeType": "Assignment",
+                    "operator": "=",
+                    "rightHandSide": {
+                      "id": 7042,
+                      "name": "_time",
+                      "nodeType": "Identifier",
+                      "overloadedDeclarations": [],
+                      "referencedDeclaration": 7038,
+                      "src": "1096:5:49",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_uint256",
+                        "typeString": "uint256"
+                      }
+                    },
+                    "src": "1083:18:49",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_uint256",
+                      "typeString": "uint256"
+                    }
+                  },
+                  "id": 7044,
+                  "nodeType": "ExpressionStatement",
+                  "src": "1083:18:49"
+                }
+              ]
+            },
+            "functionSelector": "3beb26c4",
+            "implemented": true,
+            "kind": "function",
+            "modifiers": [],
+            "name": "setTime",
+            "nameLocation": "1050:7:49",
+            "parameters": {
+              "id": 7039,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 7038,
+                  "mutability": "mutable",
+                  "name": "_time",
+                  "nameLocation": "1063:5:49",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 7046,
+                  "src": "1058:10:49",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_uint256",
+                    "typeString": "uint256"
+                  },
+                  "typeName": {
+                    "id": 7037,
+                    "name": "uint",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "1058:4:49",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_uint256",
+                      "typeString": "uint256"
+                    }
+                  },
+                  "visibility": "internal"
+                }
+              ],
+              "src": "1057:12:49"
+            },
+            "returnParameters": {
+              "id": 7040,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "1077:0:49"
+            },
+            "scope": 7047,
+            "stateMutability": "nonpayable",
+            "virtual": false,
+            "visibility": "public"
+          }
+        ],
+        "abstract": false,
+        "baseContracts": [],
+        "canonicalName": "LibraryContract",
+        "contractDependencies": [],
+        "contractKind": "contract",
+        "fullyImplemented": true,
+        "linearizedBaseContracts": [
+          7047
+        ],
+        "name": "LibraryContract",
+        "nameLocation": "973:15:49",
+        "scope": 7048,
+        "usedErrors": []
+      }
+    ],
+    "license": "MIT"
+  },
+  "id": 49
+}

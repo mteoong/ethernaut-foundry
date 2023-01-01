@@ -1,0 +1,1003 @@
+{
+  "abi": [
+    {
+      "inputs": [
+        {
+          "internalType": "address",
+          "name": "challengeAddress",
+          "type": "address"
+        }
+      ],
+      "stateMutability": "nonpayable",
+      "type": "constructor"
+    },
+    {
+      "inputs": [],
+      "name": "challenge",
+      "outputs": [
+        {
+          "internalType": "contract IGatekeeperTwo",
+          "name": "",
+          "type": "address"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    }
+  ],
+  "bytecode": {
+    "object": "0x608060405234801561001057600080fd5b5060405161022838038061022883398101604081905261002f91610137565b600080546001600160a01b0319166001600160a01b0383161790556040516001600160601b03193060601b1660208201526000199060340160408051808303601f1901815290829052805160209091012060008054600160a01b600160e01b03198116600160a01b60c094851c969096186001600160401b03168602908117928390556319b8102760e11b85529490910490911b6001600160c01b03191660048301526001600160a01b0390811692169190911790633370204e906024016020604051808303816000875af115801561010c573d6000803e3d6000fd5b505050506040513d601f19601f820116820180604052508101906101309190610167565b5050610189565b60006020828403121561014957600080fd5b81516001600160a01b038116811461016057600080fd5b9392505050565b60006020828403121561017957600080fd5b8151801515811461016057600080fd5b6091806101976000396000f3fe6080604052348015600f57600080fd5b506004361060285760003560e01c8063d2ef739814602d575b600080fd5b600054603f906001600160a01b031681565b6040516001600160a01b03909116815260200160405180910390f3fea264697066735822122055555f501a47564ffdaefd30f503c4be547065f3b5367fbbff9fc00f1bab623d64736f6c63430008110033",
+    "sourceMap": "218:521:40:-:0;;;341:396;;;;;;;;;;;;;;;;;;;;;;;;;;;;:::i;:::-;389:9;:44;;-1:-1:-1;;;;;;389:44:40;-1:-1:-1;;;;;389:44:40;;;;;626:22;;-1:-1:-1;;;;;;643:4:40;509:2:100;480:15;476:45;626:22:40;;;464:58:100;-1:-1:-1;;655:13:40;538:12:100;;626:22:40;;;;;;-1:-1:-1;;626:22:40;;;;;;;616:33;;626:22;616:33;;;;592:7;:77;;-1:-1:-1;;;;;;;;592:77:40;;-1:-1:-1;;;602:49:40;;;;:67;;;;-1:-1:-1;;;;;592:77:40;;;;;;;;;;-1:-1:-1;;;698:32:40;;721:7;;;;714:15;;;-1:-1:-1;;;;;;714:15:40;698:32;;;705:56:100;-1:-1:-1;;;;;698:9:40;;;;;;;;;;:15;;678:18:100;;698:32:40;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;:::i;:::-;;341:396;218:521;;14:290:100;84:6;137:2;125:9;116:7;112:23;108:32;105:52;;;153:1;150;143:12;105:52;179:16;;-1:-1:-1;;;;;224:31:100;;214:42;;204:70;;270:1;267;260:12;204:70;293:5;14:290;-1:-1:-1;;;14:290:100:o;772:277::-;839:6;892:2;880:9;871:7;867:23;863:32;860:52;;;908:1;905;898:12;860:52;940:9;934:16;993:5;986:13;979:21;972:5;969:32;959:60;;1015:1;1012;1005:12;772:277;218:521:40;;;;;;",
+    "linkReferences": {}
+  },
+  "deployedBytecode": {
+    "object": "0x6080604052348015600f57600080fd5b506004361060285760003560e01c8063d2ef739814602d575b600080fd5b600054603f906001600160a01b031681565b6040516001600160a01b03909116815260200160405180910390f3fea264697066735822122055555f501a47564ffdaefd30f503c4be547065f3b5367fbbff9fc00f1bab623d64736f6c63430008110033",
+    "sourceMap": "218:521:40:-:0;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;283:31;;;;;-1:-1:-1;;;;;283:31:40;;;;;;-1:-1:-1;;;;;201:32:100;;;183:51;;171:2;156:18;283:31:40;;;;;;",
+    "linkReferences": {}
+  },
+  "methodIdentifiers": {
+    "challenge()": "d2ef7398"
+  },
+  "rawMetadata": "{\"compiler\":{\"version\":\"0.8.17+commit.8df45f5f\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"inputs\":[{\"internalType\":\"address\",\"name\":\"challengeAddress\",\"type\":\"address\"}],\"stateMutability\":\"nonpayable\",\"type\":\"constructor\"},{\"inputs\":[],\"name\":\"challenge\",\"outputs\":[{\"internalType\":\"contract IGatekeeperTwo\",\"name\":\"\",\"type\":\"address\"}],\"stateMutability\":\"view\",\"type\":\"function\"}],\"devdoc\":{\"kind\":\"dev\",\"methods\":{},\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"version\":1}},\"settings\":{\"compilationTarget\":{\"src/GatekeeperTwo/GatekeeperTwoHack.sol\":\"GatekeeperTwoHack\"},\"evmVersion\":\"london\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":true,\"runs\":200},\"remappings\":[\":ds-test/=lib/ds-test/src/\",\":openzeppelin-contracts/=lib/openzeppelin-contracts/\"]},\"sources\":{\"lib/openzeppelin-contracts/contracts/utils/math/SafeMath.sol\":{\"keccak256\":\"0x0f633a0223d9a1dcccfcf38a64c9de0874dfcbfac0c6941ccf074d63a2ce0e1e\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://864a40efcffdf408044c332a5aa38ec5618ed7b4eecb8f65faf45671bd6cdc65\",\"dweb:/ipfs/QmQJquTMtc6fgm5JQzGdsGpA2fqBe3MHWEdt2qzaLySMdN\"]},\"src/GatekeeperTwo/GatekeeperTwoHack.sol\":{\"keccak256\":\"0x982d0119bcfcc0242b037d365c68870a88df3f2dda8d0860f5ffff1f340b93f0\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://a0fec65be877fe8744c22452257d652fe59aec698ad5512517ad675933304854\",\"dweb:/ipfs/QmXiFqMWMtKq297U7ks2WCA7c81jw7CjSjnn8i4kiQt2ZV\"]}},\"version\":1}",
+  "metadata": {
+    "compiler": {
+      "version": "0.8.17+commit.8df45f5f"
+    },
+    "language": "Solidity",
+    "output": {
+      "abi": [
+        {
+          "inputs": [
+            {
+              "internalType": "address",
+              "name": "challengeAddress",
+              "type": "address"
+            }
+          ],
+          "stateMutability": "nonpayable",
+          "type": "constructor"
+        },
+        {
+          "inputs": [],
+          "stateMutability": "view",
+          "type": "function",
+          "name": "challenge",
+          "outputs": [
+            {
+              "internalType": "contract IGatekeeperTwo",
+              "name": "",
+              "type": "address"
+            }
+          ]
+        }
+      ],
+      "devdoc": {
+        "kind": "dev",
+        "methods": {},
+        "version": 1
+      },
+      "userdoc": {
+        "kind": "user",
+        "methods": {},
+        "version": 1
+      }
+    },
+    "settings": {
+      "remappings": [
+        ":ds-test/=lib/ds-test/src/",
+        ":openzeppelin-contracts/=lib/openzeppelin-contracts/"
+      ],
+      "optimizer": {
+        "enabled": true,
+        "runs": 200
+      },
+      "metadata": {
+        "bytecodeHash": "ipfs"
+      },
+      "compilationTarget": {
+        "src/GatekeeperTwo/GatekeeperTwoHack.sol": "GatekeeperTwoHack"
+      },
+      "libraries": {}
+    },
+    "sources": {
+      "lib/openzeppelin-contracts/contracts/utils/math/SafeMath.sol": {
+        "keccak256": "0x0f633a0223d9a1dcccfcf38a64c9de0874dfcbfac0c6941ccf074d63a2ce0e1e",
+        "urls": [
+          "bzz-raw://864a40efcffdf408044c332a5aa38ec5618ed7b4eecb8f65faf45671bd6cdc65",
+          "dweb:/ipfs/QmQJquTMtc6fgm5JQzGdsGpA2fqBe3MHWEdt2qzaLySMdN"
+        ],
+        "license": "MIT"
+      },
+      "src/GatekeeperTwo/GatekeeperTwoHack.sol": {
+        "keccak256": "0x982d0119bcfcc0242b037d365c68870a88df3f2dda8d0860f5ffff1f340b93f0",
+        "urls": [
+          "bzz-raw://a0fec65be877fe8744c22452257d652fe59aec698ad5512517ad675933304854",
+          "dweb:/ipfs/QmXiFqMWMtKq297U7ks2WCA7c81jw7CjSjnn8i4kiQt2ZV"
+        ],
+        "license": "MIT"
+      }
+    },
+    "version": 1
+  },
+  "ast": {
+    "absolutePath": "src/GatekeeperTwo/GatekeeperTwoHack.sol",
+    "id": 6280,
+    "exportedSymbols": {
+      "GatekeeperTwoHack": [
+        6279
+      ],
+      "IGatekeeperTwo": [
+        6225
+      ],
+      "SafeMath": [
+        3316
+      ]
+    },
+    "nodeType": "SourceUnit",
+    "src": "33:706:40",
+    "nodes": [
+      {
+        "id": 6216,
+        "nodeType": "PragmaDirective",
+        "src": "33:24:40",
+        "nodes": [],
+        "literals": [
+          "solidity",
+          "^",
+          "0.8",
+          ".10"
+        ]
+      },
+      {
+        "id": 6217,
+        "nodeType": "ImportDirective",
+        "src": "59:66:40",
+        "nodes": [],
+        "absolutePath": "lib/openzeppelin-contracts/contracts/utils/math/SafeMath.sol",
+        "file": "openzeppelin-contracts/contracts/utils/math/SafeMath.sol",
+        "nameLocation": "-1:-1:-1",
+        "scope": 6280,
+        "sourceUnit": 3317,
+        "symbolAliases": [],
+        "unitAlias": ""
+      },
+      {
+        "id": 6225,
+        "nodeType": "ContractDefinition",
+        "src": "127:89:40",
+        "nodes": [
+          {
+            "id": 6224,
+            "nodeType": "FunctionDefinition",
+            "src": "158:56:40",
+            "nodes": [],
+            "functionSelector": "3370204e",
+            "implemented": false,
+            "kind": "function",
+            "modifiers": [],
+            "name": "enter",
+            "nameLocation": "167:5:40",
+            "parameters": {
+              "id": 6220,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 6219,
+                  "mutability": "mutable",
+                  "name": "_gateKey",
+                  "nameLocation": "180:8:40",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 6224,
+                  "src": "173:15:40",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_bytes8",
+                    "typeString": "bytes8"
+                  },
+                  "typeName": {
+                    "id": 6218,
+                    "name": "bytes8",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "173:6:40",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_bytes8",
+                      "typeString": "bytes8"
+                    }
+                  },
+                  "visibility": "internal"
+                }
+              ],
+              "src": "172:17:40"
+            },
+            "returnParameters": {
+              "id": 6223,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 6222,
+                  "mutability": "mutable",
+                  "name": "",
+                  "nameLocation": "-1:-1:-1",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 6224,
+                  "src": "208:4:40",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_bool",
+                    "typeString": "bool"
+                  },
+                  "typeName": {
+                    "id": 6221,
+                    "name": "bool",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "208:4:40",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_bool",
+                      "typeString": "bool"
+                    }
+                  },
+                  "visibility": "internal"
+                }
+              ],
+              "src": "207:6:40"
+            },
+            "scope": 6225,
+            "stateMutability": "nonpayable",
+            "virtual": false,
+            "visibility": "external"
+          }
+        ],
+        "abstract": false,
+        "baseContracts": [],
+        "canonicalName": "IGatekeeperTwo",
+        "contractDependencies": [],
+        "contractKind": "interface",
+        "fullyImplemented": false,
+        "linearizedBaseContracts": [
+          6225
+        ],
+        "name": "IGatekeeperTwo",
+        "nameLocation": "137:14:40",
+        "scope": 6280,
+        "usedErrors": []
+      },
+      {
+        "id": 6279,
+        "nodeType": "ContractDefinition",
+        "src": "218:521:40",
+        "nodes": [
+          {
+            "id": 6228,
+            "nodeType": "UsingForDirective",
+            "src": "251:27:40",
+            "nodes": [],
+            "global": false,
+            "libraryName": {
+              "id": 6226,
+              "name": "SafeMath",
+              "nameLocations": [
+                "257:8:40"
+              ],
+              "nodeType": "IdentifierPath",
+              "referencedDeclaration": 3316,
+              "src": "257:8:40"
+            },
+            "typeName": {
+              "id": 6227,
+              "name": "uint256",
+              "nodeType": "ElementaryTypeName",
+              "src": "270:7:40",
+              "typeDescriptions": {
+                "typeIdentifier": "t_uint256",
+                "typeString": "uint256"
+              }
+            }
+          },
+          {
+            "id": 6231,
+            "nodeType": "VariableDeclaration",
+            "src": "283:31:40",
+            "nodes": [],
+            "constant": false,
+            "functionSelector": "d2ef7398",
+            "mutability": "mutable",
+            "name": "challenge",
+            "nameLocation": "305:9:40",
+            "scope": 6279,
+            "stateVariable": true,
+            "storageLocation": "default",
+            "typeDescriptions": {
+              "typeIdentifier": "t_contract$_IGatekeeperTwo_$6225",
+              "typeString": "contract IGatekeeperTwo"
+            },
+            "typeName": {
+              "id": 6230,
+              "nodeType": "UserDefinedTypeName",
+              "pathNode": {
+                "id": 6229,
+                "name": "IGatekeeperTwo",
+                "nameLocations": [
+                  "283:14:40"
+                ],
+                "nodeType": "IdentifierPath",
+                "referencedDeclaration": 6225,
+                "src": "283:14:40"
+              },
+              "referencedDeclaration": 6225,
+              "src": "283:14:40",
+              "typeDescriptions": {
+                "typeIdentifier": "t_contract$_IGatekeeperTwo_$6225",
+                "typeString": "contract IGatekeeperTwo"
+              }
+            },
+            "visibility": "public"
+          },
+          {
+            "id": 6233,
+            "nodeType": "VariableDeclaration",
+            "src": "320:14:40",
+            "nodes": [],
+            "constant": false,
+            "mutability": "mutable",
+            "name": "gateKey",
+            "nameLocation": "327:7:40",
+            "scope": 6279,
+            "stateVariable": true,
+            "storageLocation": "default",
+            "typeDescriptions": {
+              "typeIdentifier": "t_uint64",
+              "typeString": "uint64"
+            },
+            "typeName": {
+              "id": 6232,
+              "name": "uint64",
+              "nodeType": "ElementaryTypeName",
+              "src": "320:6:40",
+              "typeDescriptions": {
+                "typeIdentifier": "t_uint64",
+                "typeString": "uint64"
+              }
+            },
+            "visibility": "internal"
+          },
+          {
+            "id": 6278,
+            "nodeType": "FunctionDefinition",
+            "src": "341:396:40",
+            "nodes": [],
+            "body": {
+              "id": 6277,
+              "nodeType": "Block",
+              "src": "379:358:40",
+              "nodes": [],
+              "statements": [
+                {
+                  "expression": {
+                    "id": 6242,
+                    "isConstant": false,
+                    "isLValue": false,
+                    "isPure": false,
+                    "lValueRequested": false,
+                    "leftHandSide": {
+                      "id": 6238,
+                      "name": "challenge",
+                      "nodeType": "Identifier",
+                      "overloadedDeclarations": [],
+                      "referencedDeclaration": 6231,
+                      "src": "389:9:40",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_contract$_IGatekeeperTwo_$6225",
+                        "typeString": "contract IGatekeeperTwo"
+                      }
+                    },
+                    "nodeType": "Assignment",
+                    "operator": "=",
+                    "rightHandSide": {
+                      "arguments": [
+                        {
+                          "id": 6240,
+                          "name": "challengeAddress",
+                          "nodeType": "Identifier",
+                          "overloadedDeclarations": [],
+                          "referencedDeclaration": 6235,
+                          "src": "416:16:40",
+                          "typeDescriptions": {
+                            "typeIdentifier": "t_address",
+                            "typeString": "address"
+                          }
+                        }
+                      ],
+                      "expression": {
+                        "argumentTypes": [
+                          {
+                            "typeIdentifier": "t_address",
+                            "typeString": "address"
+                          }
+                        ],
+                        "id": 6239,
+                        "name": "IGatekeeperTwo",
+                        "nodeType": "Identifier",
+                        "overloadedDeclarations": [],
+                        "referencedDeclaration": 6225,
+                        "src": "401:14:40",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_type$_t_contract$_IGatekeeperTwo_$6225_$",
+                          "typeString": "type(contract IGatekeeperTwo)"
+                        }
+                      },
+                      "id": 6241,
+                      "isConstant": false,
+                      "isLValue": false,
+                      "isPure": false,
+                      "kind": "typeConversion",
+                      "lValueRequested": false,
+                      "nameLocations": [],
+                      "names": [],
+                      "nodeType": "FunctionCall",
+                      "src": "401:32:40",
+                      "tryCall": false,
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_contract$_IGatekeeperTwo_$6225",
+                        "typeString": "contract IGatekeeperTwo"
+                      }
+                    },
+                    "src": "389:44:40",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_contract$_IGatekeeperTwo_$6225",
+                      "typeString": "contract IGatekeeperTwo"
+                    }
+                  },
+                  "id": 6243,
+                  "nodeType": "ExpressionStatement",
+                  "src": "389:44:40"
+                },
+                {
+                  "id": 6267,
+                  "nodeType": "UncheckedBlock",
+                  "src": "568:112:40",
+                  "statements": [
+                    {
+                      "expression": {
+                        "id": 6265,
+                        "isConstant": false,
+                        "isLValue": false,
+                        "isPure": false,
+                        "lValueRequested": false,
+                        "leftHandSide": {
+                          "id": 6244,
+                          "name": "gateKey",
+                          "nodeType": "Identifier",
+                          "overloadedDeclarations": [],
+                          "referencedDeclaration": 6233,
+                          "src": "592:7:40",
+                          "typeDescriptions": {
+                            "typeIdentifier": "t_uint64",
+                            "typeString": "uint64"
+                          }
+                        },
+                        "nodeType": "Assignment",
+                        "operator": "=",
+                        "rightHandSide": {
+                          "commonType": {
+                            "typeIdentifier": "t_uint64",
+                            "typeString": "uint64"
+                          },
+                          "id": 6264,
+                          "isConstant": false,
+                          "isLValue": false,
+                          "isPure": false,
+                          "lValueRequested": false,
+                          "leftExpression": {
+                            "arguments": [
+                              {
+                                "arguments": [
+                                  {
+                                    "arguments": [
+                                      {
+                                        "arguments": [
+                                          {
+                                            "id": 6252,
+                                            "name": "this",
+                                            "nodeType": "Identifier",
+                                            "overloadedDeclarations": [],
+                                            "referencedDeclaration": -28,
+                                            "src": "643:4:40",
+                                            "typeDescriptions": {
+                                              "typeIdentifier": "t_contract$_GatekeeperTwoHack_$6279",
+                                              "typeString": "contract GatekeeperTwoHack"
+                                            }
+                                          }
+                                        ],
+                                        "expression": {
+                                          "argumentTypes": [
+                                            {
+                                              "typeIdentifier": "t_contract$_GatekeeperTwoHack_$6279",
+                                              "typeString": "contract GatekeeperTwoHack"
+                                            }
+                                          ],
+                                          "expression": {
+                                            "id": 6250,
+                                            "name": "abi",
+                                            "nodeType": "Identifier",
+                                            "overloadedDeclarations": [],
+                                            "referencedDeclaration": -1,
+                                            "src": "626:3:40",
+                                            "typeDescriptions": {
+                                              "typeIdentifier": "t_magic_abi",
+                                              "typeString": "abi"
+                                            }
+                                          },
+                                          "id": 6251,
+                                          "isConstant": false,
+                                          "isLValue": false,
+                                          "isPure": true,
+                                          "lValueRequested": false,
+                                          "memberLocation": "630:12:40",
+                                          "memberName": "encodePacked",
+                                          "nodeType": "MemberAccess",
+                                          "src": "626:16:40",
+                                          "typeDescriptions": {
+                                            "typeIdentifier": "t_function_abiencodepacked_pure$__$returns$_t_bytes_memory_ptr_$",
+                                            "typeString": "function () pure returns (bytes memory)"
+                                          }
+                                        },
+                                        "id": 6253,
+                                        "isConstant": false,
+                                        "isLValue": false,
+                                        "isPure": false,
+                                        "kind": "functionCall",
+                                        "lValueRequested": false,
+                                        "nameLocations": [],
+                                        "names": [],
+                                        "nodeType": "FunctionCall",
+                                        "src": "626:22:40",
+                                        "tryCall": false,
+                                        "typeDescriptions": {
+                                          "typeIdentifier": "t_bytes_memory_ptr",
+                                          "typeString": "bytes memory"
+                                        }
+                                      }
+                                    ],
+                                    "expression": {
+                                      "argumentTypes": [
+                                        {
+                                          "typeIdentifier": "t_bytes_memory_ptr",
+                                          "typeString": "bytes memory"
+                                        }
+                                      ],
+                                      "id": 6249,
+                                      "name": "keccak256",
+                                      "nodeType": "Identifier",
+                                      "overloadedDeclarations": [],
+                                      "referencedDeclaration": -8,
+                                      "src": "616:9:40",
+                                      "typeDescriptions": {
+                                        "typeIdentifier": "t_function_keccak256_pure$_t_bytes_memory_ptr_$returns$_t_bytes32_$",
+                                        "typeString": "function (bytes memory) pure returns (bytes32)"
+                                      }
+                                    },
+                                    "id": 6254,
+                                    "isConstant": false,
+                                    "isLValue": false,
+                                    "isPure": false,
+                                    "kind": "functionCall",
+                                    "lValueRequested": false,
+                                    "nameLocations": [],
+                                    "names": [],
+                                    "nodeType": "FunctionCall",
+                                    "src": "616:33:40",
+                                    "tryCall": false,
+                                    "typeDescriptions": {
+                                      "typeIdentifier": "t_bytes32",
+                                      "typeString": "bytes32"
+                                    }
+                                  }
+                                ],
+                                "expression": {
+                                  "argumentTypes": [
+                                    {
+                                      "typeIdentifier": "t_bytes32",
+                                      "typeString": "bytes32"
+                                    }
+                                  ],
+                                  "id": 6248,
+                                  "isConstant": false,
+                                  "isLValue": false,
+                                  "isPure": true,
+                                  "lValueRequested": false,
+                                  "nodeType": "ElementaryTypeNameExpression",
+                                  "src": "609:6:40",
+                                  "typeDescriptions": {
+                                    "typeIdentifier": "t_type$_t_bytes8_$",
+                                    "typeString": "type(bytes8)"
+                                  },
+                                  "typeName": {
+                                    "id": 6247,
+                                    "name": "bytes8",
+                                    "nodeType": "ElementaryTypeName",
+                                    "src": "609:6:40",
+                                    "typeDescriptions": {}
+                                  }
+                                },
+                                "id": 6255,
+                                "isConstant": false,
+                                "isLValue": false,
+                                "isPure": false,
+                                "kind": "typeConversion",
+                                "lValueRequested": false,
+                                "nameLocations": [],
+                                "names": [],
+                                "nodeType": "FunctionCall",
+                                "src": "609:41:40",
+                                "tryCall": false,
+                                "typeDescriptions": {
+                                  "typeIdentifier": "t_bytes8",
+                                  "typeString": "bytes8"
+                                }
+                              }
+                            ],
+                            "expression": {
+                              "argumentTypes": [
+                                {
+                                  "typeIdentifier": "t_bytes8",
+                                  "typeString": "bytes8"
+                                }
+                              ],
+                              "id": 6246,
+                              "isConstant": false,
+                              "isLValue": false,
+                              "isPure": true,
+                              "lValueRequested": false,
+                              "nodeType": "ElementaryTypeNameExpression",
+                              "src": "602:6:40",
+                              "typeDescriptions": {
+                                "typeIdentifier": "t_type$_t_uint64_$",
+                                "typeString": "type(uint64)"
+                              },
+                              "typeName": {
+                                "id": 6245,
+                                "name": "uint64",
+                                "nodeType": "ElementaryTypeName",
+                                "src": "602:6:40",
+                                "typeDescriptions": {}
+                              }
+                            },
+                            "id": 6256,
+                            "isConstant": false,
+                            "isLValue": false,
+                            "isPure": false,
+                            "kind": "typeConversion",
+                            "lValueRequested": false,
+                            "nameLocations": [],
+                            "names": [],
+                            "nodeType": "FunctionCall",
+                            "src": "602:49:40",
+                            "tryCall": false,
+                            "typeDescriptions": {
+                              "typeIdentifier": "t_uint64",
+                              "typeString": "uint64"
+                            }
+                          },
+                          "nodeType": "BinaryOperation",
+                          "operator": "^",
+                          "rightExpression": {
+                            "components": [
+                              {
+                                "commonType": {
+                                  "typeIdentifier": "t_uint64",
+                                  "typeString": "uint64"
+                                },
+                                "id": 6262,
+                                "isConstant": false,
+                                "isLValue": false,
+                                "isPure": true,
+                                "lValueRequested": false,
+                                "leftExpression": {
+                                  "arguments": [
+                                    {
+                                      "hexValue": "30",
+                                      "id": 6259,
+                                      "isConstant": false,
+                                      "isLValue": false,
+                                      "isPure": true,
+                                      "kind": "number",
+                                      "lValueRequested": false,
+                                      "nodeType": "Literal",
+                                      "src": "662:1:40",
+                                      "typeDescriptions": {
+                                        "typeIdentifier": "t_rational_0_by_1",
+                                        "typeString": "int_const 0"
+                                      },
+                                      "value": "0"
+                                    }
+                                  ],
+                                  "expression": {
+                                    "argumentTypes": [
+                                      {
+                                        "typeIdentifier": "t_rational_0_by_1",
+                                        "typeString": "int_const 0"
+                                      }
+                                    ],
+                                    "id": 6258,
+                                    "isConstant": false,
+                                    "isLValue": false,
+                                    "isPure": true,
+                                    "lValueRequested": false,
+                                    "nodeType": "ElementaryTypeNameExpression",
+                                    "src": "655:6:40",
+                                    "typeDescriptions": {
+                                      "typeIdentifier": "t_type$_t_uint64_$",
+                                      "typeString": "type(uint64)"
+                                    },
+                                    "typeName": {
+                                      "id": 6257,
+                                      "name": "uint64",
+                                      "nodeType": "ElementaryTypeName",
+                                      "src": "655:6:40",
+                                      "typeDescriptions": {}
+                                    }
+                                  },
+                                  "id": 6260,
+                                  "isConstant": false,
+                                  "isLValue": false,
+                                  "isPure": true,
+                                  "kind": "typeConversion",
+                                  "lValueRequested": false,
+                                  "nameLocations": [],
+                                  "names": [],
+                                  "nodeType": "FunctionCall",
+                                  "src": "655:9:40",
+                                  "tryCall": false,
+                                  "typeDescriptions": {
+                                    "typeIdentifier": "t_uint64",
+                                    "typeString": "uint64"
+                                  }
+                                },
+                                "nodeType": "BinaryOperation",
+                                "operator": "-",
+                                "rightExpression": {
+                                  "hexValue": "31",
+                                  "id": 6261,
+                                  "isConstant": false,
+                                  "isLValue": false,
+                                  "isPure": true,
+                                  "kind": "number",
+                                  "lValueRequested": false,
+                                  "nodeType": "Literal",
+                                  "src": "667:1:40",
+                                  "typeDescriptions": {
+                                    "typeIdentifier": "t_rational_1_by_1",
+                                    "typeString": "int_const 1"
+                                  },
+                                  "value": "1"
+                                },
+                                "src": "655:13:40",
+                                "typeDescriptions": {
+                                  "typeIdentifier": "t_uint64",
+                                  "typeString": "uint64"
+                                }
+                              }
+                            ],
+                            "id": 6263,
+                            "isConstant": false,
+                            "isInlineArray": false,
+                            "isLValue": false,
+                            "isPure": true,
+                            "lValueRequested": false,
+                            "nodeType": "TupleExpression",
+                            "src": "654:15:40",
+                            "typeDescriptions": {
+                              "typeIdentifier": "t_uint64",
+                              "typeString": "uint64"
+                            }
+                          },
+                          "src": "602:67:40",
+                          "typeDescriptions": {
+                            "typeIdentifier": "t_uint64",
+                            "typeString": "uint64"
+                          }
+                        },
+                        "src": "592:77:40",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_uint64",
+                          "typeString": "uint64"
+                        }
+                      },
+                      "id": 6266,
+                      "nodeType": "ExpressionStatement",
+                      "src": "592:77:40"
+                    }
+                  ]
+                },
+                {
+                  "expression": {
+                    "arguments": [
+                      {
+                        "arguments": [
+                          {
+                            "id": 6273,
+                            "name": "gateKey",
+                            "nodeType": "Identifier",
+                            "overloadedDeclarations": [],
+                            "referencedDeclaration": 6233,
+                            "src": "721:7:40",
+                            "typeDescriptions": {
+                              "typeIdentifier": "t_uint64",
+                              "typeString": "uint64"
+                            }
+                          }
+                        ],
+                        "expression": {
+                          "argumentTypes": [
+                            {
+                              "typeIdentifier": "t_uint64",
+                              "typeString": "uint64"
+                            }
+                          ],
+                          "id": 6272,
+                          "isConstant": false,
+                          "isLValue": false,
+                          "isPure": true,
+                          "lValueRequested": false,
+                          "nodeType": "ElementaryTypeNameExpression",
+                          "src": "714:6:40",
+                          "typeDescriptions": {
+                            "typeIdentifier": "t_type$_t_bytes8_$",
+                            "typeString": "type(bytes8)"
+                          },
+                          "typeName": {
+                            "id": 6271,
+                            "name": "bytes8",
+                            "nodeType": "ElementaryTypeName",
+                            "src": "714:6:40",
+                            "typeDescriptions": {}
+                          }
+                        },
+                        "id": 6274,
+                        "isConstant": false,
+                        "isLValue": false,
+                        "isPure": false,
+                        "kind": "typeConversion",
+                        "lValueRequested": false,
+                        "nameLocations": [],
+                        "names": [],
+                        "nodeType": "FunctionCall",
+                        "src": "714:15:40",
+                        "tryCall": false,
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_bytes8",
+                          "typeString": "bytes8"
+                        }
+                      }
+                    ],
+                    "expression": {
+                      "argumentTypes": [
+                        {
+                          "typeIdentifier": "t_bytes8",
+                          "typeString": "bytes8"
+                        }
+                      ],
+                      "expression": {
+                        "id": 6268,
+                        "name": "challenge",
+                        "nodeType": "Identifier",
+                        "overloadedDeclarations": [],
+                        "referencedDeclaration": 6231,
+                        "src": "698:9:40",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_contract$_IGatekeeperTwo_$6225",
+                          "typeString": "contract IGatekeeperTwo"
+                        }
+                      },
+                      "id": 6270,
+                      "isConstant": false,
+                      "isLValue": false,
+                      "isPure": false,
+                      "lValueRequested": false,
+                      "memberLocation": "708:5:40",
+                      "memberName": "enter",
+                      "nodeType": "MemberAccess",
+                      "referencedDeclaration": 6224,
+                      "src": "698:15:40",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_function_external_nonpayable$_t_bytes8_$returns$_t_bool_$",
+                        "typeString": "function (bytes8) external returns (bool)"
+                      }
+                    },
+                    "id": 6275,
+                    "isConstant": false,
+                    "isLValue": false,
+                    "isPure": false,
+                    "kind": "functionCall",
+                    "lValueRequested": false,
+                    "nameLocations": [],
+                    "names": [],
+                    "nodeType": "FunctionCall",
+                    "src": "698:32:40",
+                    "tryCall": false,
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_bool",
+                      "typeString": "bool"
+                    }
+                  },
+                  "id": 6276,
+                  "nodeType": "ExpressionStatement",
+                  "src": "698:32:40"
+                }
+              ]
+            },
+            "implemented": true,
+            "kind": "constructor",
+            "modifiers": [],
+            "name": "",
+            "nameLocation": "-1:-1:-1",
+            "parameters": {
+              "id": 6236,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 6235,
+                  "mutability": "mutable",
+                  "name": "challengeAddress",
+                  "nameLocation": "361:16:40",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 6278,
+                  "src": "353:24:40",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_address",
+                    "typeString": "address"
+                  },
+                  "typeName": {
+                    "id": 6234,
+                    "name": "address",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "353:7:40",
+                    "stateMutability": "nonpayable",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_address",
+                      "typeString": "address"
+                    }
+                  },
+                  "visibility": "internal"
+                }
+              ],
+              "src": "352:26:40"
+            },
+            "returnParameters": {
+              "id": 6237,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "379:0:40"
+            },
+            "scope": 6279,
+            "stateMutability": "nonpayable",
+            "virtual": false,
+            "visibility": "public"
+          }
+        ],
+        "abstract": false,
+        "baseContracts": [],
+        "canonicalName": "GatekeeperTwoHack",
+        "contractDependencies": [],
+        "contractKind": "contract",
+        "fullyImplemented": true,
+        "linearizedBaseContracts": [
+          6279
+        ],
+        "name": "GatekeeperTwoHack",
+        "nameLocation": "227:17:40",
+        "scope": 6280,
+        "usedErrors": []
+      }
+    ],
+    "license": "MIT"
+  },
+  "id": 40
+}

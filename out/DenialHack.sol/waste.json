@@ -1,0 +1,253 @@
+{
+  "abi": [],
+  "bytecode": {
+    "object": "0x6080604052348015600f57600080fd5b50603f80601d6000396000f3fe6080604052600080fdfea2646970667358221220917d254dcd4217f1fc61476853c3d6b1e4e585c3b664871ba3feae7d937dbe4064736f6c63430008110033",
+    "sourceMap": "58:17:17:-:0;;;;;;;;;;;;;;;;;;;",
+    "linkReferences": {}
+  },
+  "deployedBytecode": {
+    "object": "0x6080604052600080fdfea2646970667358221220917d254dcd4217f1fc61476853c3d6b1e4e585c3b664871ba3feae7d937dbe4064736f6c63430008110033",
+    "sourceMap": "58:17:17:-:0;;;;;",
+    "linkReferences": {}
+  },
+  "methodIdentifiers": {},
+  "rawMetadata": "{\"compiler\":{\"version\":\"0.8.17+commit.8df45f5f\"},\"language\":\"Solidity\",\"output\":{\"abi\":[],\"devdoc\":{\"kind\":\"dev\",\"methods\":{},\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"version\":1}},\"settings\":{\"compilationTarget\":{\"src/Denial/DenialHack.sol\":\"waste\"},\"evmVersion\":\"london\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":true,\"runs\":200},\"remappings\":[\":ds-test/=lib/ds-test/src/\",\":openzeppelin-contracts/=lib/openzeppelin-contracts/\"]},\"sources\":{\"src/Denial/DenialHack.sol\":{\"keccak256\":\"0x296cdb62ae201e93e562e19d59e6285796295daa4c83fc2ded1b953d3f6ae8f4\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://4fa2f40d15f58f8bd42673a9bca9fabf0284e3f5ee2e01ddc790fff3ae69d29a\",\"dweb:/ipfs/Qmemwtny5MJ7K7RQHz7geFSryWCARGpfoEZPni1vLjTsQR\"]}},\"version\":1}",
+  "metadata": {
+    "compiler": {
+      "version": "0.8.17+commit.8df45f5f"
+    },
+    "language": "Solidity",
+    "output": {
+      "abi": [],
+      "devdoc": {
+        "kind": "dev",
+        "methods": {},
+        "version": 1
+      },
+      "userdoc": {
+        "kind": "user",
+        "methods": {},
+        "version": 1
+      }
+    },
+    "settings": {
+      "remappings": [
+        ":ds-test/=lib/ds-test/src/",
+        ":openzeppelin-contracts/=lib/openzeppelin-contracts/"
+      ],
+      "optimizer": {
+        "enabled": true,
+        "runs": 200
+      },
+      "metadata": {
+        "bytecodeHash": "ipfs"
+      },
+      "compilationTarget": {
+        "src/Denial/DenialHack.sol": "waste"
+      },
+      "libraries": {}
+    },
+    "sources": {
+      "src/Denial/DenialHack.sol": {
+        "keccak256": "0x296cdb62ae201e93e562e19d59e6285796295daa4c83fc2ded1b953d3f6ae8f4",
+        "urls": [
+          "bzz-raw://4fa2f40d15f58f8bd42673a9bca9fabf0284e3f5ee2e01ddc790fff3ae69d29a",
+          "dweb:/ipfs/Qmemwtny5MJ7K7RQHz7geFSryWCARGpfoEZPni1vLjTsQR"
+        ],
+        "license": "MIT"
+      }
+    },
+    "version": 1
+  },
+  "ast": {
+    "absolutePath": "src/Denial/DenialHack.sol",
+    "id": 3914,
+    "exportedSymbols": {
+      "DenialHack": [
+        3913
+      ],
+      "waste": [
+        3900
+      ]
+    },
+    "nodeType": "SourceUnit",
+    "src": "32:263:17",
+    "nodes": [
+      {
+        "id": 3899,
+        "nodeType": "PragmaDirective",
+        "src": "32:24:17",
+        "nodes": [],
+        "literals": [
+          "solidity",
+          "^",
+          "0.8",
+          ".10"
+        ]
+      },
+      {
+        "id": 3900,
+        "nodeType": "ContractDefinition",
+        "src": "58:17:17",
+        "nodes": [],
+        "abstract": false,
+        "baseContracts": [],
+        "canonicalName": "waste",
+        "contractDependencies": [],
+        "contractKind": "contract",
+        "fullyImplemented": true,
+        "linearizedBaseContracts": [
+          3900
+        ],
+        "name": "waste",
+        "nameLocation": "67:5:17",
+        "scope": 3914,
+        "usedErrors": []
+      },
+      {
+        "id": 3913,
+        "nodeType": "ContractDefinition",
+        "src": "77:216:17",
+        "nodes": [
+          {
+            "id": 3912,
+            "nodeType": "FunctionDefinition",
+            "src": "103:188:17",
+            "nodes": [],
+            "body": {
+              "id": 3911,
+              "nodeType": "Block",
+              "src": "131:160:17",
+              "nodes": [],
+              "statements": [
+                {
+                  "body": {
+                    "id": 3909,
+                    "nodeType": "Block",
+                    "src": "249:36:17",
+                    "statements": [
+                      {
+                        "expression": {
+                          "arguments": [],
+                          "expression": {
+                            "argumentTypes": [],
+                            "id": 3906,
+                            "isConstant": false,
+                            "isLValue": false,
+                            "isPure": false,
+                            "lValueRequested": false,
+                            "nodeType": "NewExpression",
+                            "src": "263:9:17",
+                            "typeDescriptions": {
+                              "typeIdentifier": "t_function_creation_nonpayable$__$returns$_t_contract$_waste_$3900_$",
+                              "typeString": "function () returns (contract waste)"
+                            },
+                            "typeName": {
+                              "id": 3905,
+                              "nodeType": "UserDefinedTypeName",
+                              "pathNode": {
+                                "id": 3904,
+                                "name": "waste",
+                                "nameLocations": [
+                                  "267:5:17"
+                                ],
+                                "nodeType": "IdentifierPath",
+                                "referencedDeclaration": 3900,
+                                "src": "267:5:17"
+                              },
+                              "referencedDeclaration": 3900,
+                              "src": "267:5:17",
+                              "typeDescriptions": {
+                                "typeIdentifier": "t_contract$_waste_$3900",
+                                "typeString": "contract waste"
+                              }
+                            }
+                          },
+                          "id": 3907,
+                          "isConstant": false,
+                          "isLValue": false,
+                          "isPure": false,
+                          "kind": "functionCall",
+                          "lValueRequested": false,
+                          "nameLocations": [],
+                          "names": [],
+                          "nodeType": "FunctionCall",
+                          "src": "263:11:17",
+                          "tryCall": false,
+                          "typeDescriptions": {
+                            "typeIdentifier": "t_contract$_waste_$3900",
+                            "typeString": "contract waste"
+                          }
+                        },
+                        "id": 3908,
+                        "nodeType": "ExpressionStatement",
+                        "src": "263:11:17"
+                      }
+                    ]
+                  },
+                  "condition": {
+                    "hexValue": "74727565",
+                    "id": 3903,
+                    "isConstant": false,
+                    "isLValue": false,
+                    "isPure": true,
+                    "kind": "bool",
+                    "lValueRequested": false,
+                    "nodeType": "Literal",
+                    "src": "243:4:17",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_bool",
+                      "typeString": "bool"
+                    },
+                    "value": "true"
+                  },
+                  "id": 3910,
+                  "nodeType": "WhileStatement",
+                  "src": "237:48:17"
+                }
+              ]
+            },
+            "implemented": true,
+            "kind": "fallback",
+            "modifiers": [],
+            "name": "",
+            "nameLocation": "-1:-1:-1",
+            "parameters": {
+              "id": 3901,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "111:2:17"
+            },
+            "returnParameters": {
+              "id": 3902,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "131:0:17"
+            },
+            "scope": 3913,
+            "stateMutability": "payable",
+            "virtual": false,
+            "visibility": "external"
+          }
+        ],
+        "abstract": false,
+        "baseContracts": [],
+        "canonicalName": "DenialHack",
+        "contractDependencies": [
+          3900
+        ],
+        "contractKind": "contract",
+        "fullyImplemented": true,
+        "linearizedBaseContracts": [
+          3913
+        ],
+        "name": "DenialHack",
+        "nameLocation": "86:10:17",
+        "scope": 3914,
+        "usedErrors": []
+      }
+    ],
+    "license": "MIT"
+  },
+  "id": 17
+}

