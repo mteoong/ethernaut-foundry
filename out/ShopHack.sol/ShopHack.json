@@ -33,20 +33,20 @@
     }
   ],
   "bytecode": {
-    "object": "0x608060405234801561001057600080fd5b5060405161023b38038061023b83398101604081905261002f91610054565b600080546001600160a01b0319166001600160a01b0392909216919091179055610084565b60006020828403121561006657600080fd5b81516001600160a01b038116811461007d57600080fd5b9392505050565b6101a8806100936000396000f3fe608060405234801561001057600080fd5b50600436106100365760003560e01c80639e5faafc1461003b578063a035b1fe14610045575b600080fd5b61004361005f565b005b61004d6100ba565b60405190815260200160405180910390f35b6000805460408051635379571d60e11b815290516001600160a01b039092169263a6f2ae3a9260048084019382900301818387803b1580156100a057600080fd5b505af11580156100b4573d6000803e3d6000fd5b50505050565b60008060009054906101000a90046001600160a01b03166001600160a01b031663e852e7416040518163ffffffff1660e01b8152600401602060405180830381865afa15801561010e573d6000803e3d6000fd5b505050506040513d601f19601f820116820180604052508101906101329190610149565b1561013e576000610141565b60645b60ff16905090565b60006020828403121561015b57600080fd5b8151801515811461016b57600080fd5b939250505056fea2646970667358221220ae2ad610b5724c1d79c1f799b7bb307889d530e2fa7d3801fef1f4e9d87dd66e64736f6c63430008110033",
-    "sourceMap": "80:254:66:-:0;;;120:53;;;;;;;;;;;;;;;;;;;;;;;;;;;;:::i;:::-;154:4;:12;;-1:-1:-1;;;;;;154:12:66;-1:-1:-1;;;;;154:12:66;;;;;;;;;;80:254;;14:303:100;97:6;150:2;138:9;129:7;125:23;121:32;118:52;;;166:1;163;156:12;118:52;192:16;;-1:-1:-1;;;;;237:31:100;;227:42;;217:70;;283:1;280;273:12;217:70;306:5;14:303;-1:-1:-1;;;14:303:100:o;:::-;80:254:66;;;;;;",
+    "object": "0x608060405234801561001057600080fd5b5060405161023b38038061023b83398101604081905261002f91610054565b600080546001600160a01b0319166001600160a01b0392909216919091179055610084565b60006020828403121561006657600080fd5b81516001600160a01b038116811461007d57600080fd5b9392505050565b6101a8806100936000396000f3fe608060405234801561001057600080fd5b50600436106100365760003560e01c80639e5faafc1461003b578063a035b1fe14610045575b600080fd5b61004361005f565b005b61004d6100ba565b60405190815260200160405180910390f35b6000805460408051635379571d60e11b815290516001600160a01b039092169263a6f2ae3a9260048084019382900301818387803b1580156100a057600080fd5b505af11580156100b4573d6000803e3d6000fd5b50505050565b60008060009054906101000a90046001600160a01b03166001600160a01b031663e852e7416040518163ffffffff1660e01b8152600401602060405180830381865afa15801561010e573d6000803e3d6000fd5b505050506040513d601f19601f820116820180604052508101906101329190610149565b1561013e576000610141565b60645b60ff16905090565b60006020828403121561015b57600080fd5b8151801515811461016b57600080fd5b939250505056fea264697066735822122006fdc10090ce1557a71464b0a82846b63d38573967dbde19d5c1b301e472d56964736f6c63430008110033",
+    "sourceMap": "80:254:79:-:0;;;120:53;;;;;;;;;;;;;;;;;;;;;;;;;;;;:::i;:::-;154:4;:12;;-1:-1:-1;;;;;;154:12:79;-1:-1:-1;;;;;154:12:79;;;;;;;;;;80:254;;14:304:112;98:6;151:2;139:9;130:7;126:23;122:32;119:52;;;167:1;164;157:12;119:52;193:16;;-1:-1:-1;;;;;238:31:112;;228:42;;218:70;;284:1;281;274:12;218:70;307:5;14:304;-1:-1:-1;;;14:304:112:o;:::-;80:254:79;;;;;;",
     "linkReferences": {}
   },
   "deployedBytecode": {
-    "object": "0x608060405234801561001057600080fd5b50600436106100365760003560e01c80639e5faafc1461003b578063a035b1fe14610045575b600080fd5b61004361005f565b005b61004d6100ba565b60405190815260200160405180910390f35b6000805460408051635379571d60e11b815290516001600160a01b039092169263a6f2ae3a9260048084019382900301818387803b1580156100a057600080fd5b505af11580156100b4573d6000803e3d6000fd5b50505050565b60008060009054906101000a90046001600160a01b03166001600160a01b031663e852e7416040518163ffffffff1660e01b8152600401602060405180830381865afa15801561010e573d6000803e3d6000fd5b505050506040513d601f19601f820116820180604052508101906101329190610149565b1561013e576000610141565b60645b60ff16905090565b60006020828403121561015b57600080fd5b8151801515811461016b57600080fd5b939250505056fea2646970667358221220ae2ad610b5724c1d79c1f799b7bb307889d530e2fa7d3801fef1f4e9d87dd66e64736f6c63430008110033",
-    "sourceMap": "80:254:66:-:0;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;278:54;;;:::i;:::-;;179:93;;;:::i;:::-;;;160:25:100;;;148:2;133:18;179:93:66;;;;;;;278:54;315:4;;;:10;;;-1:-1:-1;;;315:10:66;;;;-1:-1:-1;;;;;315:4:66;;;;:8;;:10;;;;;;;;;;:4;;:10;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;278:54::o;179:93::-;218:4;242;;;;;;;;;-1:-1:-1;;;;;242:4:66;-1:-1:-1;;;;;242:11:66;;:13;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;:::i;:::-;241:14;:24;;264:1;241:24;;;258:3;241:24;234:31;;;;179:93;:::o;196:277:100:-;263:6;316:2;304:9;295:7;291:23;287:32;284:52;;;332:1;329;322:12;284:52;364:9;358:16;417:5;410:13;403:21;396:5;393:32;383:60;;439:1;436;429:12;383:60;462:5;196:277;-1:-1:-1;;;196:277:100:o",
+    "object": "0x608060405234801561001057600080fd5b50600436106100365760003560e01c80639e5faafc1461003b578063a035b1fe14610045575b600080fd5b61004361005f565b005b61004d6100ba565b60405190815260200160405180910390f35b6000805460408051635379571d60e11b815290516001600160a01b039092169263a6f2ae3a9260048084019382900301818387803b1580156100a057600080fd5b505af11580156100b4573d6000803e3d6000fd5b50505050565b60008060009054906101000a90046001600160a01b03166001600160a01b031663e852e7416040518163ffffffff1660e01b8152600401602060405180830381865afa15801561010e573d6000803e3d6000fd5b505050506040513d601f19601f820116820180604052508101906101329190610149565b1561013e576000610141565b60645b60ff16905090565b60006020828403121561015b57600080fd5b8151801515811461016b57600080fd5b939250505056fea264697066735822122006fdc10090ce1557a71464b0a82846b63d38573967dbde19d5c1b301e472d56964736f6c63430008110033",
+    "sourceMap": "80:254:79:-:0;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;278:54;;;:::i;:::-;;179:93;;;:::i;:::-;;;160:25:112;;;148:2;133:18;179:93:79;;;;;;;278:54;315:4;;;:10;;;-1:-1:-1;;;315:10:79;;;;-1:-1:-1;;;;;315:4:79;;;;:8;;:10;;;;;;;;;;:4;;:10;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;278:54::o;179:93::-;218:4;242;;;;;;;;;-1:-1:-1;;;;;242:4:79;-1:-1:-1;;;;;242:11:79;;:13;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;:::i;:::-;241:14;:24;;264:1;241:24;;;258:3;241:24;234:31;;;;179:93;:::o;196:277:112:-;263:6;316:2;304:9;295:7;291:23;287:32;284:52;;;332:1;329;322:12;284:52;364:9;358:16;417:5;410:13;403:21;396:5;393:32;383:60;;439:1;436;429:12;383:60;462:5;196:277;-1:-1:-1;;;196:277:112:o",
     "linkReferences": {}
   },
   "methodIdentifiers": {
     "attack()": "9e5faafc",
     "price()": "a035b1fe"
   },
-  "rawMetadata": "{\"compiler\":{\"version\":\"0.8.17+commit.8df45f5f\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"inputs\":[{\"internalType\":\"contract Shop\",\"name\":\"_shop\",\"type\":\"address\"}],\"stateMutability\":\"nonpayable\",\"type\":\"constructor\"},{\"inputs\":[],\"name\":\"attack\",\"outputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"price\",\"outputs\":[{\"internalType\":\"uint256\",\"name\":\"\",\"type\":\"uint256\"}],\"stateMutability\":\"view\",\"type\":\"function\"}],\"devdoc\":{\"kind\":\"dev\",\"methods\":{},\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"version\":1}},\"settings\":{\"compilationTarget\":{\"src/Shop/ShopHack.sol\":\"ShopHack\"},\"evmVersion\":\"london\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":true,\"runs\":200},\"remappings\":[\":ds-test/=lib/ds-test/src/\",\":openzeppelin-contracts/=lib/openzeppelin-contracts/\"]},\"sources\":{\"src/Shop/Shop.sol\":{\"keccak256\":\"0x429dacc72b9b26bf160a70080d488328aa0c303aa81b3c629e0a5ccb6474a7ec\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://7e74a7cc87b59808380e1a333e149bb76358ae82bc795d4d08ee5f98a9ad8c58\",\"dweb:/ipfs/QmZ6RiszezbNsfzxRpvMr9a4cjrgC6BRnC2twRX3DHRqaw\"]},\"src/Shop/ShopHack.sol\":{\"keccak256\":\"0xdff025f7041db31802722f00b45f07d7fc764a549accfb8cc1f759e800696594\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://71527191d72a666c88130877783926e5c4cddb8d7ae44173477e02324d67a2fd\",\"dweb:/ipfs/Qme4UjWrhV78xttyoUNZVQmc2Zz5dYVM4wyWVuGdJLfXQb\"]}},\"version\":1}",
+  "rawMetadata": "{\"compiler\":{\"version\":\"0.8.17+commit.8df45f5f\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"inputs\":[{\"internalType\":\"contract Shop\",\"name\":\"_shop\",\"type\":\"address\"}],\"stateMutability\":\"nonpayable\",\"type\":\"constructor\"},{\"inputs\":[],\"name\":\"attack\",\"outputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"price\",\"outputs\":[{\"internalType\":\"uint256\",\"name\":\"\",\"type\":\"uint256\"}],\"stateMutability\":\"view\",\"type\":\"function\"}],\"devdoc\":{\"kind\":\"dev\",\"methods\":{},\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"version\":1}},\"settings\":{\"compilationTarget\":{\"src/Shop/ShopHack.sol\":\"ShopHack\"},\"evmVersion\":\"london\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":true,\"runs\":200},\"remappings\":[\":ds-test/=lib/ds-test/src/\",\":forge-std/=lib/forge-std/src/\",\":openzeppelin-contracts/=lib/openzeppelin-contracts/\"]},\"sources\":{\"src/Shop/Shop.sol\":{\"keccak256\":\"0x429dacc72b9b26bf160a70080d488328aa0c303aa81b3c629e0a5ccb6474a7ec\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://7e74a7cc87b59808380e1a333e149bb76358ae82bc795d4d08ee5f98a9ad8c58\",\"dweb:/ipfs/QmZ6RiszezbNsfzxRpvMr9a4cjrgC6BRnC2twRX3DHRqaw\"]},\"src/Shop/ShopHack.sol\":{\"keccak256\":\"0xdff025f7041db31802722f00b45f07d7fc764a549accfb8cc1f759e800696594\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://71527191d72a666c88130877783926e5c4cddb8d7ae44173477e02324d67a2fd\",\"dweb:/ipfs/Qme4UjWrhV78xttyoUNZVQmc2Zz5dYVM4wyWVuGdJLfXQb\"]}},\"version\":1}",
   "metadata": {
     "compiler": {
       "version": "0.8.17+commit.8df45f5f"
@@ -99,6 +99,7 @@
     "settings": {
       "remappings": [
         ":ds-test/=lib/ds-test/src/",
+        ":forge-std/=lib/forge-std/src/",
         ":openzeppelin-contracts/=lib/openzeppelin-contracts/"
       ],
       "optimizer": {
@@ -135,25 +136,25 @@
   },
   "ast": {
     "absolutePath": "src/Shop/ShopHack.sol",
-    "id": 8818,
+    "id": 32507,
     "exportedSymbols": {
       "Buyer": [
-        8683
+        32372
       ],
       "Shop": [
-        8721
+        32410
       ],
       "ShopHack": [
-        8817
+        32506
       ]
     },
     "nodeType": "SourceUnit",
-    "src": "33:302:66",
+    "src": "33:302:79",
     "nodes": [
       {
-        "id": 8778,
+        "id": 32467,
         "nodeType": "PragmaDirective",
-        "src": "33:24:66",
+        "src": "33:24:79",
         "nodes": [],
         "literals": [
           "solidity",
@@ -163,114 +164,114 @@
         ]
       },
       {
-        "id": 8779,
+        "id": 32468,
         "nodeType": "ImportDirective",
-        "src": "58:20:66",
+        "src": "58:20:79",
         "nodes": [],
         "absolutePath": "src/Shop/Shop.sol",
         "file": "./Shop.sol",
         "nameLocation": "-1:-1:-1",
-        "scope": 8818,
-        "sourceUnit": 8722,
+        "scope": 32507,
+        "sourceUnit": 32411,
         "symbolAliases": [],
         "unitAlias": ""
       },
       {
-        "id": 8817,
+        "id": 32506,
         "nodeType": "ContractDefinition",
-        "src": "80:254:66",
+        "src": "80:254:79",
         "nodes": [
           {
-            "id": 8782,
+            "id": 32471,
             "nodeType": "VariableDeclaration",
-            "src": "104:9:66",
+            "src": "104:9:79",
             "nodes": [],
             "constant": false,
             "mutability": "mutable",
             "name": "shop",
-            "nameLocation": "109:4:66",
-            "scope": 8817,
+            "nameLocation": "109:4:79",
+            "scope": 32506,
             "stateVariable": true,
             "storageLocation": "default",
             "typeDescriptions": {
-              "typeIdentifier": "t_contract$_Shop_$8721",
+              "typeIdentifier": "t_contract$_Shop_$32410",
               "typeString": "contract Shop"
             },
             "typeName": {
-              "id": 8781,
+              "id": 32470,
               "nodeType": "UserDefinedTypeName",
               "pathNode": {
-                "id": 8780,
+                "id": 32469,
                 "name": "Shop",
                 "nameLocations": [
-                  "104:4:66"
+                  "104:4:79"
                 ],
                 "nodeType": "IdentifierPath",
-                "referencedDeclaration": 8721,
-                "src": "104:4:66"
+                "referencedDeclaration": 32410,
+                "src": "104:4:79"
               },
-              "referencedDeclaration": 8721,
-              "src": "104:4:66",
+              "referencedDeclaration": 32410,
+              "src": "104:4:79",
               "typeDescriptions": {
-                "typeIdentifier": "t_contract$_Shop_$8721",
+                "typeIdentifier": "t_contract$_Shop_$32410",
                 "typeString": "contract Shop"
               }
             },
             "visibility": "internal"
           },
           {
-            "id": 8793,
+            "id": 32482,
             "nodeType": "FunctionDefinition",
-            "src": "120:53:66",
+            "src": "120:53:79",
             "nodes": [],
             "body": {
-              "id": 8792,
+              "id": 32481,
               "nodeType": "Block",
-              "src": "144:29:66",
+              "src": "144:29:79",
               "nodes": [],
               "statements": [
                 {
                   "expression": {
-                    "id": 8790,
+                    "id": 32479,
                     "isConstant": false,
                     "isLValue": false,
                     "isPure": false,
                     "lValueRequested": false,
                     "leftHandSide": {
-                      "id": 8788,
+                      "id": 32477,
                       "name": "shop",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
-                      "referencedDeclaration": 8782,
-                      "src": "154:4:66",
+                      "referencedDeclaration": 32471,
+                      "src": "154:4:79",
                       "typeDescriptions": {
-                        "typeIdentifier": "t_contract$_Shop_$8721",
+                        "typeIdentifier": "t_contract$_Shop_$32410",
                         "typeString": "contract Shop"
                       }
                     },
                     "nodeType": "Assignment",
                     "operator": "=",
                     "rightHandSide": {
-                      "id": 8789,
+                      "id": 32478,
                       "name": "_shop",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
-                      "referencedDeclaration": 8785,
-                      "src": "161:5:66",
+                      "referencedDeclaration": 32474,
+                      "src": "161:5:79",
                       "typeDescriptions": {
-                        "typeIdentifier": "t_contract$_Shop_$8721",
+                        "typeIdentifier": "t_contract$_Shop_$32410",
                         "typeString": "contract Shop"
                       }
                     },
-                    "src": "154:12:66",
+                    "src": "154:12:79",
                     "typeDescriptions": {
-                      "typeIdentifier": "t_contract$_Shop_$8721",
+                      "typeIdentifier": "t_contract$_Shop_$32410",
                       "typeString": "contract Shop"
                     }
                   },
-                  "id": 8791,
+                  "id": 32480,
                   "nodeType": "ExpressionStatement",
-                  "src": "154:12:66"
+                  "src": "154:12:79"
                 }
               ]
             },
@@ -280,75 +281,75 @@
             "name": "",
             "nameLocation": "-1:-1:-1",
             "parameters": {
-              "id": 8786,
+              "id": 32475,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 8785,
+                  "id": 32474,
                   "mutability": "mutable",
                   "name": "_shop",
-                  "nameLocation": "137:5:66",
+                  "nameLocation": "137:5:79",
                   "nodeType": "VariableDeclaration",
-                  "scope": 8793,
-                  "src": "132:10:66",
+                  "scope": 32482,
+                  "src": "132:10:79",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
-                    "typeIdentifier": "t_contract$_Shop_$8721",
+                    "typeIdentifier": "t_contract$_Shop_$32410",
                     "typeString": "contract Shop"
                   },
                   "typeName": {
-                    "id": 8784,
+                    "id": 32473,
                     "nodeType": "UserDefinedTypeName",
                     "pathNode": {
-                      "id": 8783,
+                      "id": 32472,
                       "name": "Shop",
                       "nameLocations": [
-                        "132:4:66"
+                        "132:4:79"
                       ],
                       "nodeType": "IdentifierPath",
-                      "referencedDeclaration": 8721,
-                      "src": "132:4:66"
+                      "referencedDeclaration": 32410,
+                      "src": "132:4:79"
                     },
-                    "referencedDeclaration": 8721,
-                    "src": "132:4:66",
+                    "referencedDeclaration": 32410,
+                    "src": "132:4:79",
                     "typeDescriptions": {
-                      "typeIdentifier": "t_contract$_Shop_$8721",
+                      "typeIdentifier": "t_contract$_Shop_$32410",
                       "typeString": "contract Shop"
                     }
                   },
                   "visibility": "internal"
                 }
               ],
-              "src": "131:12:66"
+              "src": "131:12:79"
             },
             "returnParameters": {
-              "id": 8787,
+              "id": 32476,
               "nodeType": "ParameterList",
               "parameters": [],
-              "src": "144:0:66"
+              "src": "144:0:79"
             },
-            "scope": 8817,
+            "scope": 32506,
             "stateMutability": "nonpayable",
             "virtual": false,
             "visibility": "public"
           },
           {
-            "id": 8807,
+            "id": 32496,
             "nodeType": "FunctionDefinition",
-            "src": "179:93:66",
+            "src": "179:93:79",
             "nodes": [],
             "body": {
-              "id": 8806,
+              "id": 32495,
               "nodeType": "Block",
-              "src": "224:48:66",
+              "src": "224:48:79",
               "nodes": [],
               "statements": [
                 {
                   "expression": {
                     "condition": {
-                      "id": 8801,
+                      "id": 32490,
                       "isConstant": false,
                       "isLValue": false,
                       "isPure": false,
@@ -356,39 +357,39 @@
                       "nodeType": "UnaryOperation",
                       "operator": "!",
                       "prefix": true,
-                      "src": "241:14:66",
+                      "src": "241:14:79",
                       "subExpression": {
                         "arguments": [],
                         "expression": {
                           "argumentTypes": [],
                           "expression": {
-                            "id": 8798,
+                            "id": 32487,
                             "name": "shop",
                             "nodeType": "Identifier",
                             "overloadedDeclarations": [],
-                            "referencedDeclaration": 8782,
-                            "src": "242:4:66",
+                            "referencedDeclaration": 32471,
+                            "src": "242:4:79",
                             "typeDescriptions": {
-                              "typeIdentifier": "t_contract$_Shop_$8721",
+                              "typeIdentifier": "t_contract$_Shop_$32410",
                               "typeString": "contract Shop"
                             }
                           },
-                          "id": 8799,
+                          "id": 32488,
                           "isConstant": false,
                           "isLValue": false,
                           "isPure": false,
                           "lValueRequested": false,
-                          "memberLocation": "247:6:66",
+                          "memberLocation": "247:6:79",
                           "memberName": "isSold",
                           "nodeType": "MemberAccess",
-                          "referencedDeclaration": 8688,
-                          "src": "242:11:66",
+                          "referencedDeclaration": 32377,
+                          "src": "242:11:79",
                           "typeDescriptions": {
                             "typeIdentifier": "t_function_external_view$__$returns$_t_bool_$",
                             "typeString": "function () view external returns (bool)"
                           }
                         },
-                        "id": 8800,
+                        "id": 32489,
                         "isConstant": false,
                         "isLValue": false,
                         "isPure": false,
@@ -397,7 +398,7 @@
                         "nameLocations": [],
                         "names": [],
                         "nodeType": "FunctionCall",
-                        "src": "242:13:66",
+                        "src": "242:13:79",
                         "tryCall": false,
                         "typeDescriptions": {
                           "typeIdentifier": "t_bool",
@@ -411,37 +412,37 @@
                     },
                     "falseExpression": {
                       "hexValue": "30",
-                      "id": 8803,
+                      "id": 32492,
                       "isConstant": false,
                       "isLValue": false,
                       "isPure": true,
                       "kind": "number",
                       "lValueRequested": false,
                       "nodeType": "Literal",
-                      "src": "264:1:66",
+                      "src": "264:1:79",
                       "typeDescriptions": {
                         "typeIdentifier": "t_rational_0_by_1",
                         "typeString": "int_const 0"
                       },
                       "value": "0"
                     },
-                    "id": 8804,
+                    "id": 32493,
                     "isConstant": false,
                     "isLValue": false,
                     "isPure": false,
                     "lValueRequested": false,
                     "nodeType": "Conditional",
-                    "src": "241:24:66",
+                    "src": "241:24:79",
                     "trueExpression": {
                       "hexValue": "313030",
-                      "id": 8802,
+                      "id": 32491,
                       "isConstant": false,
                       "isLValue": false,
                       "isPure": true,
                       "kind": "number",
                       "lValueRequested": false,
                       "nodeType": "Literal",
-                      "src": "258:3:66",
+                      "src": "258:3:79",
                       "typeDescriptions": {
                         "typeIdentifier": "t_rational_100_by_1",
                         "typeString": "int_const 100"
@@ -453,10 +454,10 @@
                       "typeString": "uint8"
                     }
                   },
-                  "functionReturnParameters": 8797,
-                  "id": 8805,
+                  "functionReturnParameters": 32486,
+                  "id": 32494,
                   "nodeType": "Return",
-                  "src": "234:31:66"
+                  "src": "234:31:79"
                 }
               ]
             },
@@ -465,26 +466,26 @@
             "kind": "function",
             "modifiers": [],
             "name": "price",
-            "nameLocation": "188:5:66",
+            "nameLocation": "188:5:79",
             "parameters": {
-              "id": 8794,
+              "id": 32483,
               "nodeType": "ParameterList",
               "parameters": [],
-              "src": "193:2:66"
+              "src": "193:2:79"
             },
             "returnParameters": {
-              "id": 8797,
+              "id": 32486,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 8796,
+                  "id": 32485,
                   "mutability": "mutable",
                   "name": "",
                   "nameLocation": "-1:-1:-1",
                   "nodeType": "VariableDeclaration",
-                  "scope": 8807,
-                  "src": "218:4:66",
+                  "scope": 32496,
+                  "src": "218:4:79",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -492,10 +493,10 @@
                     "typeString": "uint256"
                   },
                   "typeName": {
-                    "id": 8795,
+                    "id": 32484,
                     "name": "uint",
                     "nodeType": "ElementaryTypeName",
-                    "src": "218:4:66",
+                    "src": "218:4:79",
                     "typeDescriptions": {
                       "typeIdentifier": "t_uint256",
                       "typeString": "uint256"
@@ -504,22 +505,22 @@
                   "visibility": "internal"
                 }
               ],
-              "src": "217:6:66"
+              "src": "217:6:79"
             },
-            "scope": 8817,
+            "scope": 32506,
             "stateMutability": "view",
             "virtual": false,
             "visibility": "external"
           },
           {
-            "id": 8816,
+            "id": 32505,
             "nodeType": "FunctionDefinition",
-            "src": "278:54:66",
+            "src": "278:54:79",
             "nodes": [],
             "body": {
-              "id": 8815,
+              "id": 32504,
               "nodeType": "Block",
-              "src": "305:27:66",
+              "src": "305:27:79",
               "nodes": [],
               "statements": [
                 {
@@ -528,33 +529,33 @@
                     "expression": {
                       "argumentTypes": [],
                       "expression": {
-                        "id": 8810,
+                        "id": 32499,
                         "name": "shop",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 8782,
-                        "src": "315:4:66",
+                        "referencedDeclaration": 32471,
+                        "src": "315:4:79",
                         "typeDescriptions": {
-                          "typeIdentifier": "t_contract$_Shop_$8721",
+                          "typeIdentifier": "t_contract$_Shop_$32410",
                           "typeString": "contract Shop"
                         }
                       },
-                      "id": 8812,
+                      "id": 32501,
                       "isConstant": false,
                       "isLValue": false,
                       "isPure": false,
                       "lValueRequested": false,
-                      "memberLocation": "320:3:66",
+                      "memberLocation": "320:3:79",
                       "memberName": "buy",
                       "nodeType": "MemberAccess",
-                      "referencedDeclaration": 8720,
-                      "src": "315:8:66",
+                      "referencedDeclaration": 32409,
+                      "src": "315:8:79",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_external_nonpayable$__$returns$__$",
                         "typeString": "function () external"
                       }
                     },
-                    "id": 8813,
+                    "id": 32502,
                     "isConstant": false,
                     "isLValue": false,
                     "isPure": false,
@@ -563,16 +564,16 @@
                     "nameLocations": [],
                     "names": [],
                     "nodeType": "FunctionCall",
-                    "src": "315:10:66",
+                    "src": "315:10:79",
                     "tryCall": false,
                     "typeDescriptions": {
                       "typeIdentifier": "t_tuple$__$",
                       "typeString": "tuple()"
                     }
                   },
-                  "id": 8814,
+                  "id": 32503,
                   "nodeType": "ExpressionStatement",
-                  "src": "315:10:66"
+                  "src": "315:10:79"
                 }
               ]
             },
@@ -581,20 +582,20 @@
             "kind": "function",
             "modifiers": [],
             "name": "attack",
-            "nameLocation": "287:6:66",
+            "nameLocation": "287:6:79",
             "parameters": {
-              "id": 8808,
+              "id": 32497,
               "nodeType": "ParameterList",
               "parameters": [],
-              "src": "293:2:66"
+              "src": "293:2:79"
             },
             "returnParameters": {
-              "id": 8809,
+              "id": 32498,
               "nodeType": "ParameterList",
               "parameters": [],
-              "src": "305:0:66"
+              "src": "305:0:79"
             },
-            "scope": 8817,
+            "scope": 32506,
             "stateMutability": "nonpayable",
             "virtual": false,
             "visibility": "external"
@@ -607,15 +608,15 @@
         "contractKind": "contract",
         "fullyImplemented": true,
         "linearizedBaseContracts": [
-          8817
+          32506
         ],
         "name": "ShopHack",
-        "nameLocation": "89:8:66",
-        "scope": 8818,
+        "nameLocation": "89:8:79",
+        "scope": 32507,
         "usedErrors": []
       }
     ],
     "license": "MIT"
   },
-  "id": 66
+  "id": 79
 }

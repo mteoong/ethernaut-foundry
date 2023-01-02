@@ -68,13 +68,13 @@
     }
   ],
   "bytecode": {
-    "object": "0x608060405234801561001057600080fd5b506040516103bf3803806103bf83398101604081905261002f91610054565b600080546001600160a01b0319166001600160a01b0392909216919091179055610084565b60006020828403121561006657600080fd5b81516001600160a01b038116811461007d57600080fd5b9392505050565b61032c806100936000396000f3fe608060405234801561001057600080fd5b50600436106100415760003560e01c806323b872dd1461004657806370a08231146100725780639e5faafc14610094575b600080fd5b61005d610054366004610274565b60019392505050565b60405190151581526020015b60405180910390f35b6100866100803660046102b5565b50600190565b604051908152602001610069565b61009c61009e565b005b6000546040805163d21220a760e01b815290516001600160a01b039092169163df791e50913091849163d21220a79160048083019260209291908290030181865afa1580156100f1573d6000803e3d6000fd5b505050506040513d601f19601f8201168201806040525081019061011591906102d9565b6040516001600160e01b031960e085901b1681526001600160a01b0392831660048201529116602482015260016044820152606401600060405180830381600087803b15801561016457600080fd5b505af1158015610178573d6000803e3d6000fd5b5050600054604080516312df092760e11b815290516001600160a01b03909216935063df791e509250309184916325be124e9160048083019260209291908290030181865afa1580156101cf573d6000803e3d6000fd5b505050506040513d601f19601f820116820180604052508101906101f391906102d9565b6040516001600160e01b031960e085901b1681526001600160a01b0392831660048201529116602482015260016044820152606401600060405180830381600087803b15801561024257600080fd5b505af1158015610256573d6000803e3d6000fd5b50505050565b6001600160a01b038116811461027157600080fd5b50565b60008060006060848603121561028957600080fd5b83356102948161025c565b925060208401356102a48161025c565b929592945050506040919091013590565b6000602082840312156102c757600080fd5b81356102d28161025c565b9392505050565b6000602082840312156102eb57600080fd5b81516102d28161025c56fea2646970667358221220d710aed3d7a11716646695fc42f13ff08b5327343d262945b9ecd017579f99fc64736f6c63430008110033",
-    "sourceMap": "82:471:23:-:0;;;127:61;;;;;;;;;;;;;;;;;;;;;;;;;;;;:::i;:::-;165:6;:16;;-1:-1:-1;;;;;;165:16:23;-1:-1:-1;;;;;165:16:23;;;;;;;;;;82:471;;14:305:100;99:6;152:2;140:9;131:7;127:23;123:32;120:52;;;168:1;165;158:12;120:52;194:16;;-1:-1:-1;;;;;239:31:100;;229:42;;219:70;;285:1;282;275:12;219:70;308:5;14:305;-1:-1:-1;;;14:305:100:o;:::-;82:471:23;;;;;;",
+    "object": "0x608060405234801561001057600080fd5b506040516103bf3803806103bf83398101604081905261002f91610054565b600080546001600160a01b0319166001600160a01b0392909216919091179055610084565b60006020828403121561006657600080fd5b81516001600160a01b038116811461007d57600080fd5b9392505050565b61032c806100936000396000f3fe608060405234801561001057600080fd5b50600436106100415760003560e01c806323b872dd1461004657806370a08231146100725780639e5faafc14610094575b600080fd5b61005d610054366004610274565b60019392505050565b60405190151581526020015b60405180910390f35b6100866100803660046102b5565b50600190565b604051908152602001610069565b61009c61009e565b005b6000546040805163d21220a760e01b815290516001600160a01b039092169163df791e50913091849163d21220a79160048083019260209291908290030181865afa1580156100f1573d6000803e3d6000fd5b505050506040513d601f19601f8201168201806040525081019061011591906102d9565b6040516001600160e01b031960e085901b1681526001600160a01b0392831660048201529116602482015260016044820152606401600060405180830381600087803b15801561016457600080fd5b505af1158015610178573d6000803e3d6000fd5b5050600054604080516312df092760e11b815290516001600160a01b03909216935063df791e509250309184916325be124e9160048083019260209291908290030181865afa1580156101cf573d6000803e3d6000fd5b505050506040513d601f19601f820116820180604052508101906101f391906102d9565b6040516001600160e01b031960e085901b1681526001600160a01b0392831660048201529116602482015260016044820152606401600060405180830381600087803b15801561024257600080fd5b505af1158015610256573d6000803e3d6000fd5b50505050565b6001600160a01b038116811461027157600080fd5b50565b60008060006060848603121561028957600080fd5b83356102948161025c565b925060208401356102a48161025c565b929592945050506040919091013590565b6000602082840312156102c757600080fd5b81356102d28161025c565b9392505050565b6000602082840312156102eb57600080fd5b81516102d28161025c56fea26469706673582212207a7ca0731c5ef9accc90edbd12afcfa92addf5dd6bfa6c62b1d44a3697cb54c264736f6c63430008110033",
+    "sourceMap": "82:471:36:-:0;;;127:61;;;;;;;;;;;;;;;;;;;;;;;;;;;;:::i;:::-;165:6;:16;;-1:-1:-1;;;;;;165:16:36;-1:-1:-1;;;;;165:16:36;;;;;;;;;;82:471;;14:306:112;100:6;153:2;141:9;132:7;128:23;124:32;121:52;;;169:1;166;159:12;121:52;195:16;;-1:-1:-1;;;;;240:31:112;;230:42;;220:70;;286:1;283;276:12;220:70;309:5;14:306;-1:-1:-1;;;14:306:112:o;:::-;82:471:36;;;;;;",
     "linkReferences": {}
   },
   "deployedBytecode": {
-    "object": "0x608060405234801561001057600080fd5b50600436106100415760003560e01c806323b872dd1461004657806370a08231146100725780639e5faafc14610094575b600080fd5b61005d610054366004610274565b60019392505050565b60405190151581526020015b60405180910390f35b6100866100803660046102b5565b50600190565b604051908152602001610069565b61009c61009e565b005b6000546040805163d21220a760e01b815290516001600160a01b039092169163df791e50913091849163d21220a79160048083019260209291908290030181865afa1580156100f1573d6000803e3d6000fd5b505050506040513d601f19601f8201168201806040525081019061011591906102d9565b6040516001600160e01b031960e085901b1681526001600160a01b0392831660048201529116602482015260016044820152606401600060405180830381600087803b15801561016457600080fd5b505af1158015610178573d6000803e3d6000fd5b5050600054604080516312df092760e11b815290516001600160a01b03909216935063df791e509250309184916325be124e9160048083019260209291908290030181865afa1580156101cf573d6000803e3d6000fd5b505050506040513d601f19601f820116820180604052508101906101f391906102d9565b6040516001600160e01b031960e085901b1681526001600160a01b0392831660048201529116602482015260016044820152606401600060405180830381600087803b15801561024257600080fd5b505af1158015610256573d6000803e3d6000fd5b50505050565b6001600160a01b038116811461027157600080fd5b50565b60008060006060848603121561028957600080fd5b83356102948161025c565b925060208401356102a48161025c565b929592945050506040919091013590565b6000602082840312156102c757600080fd5b81356102d28161025c565b9392505050565b6000602082840312156102eb57600080fd5b81516102d28161025c56fea2646970667358221220d710aed3d7a11716646695fc42f13ff08b5327343d262945b9ecd017579f99fc64736f6c63430008110033",
-    "sourceMap": "82:471:23:-:0;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;289:110;;;;;;:::i;:::-;388:4;289:110;;;;;;;;;776:14:100;;769:22;751:41;;739:2;724:18;289:110:23;;;;;;;;194:89;;;;;;:::i;:::-;-1:-1:-1;275:1:23;;194:89;;;;1201:25:100;;;1189:2;1174:18;194:89:23;1055:177:100;405:146:23;;;:::i;:::-;;;442:6;;469:15;;;-1:-1:-1;;;469:15:23;;;;-1:-1:-1;;;;;442:6:23;;;;:11;;462:4;;442:6;;469:13;;:15;;;;;;;;;;;;;;442:6;469:15;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;:::i;:::-;442:46;;-1:-1:-1;;;;;;442:46:23;;;;;;;-1:-1:-1;;;;;1759:15:100;;;442:46:23;;;1741:34:100;1811:15;;1791:18;;;1784:43;486:1:23;1843:18:100;;;1836:34;1676:18;;442:46:23;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;-1:-1:-1;;498:6:23;;525:15;;;-1:-1:-1;;;525:15:23;;;;-1:-1:-1;;;;;498:6:23;;;;-1:-1:-1;498:11:23;;-1:-1:-1;518:4:23;;498:6;;525:13;;:15;;;;;;;;;;;;;;498:6;525:15;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;:::i;:::-;498:46;;-1:-1:-1;;;;;;498:46:23;;;;;;;-1:-1:-1;;;;;1759:15:100;;;498:46:23;;;1741:34:100;1811:15;;1791:18;;;1784:43;542:1:23;1843:18:100;;;1836:34;1676:18;;498:46:23;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;405:146::o;14:131:100:-;-1:-1:-1;;;;;89:31:100;;79:42;;69:70;;135:1;132;125:12;69:70;14:131;:::o;150:456::-;227:6;235;243;296:2;284:9;275:7;271:23;267:32;264:52;;;312:1;309;302:12;264:52;351:9;338:23;370:31;395:5;370:31;:::i;:::-;420:5;-1:-1:-1;477:2:100;462:18;;449:32;490:33;449:32;490:33;:::i;:::-;150:456;;542:7;;-1:-1:-1;;;596:2:100;581:18;;;;568:32;;150:456::o;803:247::-;862:6;915:2;903:9;894:7;890:23;886:32;883:52;;;931:1;928;921:12;883:52;970:9;957:23;989:31;1014:5;989:31;:::i;:::-;1039:5;803:247;-1:-1:-1;;;803:247:100:o;1237:251::-;1307:6;1360:2;1348:9;1339:7;1335:23;1331:32;1328:52;;;1376:1;1373;1366:12;1328:52;1408:9;1402:16;1427:31;1452:5;1427:31;:::i",
+    "object": "0x608060405234801561001057600080fd5b50600436106100415760003560e01c806323b872dd1461004657806370a08231146100725780639e5faafc14610094575b600080fd5b61005d610054366004610274565b60019392505050565b60405190151581526020015b60405180910390f35b6100866100803660046102b5565b50600190565b604051908152602001610069565b61009c61009e565b005b6000546040805163d21220a760e01b815290516001600160a01b039092169163df791e50913091849163d21220a79160048083019260209291908290030181865afa1580156100f1573d6000803e3d6000fd5b505050506040513d601f19601f8201168201806040525081019061011591906102d9565b6040516001600160e01b031960e085901b1681526001600160a01b0392831660048201529116602482015260016044820152606401600060405180830381600087803b15801561016457600080fd5b505af1158015610178573d6000803e3d6000fd5b5050600054604080516312df092760e11b815290516001600160a01b03909216935063df791e509250309184916325be124e9160048083019260209291908290030181865afa1580156101cf573d6000803e3d6000fd5b505050506040513d601f19601f820116820180604052508101906101f391906102d9565b6040516001600160e01b031960e085901b1681526001600160a01b0392831660048201529116602482015260016044820152606401600060405180830381600087803b15801561024257600080fd5b505af1158015610256573d6000803e3d6000fd5b50505050565b6001600160a01b038116811461027157600080fd5b50565b60008060006060848603121561028957600080fd5b83356102948161025c565b925060208401356102a48161025c565b929592945050506040919091013590565b6000602082840312156102c757600080fd5b81356102d28161025c565b9392505050565b6000602082840312156102eb57600080fd5b81516102d28161025c56fea26469706673582212207a7ca0731c5ef9accc90edbd12afcfa92addf5dd6bfa6c62b1d44a3697cb54c264736f6c63430008110033",
+    "sourceMap": "82:471:36:-:0;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;289:110;;;;;;:::i;:::-;388:4;289:110;;;;;;;;;776:14:112;;769:22;751:41;;739:2;724:18;289:110:36;;;;;;;;194:89;;;;;;:::i;:::-;-1:-1:-1;275:1:36;;194:89;;;;1201:25:112;;;1189:2;1174:18;194:89:36;1055:177:112;405:146:36;;;:::i;:::-;;;442:6;;469:15;;;-1:-1:-1;;;469:15:36;;;;-1:-1:-1;;;;;442:6:36;;;;:11;;462:4;;442:6;;469:13;;:15;;;;;;;;;;;;;;442:6;469:15;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;:::i;:::-;442:46;;-1:-1:-1;;;;;;442:46:36;;;;;;;-1:-1:-1;;;;;1759:15:112;;;442:46:36;;;1741:34:112;1811:15;;1791:18;;;1784:43;486:1:36;1843:18:112;;;1836:34;1676:18;;442:46:36;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;-1:-1:-1;;498:6:36;;525:15;;;-1:-1:-1;;;525:15:36;;;;-1:-1:-1;;;;;498:6:36;;;;-1:-1:-1;498:11:36;;-1:-1:-1;518:4:36;;498:6;;525:13;;:15;;;;;;;;;;;;;;498:6;525:15;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;:::i;:::-;498:46;;-1:-1:-1;;;;;;498:46:36;;;;;;;-1:-1:-1;;;;;1759:15:112;;;498:46:36;;;1741:34:112;1811:15;;1791:18;;;1784:43;542:1:36;1843:18:112;;;1836:34;1676:18;;498:46:36;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;405:146::o;14:131:112:-;-1:-1:-1;;;;;89:31:112;;79:42;;69:70;;135:1;132;125:12;69:70;14:131;:::o;150:456::-;227:6;235;243;296:2;284:9;275:7;271:23;267:32;264:52;;;312:1;309;302:12;264:52;351:9;338:23;370:31;395:5;370:31;:::i;:::-;420:5;-1:-1:-1;477:2:112;462:18;;449:32;490:33;449:32;490:33;:::i;:::-;150:456;;542:7;;-1:-1:-1;;;596:2:112;581:18;;;;568:32;;150:456::o;803:247::-;862:6;915:2;903:9;894:7;890:23;886:32;883:52;;;931:1;928;921:12;883:52;970:9;957:23;989:31;1014:5;989:31;:::i;:::-;1039:5;803:247;-1:-1:-1;;;803:247:112:o;1237:251::-;1307:6;1360:2;1348:9;1339:7;1335:23;1331:32;1328:52;;;1376:1;1373;1366:12;1328:52;1408:9;1402:16;1427:31;1452:5;1427:31;:::i",
     "linkReferences": {}
   },
   "methodIdentifiers": {
@@ -82,7 +82,7 @@
     "balanceOf(address)": "70a08231",
     "transferFrom(address,address,uint256)": "23b872dd"
   },
-  "rawMetadata": "{\"compiler\":{\"version\":\"0.8.17+commit.8df45f5f\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"inputs\":[{\"internalType\":\"contract DexTwo\",\"name\":\"_dexTwo\",\"type\":\"address\"}],\"stateMutability\":\"nonpayable\",\"type\":\"constructor\"},{\"inputs\":[],\"name\":\"attack\",\"outputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"inputs\":[{\"internalType\":\"address\",\"name\":\"\",\"type\":\"address\"}],\"name\":\"balanceOf\",\"outputs\":[{\"internalType\":\"uint256\",\"name\":\"balance\",\"type\":\"uint256\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[{\"internalType\":\"address\",\"name\":\"from\",\"type\":\"address\"},{\"internalType\":\"address\",\"name\":\"to\",\"type\":\"address\"},{\"internalType\":\"uint256\",\"name\":\"amount\",\"type\":\"uint256\"}],\"name\":\"transferFrom\",\"outputs\":[{\"internalType\":\"bool\",\"name\":\"\",\"type\":\"bool\"}],\"stateMutability\":\"nonpayable\",\"type\":\"function\"}],\"devdoc\":{\"kind\":\"dev\",\"methods\":{},\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"version\":1}},\"settings\":{\"compilationTarget\":{\"src/DexTwo/DexTwoHack.sol\":\"DexTwoHack\"},\"evmVersion\":\"london\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":true,\"runs\":200},\"remappings\":[\":ds-test/=lib/ds-test/src/\",\":openzeppelin-contracts/=lib/openzeppelin-contracts/\"]},\"sources\":{\"lib/openzeppelin-contracts/contracts/token/ERC20/ERC20.sol\":{\"keccak256\":\"0x4ffc0547c02ad22925310c585c0f166f8759e2648a09e9b489100c42f15dd98d\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://15f52f51413a9de1ff191e2f6367c62178e1df7806d7880fe857a98b0b66253d\",\"dweb:/ipfs/QmaQG1fwfgUt5E9nu2cccFiV47B2V78MM1tCy1qB7n4MsH\"]},\"lib/openzeppelin-contracts/contracts/token/ERC20/IERC20.sol\":{\"keccak256\":\"0x9750c6b834f7b43000631af5cc30001c5f547b3ceb3635488f140f60e897ea6b\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://5a7d5b1ef5d8d5889ad2ed89d8619c09383b80b72ab226e0fe7bde1636481e34\",\"dweb:/ipfs/QmebXWgtEfumQGBdVeM6c71McLixYXQP5Bk6kKXuoY4Bmr\"]},\"lib/openzeppelin-contracts/contracts/token/ERC20/extensions/IERC20Metadata.sol\":{\"keccak256\":\"0x8de418a5503946cabe331f35fe242d3201a73f67f77aaeb7110acb1f30423aca\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://5a376d3dda2cb70536c0a45c208b29b34ac560c4cb4f513a42079f96ba47d2dd\",\"dweb:/ipfs/QmZQg6gn1sUpM8wHzwNvSnihumUCAhxD119MpXeKp8B9s8\"]},\"lib/openzeppelin-contracts/contracts/utils/Context.sol\":{\"keccak256\":\"0xe2e337e6dde9ef6b680e07338c493ebea1b5fd09b43424112868e9cc1706bca7\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://6df0ddf21ce9f58271bdfaa85cde98b200ef242a05a3f85c2bc10a8294800a92\",\"dweb:/ipfs/QmRK2Y5Yc6BK7tGKkgsgn3aJEQGi5aakeSPZvS65PV8Xp3\"]},\"lib/openzeppelin-contracts/contracts/utils/math/SafeMath.sol\":{\"keccak256\":\"0x0f633a0223d9a1dcccfcf38a64c9de0874dfcbfac0c6941ccf074d63a2ce0e1e\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://864a40efcffdf408044c332a5aa38ec5618ed7b4eecb8f65faf45671bd6cdc65\",\"dweb:/ipfs/QmQJquTMtc6fgm5JQzGdsGpA2fqBe3MHWEdt2qzaLySMdN\"]},\"src/DexTwo/DexTwo.sol\":{\"keccak256\":\"0xc7ad61039aabd74ba1f4960b01a44cefc522c0ed7de4b955df5d83617f9255a2\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://7d3c9d534604c6c1a000fdb11278c84e322499613eeac1482121991e2f9d7aa4\",\"dweb:/ipfs/QmNcAcrg9spqPx2XVqk3KZwkXNBPTZLNiFfQ2TJ3M2rsj7\"]},\"src/DexTwo/DexTwoHack.sol\":{\"keccak256\":\"0x82ebf34b7bcd7060d7c70d85c58493233dd97410b7930fb3a4f7b11b5fe7b8df\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://26c661357e0e42920bae242319005d840e189a73536f7dd7eb6c0279f0b549f2\",\"dweb:/ipfs/QmekMSNvphqtpoayRwEsU9xSeQQDfdWzJsBhgsmTyCxhKp\"]}},\"version\":1}",
+  "rawMetadata": "{\"compiler\":{\"version\":\"0.8.17+commit.8df45f5f\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"inputs\":[{\"internalType\":\"contract DexTwo\",\"name\":\"_dexTwo\",\"type\":\"address\"}],\"stateMutability\":\"nonpayable\",\"type\":\"constructor\"},{\"inputs\":[],\"name\":\"attack\",\"outputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"inputs\":[{\"internalType\":\"address\",\"name\":\"\",\"type\":\"address\"}],\"name\":\"balanceOf\",\"outputs\":[{\"internalType\":\"uint256\",\"name\":\"balance\",\"type\":\"uint256\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[{\"internalType\":\"address\",\"name\":\"from\",\"type\":\"address\"},{\"internalType\":\"address\",\"name\":\"to\",\"type\":\"address\"},{\"internalType\":\"uint256\",\"name\":\"amount\",\"type\":\"uint256\"}],\"name\":\"transferFrom\",\"outputs\":[{\"internalType\":\"bool\",\"name\":\"\",\"type\":\"bool\"}],\"stateMutability\":\"nonpayable\",\"type\":\"function\"}],\"devdoc\":{\"kind\":\"dev\",\"methods\":{},\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"version\":1}},\"settings\":{\"compilationTarget\":{\"src/DexTwo/DexTwoHack.sol\":\"DexTwoHack\"},\"evmVersion\":\"london\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":true,\"runs\":200},\"remappings\":[\":ds-test/=lib/ds-test/src/\",\":forge-std/=lib/forge-std/src/\",\":openzeppelin-contracts/=lib/openzeppelin-contracts/\"]},\"sources\":{\"lib/openzeppelin-contracts/contracts/token/ERC20/ERC20.sol\":{\"keccak256\":\"0x4ffc0547c02ad22925310c585c0f166f8759e2648a09e9b489100c42f15dd98d\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://15f52f51413a9de1ff191e2f6367c62178e1df7806d7880fe857a98b0b66253d\",\"dweb:/ipfs/QmaQG1fwfgUt5E9nu2cccFiV47B2V78MM1tCy1qB7n4MsH\"]},\"lib/openzeppelin-contracts/contracts/token/ERC20/IERC20.sol\":{\"keccak256\":\"0x9750c6b834f7b43000631af5cc30001c5f547b3ceb3635488f140f60e897ea6b\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://5a7d5b1ef5d8d5889ad2ed89d8619c09383b80b72ab226e0fe7bde1636481e34\",\"dweb:/ipfs/QmebXWgtEfumQGBdVeM6c71McLixYXQP5Bk6kKXuoY4Bmr\"]},\"lib/openzeppelin-contracts/contracts/token/ERC20/extensions/IERC20Metadata.sol\":{\"keccak256\":\"0x8de418a5503946cabe331f35fe242d3201a73f67f77aaeb7110acb1f30423aca\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://5a376d3dda2cb70536c0a45c208b29b34ac560c4cb4f513a42079f96ba47d2dd\",\"dweb:/ipfs/QmZQg6gn1sUpM8wHzwNvSnihumUCAhxD119MpXeKp8B9s8\"]},\"lib/openzeppelin-contracts/contracts/utils/Context.sol\":{\"keccak256\":\"0xe2e337e6dde9ef6b680e07338c493ebea1b5fd09b43424112868e9cc1706bca7\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://6df0ddf21ce9f58271bdfaa85cde98b200ef242a05a3f85c2bc10a8294800a92\",\"dweb:/ipfs/QmRK2Y5Yc6BK7tGKkgsgn3aJEQGi5aakeSPZvS65PV8Xp3\"]},\"lib/openzeppelin-contracts/contracts/utils/math/SafeMath.sol\":{\"keccak256\":\"0x0f633a0223d9a1dcccfcf38a64c9de0874dfcbfac0c6941ccf074d63a2ce0e1e\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://864a40efcffdf408044c332a5aa38ec5618ed7b4eecb8f65faf45671bd6cdc65\",\"dweb:/ipfs/QmQJquTMtc6fgm5JQzGdsGpA2fqBe3MHWEdt2qzaLySMdN\"]},\"src/DexTwo/DexTwo.sol\":{\"keccak256\":\"0xc7ad61039aabd74ba1f4960b01a44cefc522c0ed7de4b955df5d83617f9255a2\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://7d3c9d534604c6c1a000fdb11278c84e322499613eeac1482121991e2f9d7aa4\",\"dweb:/ipfs/QmNcAcrg9spqPx2XVqk3KZwkXNBPTZLNiFfQ2TJ3M2rsj7\"]},\"src/DexTwo/DexTwoHack.sol\":{\"keccak256\":\"0x82ebf34b7bcd7060d7c70d85c58493233dd97410b7930fb3a4f7b11b5fe7b8df\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://26c661357e0e42920bae242319005d840e189a73536f7dd7eb6c0279f0b549f2\",\"dweb:/ipfs/QmekMSNvphqtpoayRwEsU9xSeQQDfdWzJsBhgsmTyCxhKp\"]}},\"version\":1}",
   "metadata": {
     "compiler": {
       "version": "0.8.17+commit.8df45f5f"
@@ -170,6 +170,7 @@
     "settings": {
       "remappings": [
         ":ds-test/=lib/ds-test/src/",
+        ":forge-std/=lib/forge-std/src/",
         ":openzeppelin-contracts/=lib/openzeppelin-contracts/"
       ],
       "optimizer": {
@@ -246,40 +247,40 @@
   },
   "ast": {
     "absolutePath": "src/DexTwo/DexTwoHack.sol",
-    "id": 4990,
+    "id": 28679,
     "exportedSymbols": {
       "Context": [
-        3004
+        26693
       ],
       "DexTwo": [
-        4725
+        28414
       ],
       "DexTwoHack": [
-        4989
+        28678
       ],
       "ERC20": [
-        2549
+        26238
       ],
       "IERC20": [
-        2627
+        26316
       ],
       "IERC20Metadata": [
-        2652
+        26341
       ],
       "SafeMath": [
-        3316
+        27005
       ],
       "SwappableTokenTwo": [
-        4748
+        28437
       ]
     },
     "nodeType": "SourceUnit",
-    "src": "33:521:23",
+    "src": "33:521:36",
     "nodes": [
       {
-        "id": 4917,
+        "id": 28606,
         "nodeType": "PragmaDirective",
-        "src": "33:24:23",
+        "src": "33:24:36",
         "nodes": [],
         "literals": [
           "solidity",
@@ -289,114 +290,114 @@
         ]
       },
       {
-        "id": 4918,
+        "id": 28607,
         "nodeType": "ImportDirective",
-        "src": "58:22:23",
+        "src": "58:22:36",
         "nodes": [],
         "absolutePath": "src/DexTwo/DexTwo.sol",
         "file": "./DexTwo.sol",
         "nameLocation": "-1:-1:-1",
-        "scope": 4990,
-        "sourceUnit": 4749,
+        "scope": 28679,
+        "sourceUnit": 28438,
         "symbolAliases": [],
         "unitAlias": ""
       },
       {
-        "id": 4989,
+        "id": 28678,
         "nodeType": "ContractDefinition",
-        "src": "82:471:23",
+        "src": "82:471:36",
         "nodes": [
           {
-            "id": 4921,
+            "id": 28610,
             "nodeType": "VariableDeclaration",
-            "src": "108:13:23",
+            "src": "108:13:36",
             "nodes": [],
             "constant": false,
             "mutability": "mutable",
             "name": "dexTwo",
-            "nameLocation": "115:6:23",
-            "scope": 4989,
+            "nameLocation": "115:6:36",
+            "scope": 28678,
             "stateVariable": true,
             "storageLocation": "default",
             "typeDescriptions": {
-              "typeIdentifier": "t_contract$_DexTwo_$4725",
+              "typeIdentifier": "t_contract$_DexTwo_$28414",
               "typeString": "contract DexTwo"
             },
             "typeName": {
-              "id": 4920,
+              "id": 28609,
               "nodeType": "UserDefinedTypeName",
               "pathNode": {
-                "id": 4919,
+                "id": 28608,
                 "name": "DexTwo",
                 "nameLocations": [
-                  "108:6:23"
+                  "108:6:36"
                 ],
                 "nodeType": "IdentifierPath",
-                "referencedDeclaration": 4725,
-                "src": "108:6:23"
+                "referencedDeclaration": 28414,
+                "src": "108:6:36"
               },
-              "referencedDeclaration": 4725,
-              "src": "108:6:23",
+              "referencedDeclaration": 28414,
+              "src": "108:6:36",
               "typeDescriptions": {
-                "typeIdentifier": "t_contract$_DexTwo_$4725",
+                "typeIdentifier": "t_contract$_DexTwo_$28414",
                 "typeString": "contract DexTwo"
               }
             },
             "visibility": "internal"
           },
           {
-            "id": 4932,
+            "id": 28621,
             "nodeType": "FunctionDefinition",
-            "src": "127:61:23",
+            "src": "127:61:36",
             "nodes": [],
             "body": {
-              "id": 4931,
+              "id": 28620,
               "nodeType": "Block",
-              "src": "155:33:23",
+              "src": "155:33:36",
               "nodes": [],
               "statements": [
                 {
                   "expression": {
-                    "id": 4929,
+                    "id": 28618,
                     "isConstant": false,
                     "isLValue": false,
                     "isPure": false,
                     "lValueRequested": false,
                     "leftHandSide": {
-                      "id": 4927,
+                      "id": 28616,
                       "name": "dexTwo",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
-                      "referencedDeclaration": 4921,
-                      "src": "165:6:23",
+                      "referencedDeclaration": 28610,
+                      "src": "165:6:36",
                       "typeDescriptions": {
-                        "typeIdentifier": "t_contract$_DexTwo_$4725",
+                        "typeIdentifier": "t_contract$_DexTwo_$28414",
                         "typeString": "contract DexTwo"
                       }
                     },
                     "nodeType": "Assignment",
                     "operator": "=",
                     "rightHandSide": {
-                      "id": 4928,
+                      "id": 28617,
                       "name": "_dexTwo",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
-                      "referencedDeclaration": 4924,
-                      "src": "174:7:23",
+                      "referencedDeclaration": 28613,
+                      "src": "174:7:36",
                       "typeDescriptions": {
-                        "typeIdentifier": "t_contract$_DexTwo_$4725",
+                        "typeIdentifier": "t_contract$_DexTwo_$28414",
                         "typeString": "contract DexTwo"
                       }
                     },
-                    "src": "165:16:23",
+                    "src": "165:16:36",
                     "typeDescriptions": {
-                      "typeIdentifier": "t_contract$_DexTwo_$4725",
+                      "typeIdentifier": "t_contract$_DexTwo_$28414",
                       "typeString": "contract DexTwo"
                     }
                   },
-                  "id": 4930,
+                  "id": 28619,
                   "nodeType": "ExpressionStatement",
-                  "src": "165:16:23"
+                  "src": "165:16:36"
                 }
               ]
             },
@@ -406,85 +407,85 @@
             "name": "",
             "nameLocation": "-1:-1:-1",
             "parameters": {
-              "id": 4925,
+              "id": 28614,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 4924,
+                  "id": 28613,
                   "mutability": "mutable",
                   "name": "_dexTwo",
-                  "nameLocation": "146:7:23",
+                  "nameLocation": "146:7:36",
                   "nodeType": "VariableDeclaration",
-                  "scope": 4932,
-                  "src": "139:14:23",
+                  "scope": 28621,
+                  "src": "139:14:36",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
-                    "typeIdentifier": "t_contract$_DexTwo_$4725",
+                    "typeIdentifier": "t_contract$_DexTwo_$28414",
                     "typeString": "contract DexTwo"
                   },
                   "typeName": {
-                    "id": 4923,
+                    "id": 28612,
                     "nodeType": "UserDefinedTypeName",
                     "pathNode": {
-                      "id": 4922,
+                      "id": 28611,
                       "name": "DexTwo",
                       "nameLocations": [
-                        "139:6:23"
+                        "139:6:36"
                       ],
                       "nodeType": "IdentifierPath",
-                      "referencedDeclaration": 4725,
-                      "src": "139:6:23"
+                      "referencedDeclaration": 28414,
+                      "src": "139:6:36"
                     },
-                    "referencedDeclaration": 4725,
-                    "src": "139:6:23",
+                    "referencedDeclaration": 28414,
+                    "src": "139:6:36",
                     "typeDescriptions": {
-                      "typeIdentifier": "t_contract$_DexTwo_$4725",
+                      "typeIdentifier": "t_contract$_DexTwo_$28414",
                       "typeString": "contract DexTwo"
                     }
                   },
                   "visibility": "internal"
                 }
               ],
-              "src": "138:16:23"
+              "src": "138:16:36"
             },
             "returnParameters": {
-              "id": 4926,
+              "id": 28615,
               "nodeType": "ParameterList",
               "parameters": [],
-              "src": "155:0:23"
+              "src": "155:0:36"
             },
-            "scope": 4989,
+            "scope": 28678,
             "stateMutability": "nonpayable",
             "virtual": false,
             "visibility": "public"
           },
           {
-            "id": 4944,
+            "id": 28633,
             "nodeType": "FunctionDefinition",
-            "src": "194:89:23",
+            "src": "194:89:36",
             "nodes": [],
             "body": {
-              "id": 4943,
+              "id": 28632,
               "nodeType": "Block",
-              "src": "255:28:23",
+              "src": "255:28:36",
               "nodes": [],
               "statements": [
                 {
                   "expression": {
-                    "id": 4941,
+                    "id": 28630,
                     "isConstant": false,
                     "isLValue": false,
                     "isPure": false,
                     "lValueRequested": false,
                     "leftHandSide": {
-                      "id": 4939,
+                      "id": 28628,
                       "name": "balance",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
-                      "referencedDeclaration": 4937,
-                      "src": "265:7:23",
+                      "referencedDeclaration": 28626,
+                      "src": "265:7:36",
                       "typeDescriptions": {
                         "typeIdentifier": "t_uint256",
                         "typeString": "uint256"
@@ -494,29 +495,29 @@
                     "operator": "=",
                     "rightHandSide": {
                       "hexValue": "31",
-                      "id": 4940,
+                      "id": 28629,
                       "isConstant": false,
                       "isLValue": false,
                       "isPure": true,
                       "kind": "number",
                       "lValueRequested": false,
                       "nodeType": "Literal",
-                      "src": "275:1:23",
+                      "src": "275:1:36",
                       "typeDescriptions": {
                         "typeIdentifier": "t_rational_1_by_1",
                         "typeString": "int_const 1"
                       },
                       "value": "1"
                     },
-                    "src": "265:11:23",
+                    "src": "265:11:36",
                     "typeDescriptions": {
                       "typeIdentifier": "t_uint256",
                       "typeString": "uint256"
                     }
                   },
-                  "id": 4942,
+                  "id": 28631,
                   "nodeType": "ExpressionStatement",
-                  "src": "265:11:23"
+                  "src": "265:11:36"
                 }
               ]
             },
@@ -525,20 +526,20 @@
             "kind": "function",
             "modifiers": [],
             "name": "balanceOf",
-            "nameLocation": "203:9:23",
+            "nameLocation": "203:9:36",
             "parameters": {
-              "id": 4935,
+              "id": 28624,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 4934,
+                  "id": 28623,
                   "mutability": "mutable",
                   "name": "",
                   "nameLocation": "-1:-1:-1",
                   "nodeType": "VariableDeclaration",
-                  "scope": 4944,
-                  "src": "213:7:23",
+                  "scope": 28633,
+                  "src": "213:7:36",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -546,10 +547,10 @@
                     "typeString": "address"
                   },
                   "typeName": {
-                    "id": 4933,
+                    "id": 28622,
                     "name": "address",
                     "nodeType": "ElementaryTypeName",
-                    "src": "213:7:23",
+                    "src": "213:7:36",
                     "stateMutability": "nonpayable",
                     "typeDescriptions": {
                       "typeIdentifier": "t_address",
@@ -559,21 +560,21 @@
                   "visibility": "internal"
                 }
               ],
-              "src": "212:9:23"
+              "src": "212:9:36"
             },
             "returnParameters": {
-              "id": 4938,
+              "id": 28627,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 4937,
+                  "id": 28626,
                   "mutability": "mutable",
                   "name": "balance",
-                  "nameLocation": "247:7:23",
+                  "nameLocation": "247:7:36",
                   "nodeType": "VariableDeclaration",
-                  "scope": 4944,
-                  "src": "242:12:23",
+                  "scope": 28633,
+                  "src": "242:12:36",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -581,10 +582,10 @@
                     "typeString": "uint256"
                   },
                   "typeName": {
-                    "id": 4936,
+                    "id": 28625,
                     "name": "uint",
                     "nodeType": "ElementaryTypeName",
-                    "src": "242:4:23",
+                    "src": "242:4:36",
                     "typeDescriptions": {
                       "typeIdentifier": "t_uint256",
                       "typeString": "uint256"
@@ -593,45 +594,45 @@
                   "visibility": "internal"
                 }
               ],
-              "src": "241:14:23"
+              "src": "241:14:36"
             },
-            "scope": 4989,
+            "scope": 28678,
             "stateMutability": "view",
             "virtual": false,
             "visibility": "public"
           },
           {
-            "id": 4958,
+            "id": 28647,
             "nodeType": "FunctionDefinition",
-            "src": "289:110:23",
+            "src": "289:110:36",
             "nodes": [],
             "body": {
-              "id": 4957,
+              "id": 28646,
               "nodeType": "Block",
-              "src": "371:28:23",
+              "src": "371:28:36",
               "nodes": [],
               "statements": [
                 {
                   "expression": {
                     "hexValue": "74727565",
-                    "id": 4955,
+                    "id": 28644,
                     "isConstant": false,
                     "isLValue": false,
                     "isPure": true,
                     "kind": "bool",
                     "lValueRequested": false,
                     "nodeType": "Literal",
-                    "src": "388:4:23",
+                    "src": "388:4:36",
                     "typeDescriptions": {
                       "typeIdentifier": "t_bool",
                       "typeString": "bool"
                     },
                     "value": "true"
                   },
-                  "functionReturnParameters": 4954,
-                  "id": 4956,
+                  "functionReturnParameters": 28643,
+                  "id": 28645,
                   "nodeType": "Return",
-                  "src": "381:11:23"
+                  "src": "381:11:36"
                 }
               ]
             },
@@ -640,20 +641,20 @@
             "kind": "function",
             "modifiers": [],
             "name": "transferFrom",
-            "nameLocation": "298:12:23",
+            "nameLocation": "298:12:36",
             "parameters": {
-              "id": 4951,
+              "id": 28640,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 4946,
+                  "id": 28635,
                   "mutability": "mutable",
                   "name": "from",
-                  "nameLocation": "319:4:23",
+                  "nameLocation": "319:4:36",
                   "nodeType": "VariableDeclaration",
-                  "scope": 4958,
-                  "src": "311:12:23",
+                  "scope": 28647,
+                  "src": "311:12:36",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -661,10 +662,10 @@
                     "typeString": "address"
                   },
                   "typeName": {
-                    "id": 4945,
+                    "id": 28634,
                     "name": "address",
                     "nodeType": "ElementaryTypeName",
-                    "src": "311:7:23",
+                    "src": "311:7:36",
                     "stateMutability": "nonpayable",
                     "typeDescriptions": {
                       "typeIdentifier": "t_address",
@@ -675,13 +676,13 @@
                 },
                 {
                   "constant": false,
-                  "id": 4948,
+                  "id": 28637,
                   "mutability": "mutable",
                   "name": "to",
-                  "nameLocation": "333:2:23",
+                  "nameLocation": "333:2:36",
                   "nodeType": "VariableDeclaration",
-                  "scope": 4958,
-                  "src": "325:10:23",
+                  "scope": 28647,
+                  "src": "325:10:36",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -689,10 +690,10 @@
                     "typeString": "address"
                   },
                   "typeName": {
-                    "id": 4947,
+                    "id": 28636,
                     "name": "address",
                     "nodeType": "ElementaryTypeName",
-                    "src": "325:7:23",
+                    "src": "325:7:36",
                     "stateMutability": "nonpayable",
                     "typeDescriptions": {
                       "typeIdentifier": "t_address",
@@ -703,13 +704,13 @@
                 },
                 {
                   "constant": false,
-                  "id": 4950,
+                  "id": 28639,
                   "mutability": "mutable",
                   "name": "amount",
-                  "nameLocation": "342:6:23",
+                  "nameLocation": "342:6:36",
                   "nodeType": "VariableDeclaration",
-                  "scope": 4958,
-                  "src": "337:11:23",
+                  "scope": 28647,
+                  "src": "337:11:36",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -717,10 +718,10 @@
                     "typeString": "uint256"
                   },
                   "typeName": {
-                    "id": 4949,
+                    "id": 28638,
                     "name": "uint",
                     "nodeType": "ElementaryTypeName",
-                    "src": "337:4:23",
+                    "src": "337:4:36",
                     "typeDescriptions": {
                       "typeIdentifier": "t_uint256",
                       "typeString": "uint256"
@@ -729,21 +730,21 @@
                   "visibility": "internal"
                 }
               ],
-              "src": "310:39:23"
+              "src": "310:39:36"
             },
             "returnParameters": {
-              "id": 4954,
+              "id": 28643,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 4953,
+                  "id": 28642,
                   "mutability": "mutable",
                   "name": "",
                   "nameLocation": "-1:-1:-1",
                   "nodeType": "VariableDeclaration",
-                  "scope": 4958,
-                  "src": "365:4:23",
+                  "scope": 28647,
+                  "src": "365:4:36",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -751,10 +752,10 @@
                     "typeString": "bool"
                   },
                   "typeName": {
-                    "id": 4952,
+                    "id": 28641,
                     "name": "bool",
                     "nodeType": "ElementaryTypeName",
-                    "src": "365:4:23",
+                    "src": "365:4:36",
                     "typeDescriptions": {
                       "typeIdentifier": "t_bool",
                       "typeString": "bool"
@@ -763,22 +764,22 @@
                   "visibility": "internal"
                 }
               ],
-              "src": "364:6:23"
+              "src": "364:6:36"
             },
-            "scope": 4989,
+            "scope": 28678,
             "stateMutability": "nonpayable",
             "virtual": false,
             "visibility": "public"
           },
           {
-            "id": 4988,
+            "id": 28677,
             "nodeType": "FunctionDefinition",
-            "src": "405:146:23",
+            "src": "405:146:36",
             "nodes": [],
             "body": {
-              "id": 4987,
+              "id": 28676,
               "nodeType": "Block",
-              "src": "432:119:23",
+              "src": "432:119:36",
               "nodes": [],
               "statements": [
                 {
@@ -787,14 +788,14 @@
                       {
                         "arguments": [
                           {
-                            "id": 4966,
+                            "id": 28655,
                             "name": "this",
                             "nodeType": "Identifier",
                             "overloadedDeclarations": [],
                             "referencedDeclaration": -28,
-                            "src": "462:4:23",
+                            "src": "462:4:36",
                             "typeDescriptions": {
-                              "typeIdentifier": "t_contract$_DexTwoHack_$4989",
+                              "typeIdentifier": "t_contract$_DexTwoHack_$28678",
                               "typeString": "contract DexTwoHack"
                             }
                           }
@@ -802,30 +803,30 @@
                         "expression": {
                           "argumentTypes": [
                             {
-                              "typeIdentifier": "t_contract$_DexTwoHack_$4989",
+                              "typeIdentifier": "t_contract$_DexTwoHack_$28678",
                               "typeString": "contract DexTwoHack"
                             }
                           ],
-                          "id": 4965,
+                          "id": 28654,
                           "isConstant": false,
                           "isLValue": false,
                           "isPure": true,
                           "lValueRequested": false,
                           "nodeType": "ElementaryTypeNameExpression",
-                          "src": "454:7:23",
+                          "src": "454:7:36",
                           "typeDescriptions": {
                             "typeIdentifier": "t_type$_t_address_$",
                             "typeString": "type(address)"
                           },
                           "typeName": {
-                            "id": 4964,
+                            "id": 28653,
                             "name": "address",
                             "nodeType": "ElementaryTypeName",
-                            "src": "454:7:23",
+                            "src": "454:7:36",
                             "typeDescriptions": {}
                           }
                         },
-                        "id": 4967,
+                        "id": 28656,
                         "isConstant": false,
                         "isLValue": false,
                         "isPure": false,
@@ -834,7 +835,7 @@
                         "nameLocations": [],
                         "names": [],
                         "nodeType": "FunctionCall",
-                        "src": "454:13:23",
+                        "src": "454:13:36",
                         "tryCall": false,
                         "typeDescriptions": {
                           "typeIdentifier": "t_address",
@@ -846,33 +847,33 @@
                         "expression": {
                           "argumentTypes": [],
                           "expression": {
-                            "id": 4968,
+                            "id": 28657,
                             "name": "dexTwo",
                             "nodeType": "Identifier",
                             "overloadedDeclarations": [],
-                            "referencedDeclaration": 4921,
-                            "src": "469:6:23",
+                            "referencedDeclaration": 28610,
+                            "src": "469:6:36",
                             "typeDescriptions": {
-                              "typeIdentifier": "t_contract$_DexTwo_$4725",
+                              "typeIdentifier": "t_contract$_DexTwo_$28414",
                               "typeString": "contract DexTwo"
                             }
                           },
-                          "id": 4969,
+                          "id": 28658,
                           "isConstant": false,
                           "isLValue": false,
                           "isPure": false,
                           "lValueRequested": false,
-                          "memberLocation": "476:6:23",
+                          "memberLocation": "476:6:36",
                           "memberName": "token1",
                           "nodeType": "MemberAccess",
-                          "referencedDeclaration": 4540,
-                          "src": "469:13:23",
+                          "referencedDeclaration": 28229,
+                          "src": "469:13:36",
                           "typeDescriptions": {
                             "typeIdentifier": "t_function_external_view$__$returns$_t_address_$",
                             "typeString": "function () view external returns (address)"
                           }
                         },
-                        "id": 4970,
+                        "id": 28659,
                         "isConstant": false,
                         "isLValue": false,
                         "isPure": false,
@@ -881,7 +882,7 @@
                         "nameLocations": [],
                         "names": [],
                         "nodeType": "FunctionCall",
-                        "src": "469:15:23",
+                        "src": "469:15:36",
                         "tryCall": false,
                         "typeDescriptions": {
                           "typeIdentifier": "t_address",
@@ -890,14 +891,14 @@
                       },
                       {
                         "hexValue": "31",
-                        "id": 4971,
+                        "id": 28660,
                         "isConstant": false,
                         "isLValue": false,
                         "isPure": true,
                         "kind": "number",
                         "lValueRequested": false,
                         "nodeType": "Literal",
-                        "src": "486:1:23",
+                        "src": "486:1:36",
                         "typeDescriptions": {
                           "typeIdentifier": "t_rational_1_by_1",
                           "typeString": "int_const 1"
@@ -921,33 +922,33 @@
                         }
                       ],
                       "expression": {
-                        "id": 4961,
+                        "id": 28650,
                         "name": "dexTwo",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 4921,
-                        "src": "442:6:23",
+                        "referencedDeclaration": 28610,
+                        "src": "442:6:36",
                         "typeDescriptions": {
-                          "typeIdentifier": "t_contract$_DexTwo_$4725",
+                          "typeIdentifier": "t_contract$_DexTwo_$28414",
                           "typeString": "contract DexTwo"
                         }
                       },
-                      "id": 4963,
+                      "id": 28652,
                       "isConstant": false,
                       "isLValue": false,
                       "isPure": false,
                       "lValueRequested": false,
-                      "memberLocation": "449:4:23",
+                      "memberLocation": "449:4:36",
                       "memberName": "swap",
                       "nodeType": "MemberAccess",
-                      "referencedDeclaration": 4626,
-                      "src": "442:11:23",
+                      "referencedDeclaration": 28315,
+                      "src": "442:11:36",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_external_nonpayable$_t_address_$_t_address_$_t_uint256_$returns$__$",
                         "typeString": "function (address,address,uint256) external"
                       }
                     },
-                    "id": 4972,
+                    "id": 28661,
                     "isConstant": false,
                     "isLValue": false,
                     "isPure": false,
@@ -956,16 +957,16 @@
                     "nameLocations": [],
                     "names": [],
                     "nodeType": "FunctionCall",
-                    "src": "442:46:23",
+                    "src": "442:46:36",
                     "tryCall": false,
                     "typeDescriptions": {
                       "typeIdentifier": "t_tuple$__$",
                       "typeString": "tuple()"
                     }
                   },
-                  "id": 4973,
+                  "id": 28662,
                   "nodeType": "ExpressionStatement",
-                  "src": "442:46:23"
+                  "src": "442:46:36"
                 },
                 {
                   "expression": {
@@ -973,14 +974,14 @@
                       {
                         "arguments": [
                           {
-                            "id": 4979,
+                            "id": 28668,
                             "name": "this",
                             "nodeType": "Identifier",
                             "overloadedDeclarations": [],
                             "referencedDeclaration": -28,
-                            "src": "518:4:23",
+                            "src": "518:4:36",
                             "typeDescriptions": {
-                              "typeIdentifier": "t_contract$_DexTwoHack_$4989",
+                              "typeIdentifier": "t_contract$_DexTwoHack_$28678",
                               "typeString": "contract DexTwoHack"
                             }
                           }
@@ -988,30 +989,30 @@
                         "expression": {
                           "argumentTypes": [
                             {
-                              "typeIdentifier": "t_contract$_DexTwoHack_$4989",
+                              "typeIdentifier": "t_contract$_DexTwoHack_$28678",
                               "typeString": "contract DexTwoHack"
                             }
                           ],
-                          "id": 4978,
+                          "id": 28667,
                           "isConstant": false,
                           "isLValue": false,
                           "isPure": true,
                           "lValueRequested": false,
                           "nodeType": "ElementaryTypeNameExpression",
-                          "src": "510:7:23",
+                          "src": "510:7:36",
                           "typeDescriptions": {
                             "typeIdentifier": "t_type$_t_address_$",
                             "typeString": "type(address)"
                           },
                           "typeName": {
-                            "id": 4977,
+                            "id": 28666,
                             "name": "address",
                             "nodeType": "ElementaryTypeName",
-                            "src": "510:7:23",
+                            "src": "510:7:36",
                             "typeDescriptions": {}
                           }
                         },
-                        "id": 4980,
+                        "id": 28669,
                         "isConstant": false,
                         "isLValue": false,
                         "isPure": false,
@@ -1020,7 +1021,7 @@
                         "nameLocations": [],
                         "names": [],
                         "nodeType": "FunctionCall",
-                        "src": "510:13:23",
+                        "src": "510:13:36",
                         "tryCall": false,
                         "typeDescriptions": {
                           "typeIdentifier": "t_address",
@@ -1032,33 +1033,33 @@
                         "expression": {
                           "argumentTypes": [],
                           "expression": {
-                            "id": 4981,
+                            "id": 28670,
                             "name": "dexTwo",
                             "nodeType": "Identifier",
                             "overloadedDeclarations": [],
-                            "referencedDeclaration": 4921,
-                            "src": "525:6:23",
+                            "referencedDeclaration": 28610,
+                            "src": "525:6:36",
                             "typeDescriptions": {
-                              "typeIdentifier": "t_contract$_DexTwo_$4725",
+                              "typeIdentifier": "t_contract$_DexTwo_$28414",
                               "typeString": "contract DexTwo"
                             }
                           },
-                          "id": 4982,
+                          "id": 28671,
                           "isConstant": false,
                           "isLValue": false,
                           "isPure": false,
                           "lValueRequested": false,
-                          "memberLocation": "532:6:23",
+                          "memberLocation": "532:6:36",
                           "memberName": "token2",
                           "nodeType": "MemberAccess",
-                          "referencedDeclaration": 4542,
-                          "src": "525:13:23",
+                          "referencedDeclaration": 28231,
+                          "src": "525:13:36",
                           "typeDescriptions": {
                             "typeIdentifier": "t_function_external_view$__$returns$_t_address_$",
                             "typeString": "function () view external returns (address)"
                           }
                         },
-                        "id": 4983,
+                        "id": 28672,
                         "isConstant": false,
                         "isLValue": false,
                         "isPure": false,
@@ -1067,7 +1068,7 @@
                         "nameLocations": [],
                         "names": [],
                         "nodeType": "FunctionCall",
-                        "src": "525:15:23",
+                        "src": "525:15:36",
                         "tryCall": false,
                         "typeDescriptions": {
                           "typeIdentifier": "t_address",
@@ -1076,14 +1077,14 @@
                       },
                       {
                         "hexValue": "31",
-                        "id": 4984,
+                        "id": 28673,
                         "isConstant": false,
                         "isLValue": false,
                         "isPure": true,
                         "kind": "number",
                         "lValueRequested": false,
                         "nodeType": "Literal",
-                        "src": "542:1:23",
+                        "src": "542:1:36",
                         "typeDescriptions": {
                           "typeIdentifier": "t_rational_1_by_1",
                           "typeString": "int_const 1"
@@ -1107,33 +1108,33 @@
                         }
                       ],
                       "expression": {
-                        "id": 4974,
+                        "id": 28663,
                         "name": "dexTwo",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 4921,
-                        "src": "498:6:23",
+                        "referencedDeclaration": 28610,
+                        "src": "498:6:36",
                         "typeDescriptions": {
-                          "typeIdentifier": "t_contract$_DexTwo_$4725",
+                          "typeIdentifier": "t_contract$_DexTwo_$28414",
                           "typeString": "contract DexTwo"
                         }
                       },
-                      "id": 4976,
+                      "id": 28665,
                       "isConstant": false,
                       "isLValue": false,
                       "isPure": false,
                       "lValueRequested": false,
-                      "memberLocation": "505:4:23",
+                      "memberLocation": "505:4:36",
                       "memberName": "swap",
                       "nodeType": "MemberAccess",
-                      "referencedDeclaration": 4626,
-                      "src": "498:11:23",
+                      "referencedDeclaration": 28315,
+                      "src": "498:11:36",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_external_nonpayable$_t_address_$_t_address_$_t_uint256_$returns$__$",
                         "typeString": "function (address,address,uint256) external"
                       }
                     },
-                    "id": 4985,
+                    "id": 28674,
                     "isConstant": false,
                     "isLValue": false,
                     "isPure": false,
@@ -1142,16 +1143,16 @@
                     "nameLocations": [],
                     "names": [],
                     "nodeType": "FunctionCall",
-                    "src": "498:46:23",
+                    "src": "498:46:36",
                     "tryCall": false,
                     "typeDescriptions": {
                       "typeIdentifier": "t_tuple$__$",
                       "typeString": "tuple()"
                     }
                   },
-                  "id": 4986,
+                  "id": 28675,
                   "nodeType": "ExpressionStatement",
-                  "src": "498:46:23"
+                  "src": "498:46:36"
                 }
               ]
             },
@@ -1160,20 +1161,20 @@
             "kind": "function",
             "modifiers": [],
             "name": "attack",
-            "nameLocation": "414:6:23",
+            "nameLocation": "414:6:36",
             "parameters": {
-              "id": 4959,
+              "id": 28648,
               "nodeType": "ParameterList",
               "parameters": [],
-              "src": "420:2:23"
+              "src": "420:2:36"
             },
             "returnParameters": {
-              "id": 4960,
+              "id": 28649,
               "nodeType": "ParameterList",
               "parameters": [],
-              "src": "432:0:23"
+              "src": "432:0:36"
             },
-            "scope": 4989,
+            "scope": 28678,
             "stateMutability": "nonpayable",
             "virtual": false,
             "visibility": "external"
@@ -1186,15 +1187,15 @@
         "contractKind": "contract",
         "fullyImplemented": true,
         "linearizedBaseContracts": [
-          4989
+          28678
         ],
         "name": "DexTwoHack",
-        "nameLocation": "91:10:23",
-        "scope": 4990,
+        "nameLocation": "91:10:36",
+        "scope": 28679,
         "usedErrors": []
       }
     ],
     "license": "MIT"
   },
-  "id": 23
+  "id": 36
 }

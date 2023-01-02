@@ -1,13 +1,11 @@
 pragma solidity ^0.8.10;
 
-import "ds-test/test.sol";
+import "forge-std/Test.sol";
 import "../src/GatekeeperOne/GatekeeperOneHack.sol";
 import "../src/GatekeeperOne/GatekeeperOneFactory.sol";
 import "../src/Ethernaut.sol";
-import "./utils/vm.sol";
 
-contract GatekeeperOneTest is DSTest {
-    Vm vm = Vm(address(0x7109709ECfa91a80626fF3989D68f67F5b1DD12D));
+contract GatekeeperOneTest is Test {
     Ethernaut ethernaut;
 
     function setUp() public {

@@ -1,12 +1,10 @@
 pragma solidity ^0.8.10;
 
-import "ds-test/test.sol";
+import "forge-std/Test.sol";
 import "../src/Token/TokenFactory.sol";
 import "../src/Ethernaut.sol";
-import "./utils/vm.sol";
 
-contract TokenTest is DSTest {
-    Vm vm = Vm(address(0x7109709ECfa91a80626fF3989D68f67F5b1DD12D));
+contract TokenTest is Test {
     Ethernaut ethernaut;
     address eoaAddress = address(100);
 

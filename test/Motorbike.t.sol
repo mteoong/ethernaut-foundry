@@ -1,11 +1,9 @@
 pragma solidity ^0.8.10;
 
-import "ds-test/test.sol";
+import "forge-std/Test.sol";
 import "../src/Motorbike/Motorbike.sol";
-import "./utils/vm.sol";
 
-contract MotorbikeTest is DSTest {
-    Vm vm = Vm(address(0x7109709ECfa91a80626fF3989D68f67F5b1DD12D));
+contract MotorbikeTest is Test {
     address eoaAddress = address(100);
 
     event IsTrue(bool answer);

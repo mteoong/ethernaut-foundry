@@ -1,11 +1,11 @@
 pragma solidity ^0.8.10;
 
-import "ds-test/test.sol";
+import "forge-std/Test.sol";
 import "../src/DexTwo/DexTwoHack.sol";
 import "../src/DexTwo/DexTwoFactory.sol";
 import "../src/Ethernaut.sol";
 
-contract DexTwoTest is DSTest {
+contract DexTwoTest is Test {
     Ethernaut ethernaut;
 
     function setUp() public {

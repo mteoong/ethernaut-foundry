@@ -1,11 +1,9 @@
 pragma solidity ^0.8.10;
 
-import "ds-test/test.sol";
+import "forge-std/Test.sol";
 import "../src/PuzzleWallet/PuzzleWalletFactory.sol";
-import "./utils/vm.sol";
 
-contract PuzzleWalletTest is DSTest {
-    Vm vm = Vm(address(0x7109709ECfa91a80626fF3989D68f67F5b1DD12D));
+contract PuzzleWalletTest is Test {
     address eoaAddress = address(100);
 
     // Memory cannot hold dynamic byte arrays must be storage

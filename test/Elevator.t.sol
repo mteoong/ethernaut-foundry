@@ -1,11 +1,11 @@
 pragma solidity ^0.8.10;
 
-import "ds-test/test.sol";
+import "forge-std/Test.sol";
 import "../src/Elevator/ElevatorHack.sol";
 import "../src/Elevator/ElevatorFactory.sol";
 import "../src/Ethernaut.sol";
 
-contract ElevatorTest is DSTest {
+contract ElevatorTest is Test {
     Ethernaut ethernaut;
 
     function setUp() public {
